@@ -99,6 +99,11 @@ init_IW4SP_Survival_setup()
 	pix\bot\_bot_spawner::addSpawner(27,"default",level.bot_spawnPoints[1]);//ar
 	pix\bot\_bot_spawner::addSpawner(37,"default",level.bot_spawnPoints[1]);//smg
 
+	//Weapon Shop
+	pix\shop\_shop_weapon::addWeaponShop((-30196.7,48.6782,180.076),(0,50,0),"com_plasticcase_beige_big","waypoint_ammo");
+
+	//Support Shop
+	pix\shop\_shop_support::addSupportShop((-28541.7,5015.94,239.125),(0,50,0),"com_plasticcase_beige_big","hud_burningcaricon");
 
 
 	level thread pix\_main::start_IW4SP_Survival();

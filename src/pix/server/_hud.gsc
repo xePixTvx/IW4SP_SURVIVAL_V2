@@ -95,6 +95,7 @@ doIntermission()
 {
     level.doing_intermission = true;
     level.Hud["intermission"] = createServerText("objective",1.3,"CENTER","BOTTOM",0,-30,0,(1,1,1),0,(0.3,0.6,0.3),1);
+    level.Hud["intermission"].hideWhenInMenu = true;
     level.Hud["intermission"].label = "Next Wave in: ";
     level.Hud["intermission"] setValue(level.IntermissionTime);
     level.Hud["intermission"] elemFadeOverTime(.4,1);

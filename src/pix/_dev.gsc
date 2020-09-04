@@ -26,6 +26,7 @@ _init_dev_tool()
 	dev_info_texts[8] = "^3K^7 - Test Vehicle Spawner";
 	dev_info_texts[9] = "^3N^7 - Super Speed";
 	dev_info_texts[10] = "^3L^7 - Clear Print String";
+	dev_info_texts[11] = "^3M^7 - Test Function";
 
 	self.DEV_HUD["print_1"] = createText("default",1.5,"CENTER","CENTER",0,0,(1,1,1),1,(0,0,0),0);
 	self.DEV_HUD["print_2"] = createText("default",1.5,"CENTER","CENTER",0,30,(1,1,1),1,(0,0,0),0);
@@ -142,6 +143,11 @@ _init_dev_tool()
 			self _setPrintString();
 			wait .4;
 		}
+		if(self buttonPressed("m"))
+		{
+			self _dev_test_function();
+			wait .4;
+		}
 		wait 0.05;
 	}
 }
@@ -167,4 +173,10 @@ _setPrintString(a,b,c,d)
 	self.DEV_HUD["print_2"] setText(b);
 	self.DEV_HUD["print_3"] setText(c);
 	self.DEV_HUD["print_4"] setText(d);
+}
+
+
+_dev_test_function()
+{
+	iprintln("_dev_test_function() ^1Executed!");
 }

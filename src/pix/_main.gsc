@@ -7,6 +7,8 @@
 /*
 	LAST WORKED ON: 
 					WAVE SYSTEM & WAVE SCHEME --- Bot amount stuff to make wave setups easy to add/remove --- WAVE SCHEMES ARE CURRENTLY TEMPORARY
+
+					SHOP TYPE MAIN FUNCTIONS
 */
 
 start_IW4SP_Survival()
@@ -54,9 +56,29 @@ start_IW4SP_Survival()
 		return;
 	}
 
+	//Precache Weapon Shop Icon + Model if defined
+	if(isDefined(level.shop_info["weapon"].model))
+	{
+		precacheModel(level.shop_info["weapon"].model);
+	}
+	if(isDefined(level.shop_info["weapon"].headIcon))
+	{
+		precacheShader(level.shop_info["weapon"].headIcon);
+	}
+
+	//Precache Support Shop Icon + Model if defined
+	if(isDefined(level.shop_info["support"].model))
+	{
+		precacheModel(level.shop_info["support"].model);
+	}
+	if(isDefined(level.shop_info["support"].headIcon))
+	{
+		precacheShader(level.shop_info["support"].headIcon);
+	}
+
 
 	//Start Mod Systems
 	level thread pix\server\_server::init();
-	//level thread pix\shop\_shop::init_shop();
+	level thread pix\shop\_shop::init_shop();
 	level thread pix\player\_player::spawn_players();
 }
