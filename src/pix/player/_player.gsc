@@ -48,6 +48,7 @@ init_player()
 	self thread pix\player\_intro::intro_flying_default();
 
 	self waittill("intro_done");
+	self pix\player\_lowerMsg::initPlayerLowerMsg();
 	self pix\player\_hud::createHud();
 	wait .4;
 	self thread pix\player\_hud::fadeHud(.7,1);

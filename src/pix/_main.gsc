@@ -57,5 +57,6 @@ start_IW4SP_Survival()
 
 	//Start Mod Systems
 	level thread pix\server\_server::init();
+	//level thread pix\shop\_shop::init_shop();
 	level thread pix\player\_player::spawn_players();
 }
