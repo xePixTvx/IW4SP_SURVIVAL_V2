@@ -13,6 +13,7 @@ createHud()
 	self.Hud["Money"] = createText("objective",1.5,"BOTTOMLEFT","BOTTOMLEFT",-55,28,(1,1,1),0,(0.3,0.6,0.3),1);
 	self.Hud["Money"].label = "$";
 	self.Hud["Money"] setValue(self.Money);
+    self.Hud["Money"] elemSetSort(20);
     self.Hud["Money"].hideWhenInMenu = true;
 
     self.Hud["Money_Notify"] = createText("objective",1.5,"CENTER","CENTER",0,-20,(0,1,0),0,(0,1,0),0);
@@ -30,6 +31,7 @@ createHud()
     self.Hud["Armor"] = createText("objective",1.5,"BOTTOMLEFT","BOTTOMLEFT",-55,-5,(1,1,1),0,(0,0,1),1);
     self.Hud["Armor"].label = "Armor: ";
     self.Hud["Armor"] setValue(self.Armor);
+    self.Hud["Armor"] elemSetSort(20);
     self.Hud["Armor"].hideWhenInMenu = true;
 
     self.Hud["Armor_Notify"] = createText("objective",1.5,"CENTER","CENTER",0,40,(0,0,1),0,(0,1,0),0);

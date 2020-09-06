@@ -8,7 +8,7 @@
 	LAST WORKED ON: 
 					WAVE SYSTEM & WAVE SCHEME --- Bot amount stuff to make wave setups easy to add/remove --- WAVE SCHEMES ARE CURRENTLY TEMPORARY
 
-					SHOP MENU
+					SHOP MENU BASE FINISHED
 */
 
 start_IW4SP_Survival()
@@ -26,6 +26,7 @@ start_IW4SP_Survival()
 	precacheShader("mockup_bg_glow");
 	precacheShader("mw2_popup_bg_fogstencil");
 	precacheShader("xpbar_stencilbase");
+	precacheShader("menu_setting_selection_bar");
 
 	//Check if Player Spawnpoints & Spawnangles are defined
 	if(!isDefined(level.player1_spawnPoint)||!isDefined(level.player1_spawnAngle)||!isDefined(level.player2_spawnPoint)||!isDefined(level.player2_spawnAngle))
