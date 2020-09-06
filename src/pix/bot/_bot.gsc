@@ -22,10 +22,7 @@ init_bot()
 	
 	level.bot_dontdropweapons = undefined;//gets enabled when weaponshop is unlocked
 
-	level.botTypes = [];
-	level.botTypes[0] = "default";
-	level.botTypes[1] = "dog";
-	level.botTypes[2] = "jugger";
+	level.botTypes = make_array("default","dog","jugger");
 
 	//default bot --- start health = 120
 	//dog bot --- start health = 140

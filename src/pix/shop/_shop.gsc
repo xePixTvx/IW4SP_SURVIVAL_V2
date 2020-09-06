@@ -6,12 +6,10 @@
 
 init_shop()
 {
-    level.shop_types = [];
-    level.shop_types[0] = "weapon";
-    level.shop_types[1] = "support";
+    level.shop_types = make_array("weapon","support");
 
     level.shop_model = [];
-    wait .2;
+    level waittill("host_spawn_complete");
     foreach(type in level.shop_types)
     {
         if(isDefined(level.shop_info[type]))
@@ -20,7 +18,7 @@ init_shop()
         }
     }
     wait 0.05;
-	//level thread shop_monitor();
+	level thread shop_monitor();
 }
 
 
@@ -32,18 +30,37 @@ shop_monitor()
         {
             foreach(type in level.shop_types)
             {
-				/*
-					TODO:
-							Check if shop model is defined and if it has a main func.
-							Then check for distance between player and shop model
-				*/
+				if(isDefined(level.shop_model[type]) && isDefined(level.shop_info[type].mainFunction))
+                {
+                    if(distance(level.shop_model[type].origin,player.origin)<=100)
+                    {
+                        if(player thread [[level.shop_info[type].mainFunction]](level.shop_info[type].lowMsg,level.shop_info[type].unlock_wave))
+                        {
+                            wait .6;
+                        }
+                    }
+                    if(!player isNearAnyShop())
+                    {
+                        player pix\player\_lowerMsg::clearLowerMsg();
+                    }
+                }
             }
         }
         wait 0.05;
     }
 }
 
-
+isNearAnyShop()
+{
+	for(i=0;i<level.shop_types.size;i++)
+	{
+		if(distance(level.shop_model[level.shop_types[i]].origin,self.origin)<=100)
+		{
+			return true;
+		}
+	}
+	return false;
+}
 
 
 
@@ -53,7 +70,7 @@ shop_monitor()
 //Spawn Shop Model
 spawnShopModel(pos,angles,model,icon)
 {
-	//dont just call it model cause it confuses the game xD
+	//dont just call it "model" cause it confuses the game xD
 	shopmodel = spawn("script_model",pos);
     shopmodel.angles = angles;
 	shopmodel setModel(model);

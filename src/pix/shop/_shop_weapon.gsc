@@ -15,6 +15,25 @@ addWeaponShop(pos,angles,model,icon)
     level.shop_info["weapon"].angles = angles;
     level.shop_info["weapon"].model = model;
     level.shop_info["weapon"].headIcon = icon;
-    level.shop_info["weapon"].lowMsg = "Weapon Shop LowMsg Test";
-    //level.shop_info["weapon"].mainFunction = ::shop_refill_ammo_main;
+    level.shop_info["weapon"].lowMsg = "Press ^3[{+activate}]^7 to Open Weapon Shop!";
+    level.shop_info["weapon"].unlock_wave = 5;
+    level.shop_info["weapon"].mainFunction = ::weapon_shop_main;
+}
+
+weapon_shop_main(lowMsg,unlock_wave)
+{
+    if(level.Wave<unlock_wave)
+    {
+        self pix\player\_lowerMsg::doLowerMsg("^1Unlocked at Wave " + unlock_wave);
+    }
+    else
+    {
+        self pix\player\_lowerMsg::doLowerMsg(lowMsg);
+    }
+    if(self UseButtonPressed() && !self.ShopMenuOpened)
+    {
+        self thread pix\shop\menu\_menu::openShopMenu("weapon");
+        return true;
+    }
+    return false;
 }

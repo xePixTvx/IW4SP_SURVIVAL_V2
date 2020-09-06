@@ -28,3 +28,12 @@ clearLowerMsg()
         self.Hud["lowermsg"] setText(self.currentLowerMsg);
     }
 }
+
+hideLowerMsg()
+{
+    self.Hud["lowermsg"].alpha = 0;
+}
+showLowerMsg()
+{
+    self.Hud["lowermsg"].alpha = 1;
+}

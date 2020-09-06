@@ -49,6 +49,7 @@ init_player()
 
 	self waittill("intro_done");
 	self pix\player\_lowerMsg::initPlayerLowerMsg();
+	self pix\shop\menu\_menu::setupMenuForPlayer();
 	self pix\player\_hud::createHud();
 	wait .4;
 	self thread pix\player\_hud::fadeHud(.7,1);

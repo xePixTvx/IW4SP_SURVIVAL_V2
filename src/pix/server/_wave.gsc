@@ -13,11 +13,7 @@ init_wave()
     }
 
     //Valid Wave Schemes
-    level.wave_schemes = [];
-    level.wave_schemes[0] = "default";
-    level.wave_schemes[1] = "default_dogs";
-    level.wave_schemes[2] = "default_juggers";
-    level.wave_schemes[3] = "default_dogs_juggers";
+    level.wave_schemes = make_array("default","default_dogs","default_juggers","default_dogs_juggers");
 
     //Default Settings
     setupWaveBotSettings("default",120,50,5,80);
