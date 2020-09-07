@@ -32,7 +32,7 @@ openShopMenu(type)
     self pix\player\_lowerMsg::hideLowerMsg();
     self.ShopMenuType = type;
     self.ShopMenuOpened = true;
-    self.CurrentMenu = "main";
+    self.CurrentMenu = "main_"+type;
     self.Scroller[self.CurrentMenu] = 0;
 
     self shopMenuCreateBackground();

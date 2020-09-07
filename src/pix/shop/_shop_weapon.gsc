@@ -29,11 +29,27 @@ weapon_shop_main(lowMsg,unlock_wave)
     else
     {
         self pix\player\_lowerMsg::doLowerMsg(lowMsg);
-    }
-    if(self UseButtonPressed() && !self.ShopMenuOpened)
-    {
-        self thread pix\shop\menu\_menu::openShopMenu("weapon");
-        return true;
+        if(self UseButtonPressed() && !self.ShopMenuOpened)
+        {
+            self thread pix\shop\menu\_menu::openShopMenu("weapon");
+            return true;
+        }
     }
     return false;
+}
+
+buy_refillAmmo()
+{
+    if(!self pix\player\_money::hasPlayerEnoughMoney(level.price["refillAmmo"]))
+    {
+        iprintlnBold("^1Not Enough Money!");
+        return;
+    }
+    self pix\player\_money::takePlayerMoney(level.price["refillAmmo"]);
+    weapons = self GetWeaponsListAll();
+	foreach(wep in weapons)
+	{
+		self GiveMaxAmmo(wep);
+	}
+    iprintlnBold("^2Ammo Refilled!");
 }

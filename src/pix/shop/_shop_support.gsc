@@ -29,12 +29,11 @@ support_shop_main(lowMsg,unlock_wave)
     else
     {
         self pix\player\_lowerMsg::doLowerMsg(lowMsg);
-    }
-    if(self UseButtonPressed())
-    {
-        iprintln("^2YAY");
-        //self thread shop_buy_refill_ammo();
-        return true;
+        if(self UseButtonPressed() && !self.ShopMenuOpened)
+        {
+            self thread pix\shop\menu\_menu::openShopMenu("support");
+            return true;
+        }
     }
     return false;
 }

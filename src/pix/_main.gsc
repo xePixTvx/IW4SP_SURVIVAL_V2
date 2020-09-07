@@ -7,8 +7,6 @@
 /*
 	LAST WORKED ON: 
 					WAVE SYSTEM & WAVE SCHEME --- Bot amount stuff to make wave setups easy to add/remove --- WAVE SCHEMES ARE CURRENTLY TEMPORARY
-
-					SHOP MENU BASE FINISHED
 */
 
 start_IW4SP_Survival()

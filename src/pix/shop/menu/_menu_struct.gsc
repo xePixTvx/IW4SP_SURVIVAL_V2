@@ -5,19 +5,32 @@
 #include pix\_common_scripts;
 
 #include pix\shop\menu\_menu;
+#include pix\shop\_shop_weapon;
 
 loadMenuStruct()
 {
-    self CreateMenu("main","Main Menu","Exit");
-    self addOption(-1,"main","Option 1",::Test);
-    self addOption(-1,"main","Option 2",::Test);
-    self addOption(-1,"main","Option 3",::Test);
-    self addOption(-1,"main","Option 4",::Test);
-    self addOption(-1,"main","Option 5",::Test);
-    self addOption(-1,"main","Option 6",::Test);
-    self addOption(-1,"main","Option 7",::Test);
-    self addOption(-1,"main","Option 8",::Test);
+    self thread weaponShopStruct();
+    self thread supportShopStruct();
 }
+
+weaponShopStruct()
+{
+    self CreateMenu("main_weapon","Weapon Shop","Exit");
+    self addOption(-1,"main_weapon","Refill Ammo[^2"+level.price["refillAmmo"]+"^7]",::buy_refillAmmo);
+    self addOption(-1,"main_weapon","Option 2",::Test);
+    self addOption(-1,"main_weapon","Option 3",::Test);
+}
+
+supportShopStruct()
+{
+    self CreateMenu("main_support","Support Shop","Exit");
+    self addOption(-1,"main_support","Option 1",::Test);
+    self addOption(-1,"main_support","Option 2",::Test);
+    self addOption(-1,"main_support","Option 3",::Test);
+    self addOption(-1,"main_support","Option 4",::Test);
+}
+
+
 
 CreateMenu(menu,title,parent)
 {

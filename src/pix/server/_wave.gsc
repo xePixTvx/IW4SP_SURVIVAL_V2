@@ -58,6 +58,7 @@ monitor_wave()
             level thread pix\server\_hud::doIntermission();
             level waittill("intermission_done");
             level.Wave ++;
+            level pix\shop\_shop::shopsWaveUpdate();
             level thread pix\server\_hud::updateWaveCounter();
             wait .4;
             level doWave();

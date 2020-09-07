@@ -21,7 +21,7 @@ init_shop()
 	level thread shop_monitor();
 }
 
-
+//Monitor Shops & Player Distance
 shop_monitor()
 {
 	for(;;)
@@ -62,8 +62,20 @@ isNearAnyShop()
 	return false;
 }
 
-
-
+//Gets called everytime a new wave starts
+shopsWaveUpdate()
+{
+	if(isDefined(level.shop_info["weapon"].unlock_wave) && (level.Wave==level.shop_info["weapon"].unlock_wave))
+	{
+		level.bot_dontdropweapons = true;//bots stop dropping weapons & ammo
+		level thread removePlacedWeapons();
+		level thread pix\server\_hud::simpleServerNotifyMessage("Weapon Shop Unlocked!",5);
+	}
+	if(isDefined(level.shop_info["support"].unlock_wave) && (level.Wave==level.shop_info["support"].unlock_wave))
+	{
+		level thread pix\server\_hud::simpleServerNotifyMessage("Support Shop Unlocked!",5);
+	}
+}
 
 
 
