@@ -40,6 +40,7 @@ init_player()
 
 	self.maxHealth = 100;
 	self.health = 100;
+	self.max_weapons = 2;
 	self takeAllWeapons();
 	self giveWeapon(level.startWeapon,0);
 	self switchToWeapon(level.startWeapon);

@@ -6,6 +6,7 @@
 
 init_shop()
 {
+	level thread [[level.WeaponsSetup_func]]();
     level.shop_types = make_array("weapon","support");
 
     level.shop_model = [];

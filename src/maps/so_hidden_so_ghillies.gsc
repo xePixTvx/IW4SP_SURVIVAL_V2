@@ -79,7 +79,6 @@ remove_church_door()
 init_IW4SP_Survival_setup()
 {
 	//Player Spawnpoints & Start Weapon
-	//p1 spawn origin(test):(-30487.9,103.902,200.313)
 	level pix\player\_player::addPlayers((-35879.6,-1560.18,211.203),(0,-25.6846,0),(-35819.4,-1433.56,219.505),(0,-24.1465,0),"usp_silencer");
 
 	//Wave Scheme
@@ -101,6 +100,7 @@ init_IW4SP_Survival_setup()
 	pix\bot\_bot_spawner::addSpawner(37,"default",level.bot_spawnPoints[1]);//smg
 
 	//Weapon Shop
+	level.WeaponsSetup_func = maps\so_hidden_so_ghillies::setUpWeaponShop_Weapons;
 	pix\shop\_shop_weapon::addWeaponShop((-30196.7,48.6782,180.076),(0,50,0),"com_plasticcase_beige_big","waypoint_ammo");
 
 	//Support Shop
@@ -110,45 +110,44 @@ init_IW4SP_Survival_setup()
 	level thread pix\_main::start_IW4SP_Survival();
 }
 
-/*setUpWeaponShop_Weapons()
+setUpWeaponShop_Weapons()
 {
 	level.weaponshop_items = [];
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_AK47_ACOG","ak47_digital_acog",1200,"assault_rifle");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_AK47_REDDOT","ak47_digital_reflex",1200,"assault_rifle");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_AK47","ak47_woodland",1000,"assault_rifle");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_AK47_EOTECH","ak47_woodland_eotech",1200,"assault_rifle");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_AK47_GP25","ak47_woodland_grenadier",1400,"assault_rifle");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_DRAGUNOV","dragunov",1000,"sniper");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_FAMAS","famas_woodland",1000,"assault_rifle");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_FAMAS_EOTECH","famas_woodland_eotech",1200,"assault_rifle");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_FAMAS_REDDOT","famas_woodland_reflex",1200,"assault_rifle");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_FN2000_ACOG","fn2000_acog",800,"smg");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_FN2000_EOTECH","fn2000_eotech",800,"smg");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_FN2000_REDDOT","fn2000_reflex",800,"smg");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_M2FRAGGRENADE","fraggrenade",600,"equipment");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_GLOCK","glock",400,"pistol");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_USP_SILENCER","usp_silencer",400,"pistol");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_BENELLI","m1014",800,"shotgun");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_BENELLI_SILENCER","m1014_silencer",800,"shotgun");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_P90","p90",700,"smg");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_P90_ACOG","p90_acog",800,"smg");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_P90_REDDOT","p90_reflex",800,"smg");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_PP2000","pp2000",700,"smg");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_PP2000_SILENCER","pp2000_silencer",700,"smg");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_STRIKER","striker",800,"shotgun");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_STRIKER_REDDOT","striker_reflex",900,"shotgun");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_STRIKER_SILENCER","striker_woodland_silencer",800,"shotgun");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_TAVOR_MARS","tavor_mars",1000,"assault_rifle");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_TAVOR_REDDOT","tavor_reflex",1200,"assault_rifle");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_TAVOR_ACOG","tavor_woodland_acog",1200,"assault_rifle");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_TAVOR_EOTECH","tavor_woodland_eotech",1200,"assault_rifle");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_TMP","tmp",700,"smg");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_UMP45_ACOG","ump45_acog",800,"smg");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_UMP45_EOTECH","ump45_eotech",800,"smg");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_UMP45_REDDOT","ump45_reflex",800,"smg");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_WA2000","wa2000",1000,"sniper");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_UZI_SILENCER","uzi_silencer",700,"smg");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_MP5_SILENCER","mp5_silencer",700,"smg");
-	thread pix\shop\_weapon::addWeaponShopItem(&"WEAPON_CHEYTAC_SILENCER","cheytac_silencer",1000,"sniper");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_AK47_ACOG","ak47_digital_acog",1200,"assault_rifle");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_AK47_REDDOT","ak47_digital_reflex",1200,"assault_rifle");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_AK47","ak47_woodland",1000,"assault_rifle");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_AK47_EOTECH","ak47_woodland_eotech",1200,"assault_rifle");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_AK47_GP25","ak47_woodland_grenadier",1400,"assault_rifle");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_DRAGUNOV","dragunov",1000,"sniper");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_FAMAS","famas_woodland",1000,"assault_rifle");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_FAMAS_EOTECH","famas_woodland_eotech",1200,"assault_rifle");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_FAMAS_REDDOT","famas_woodland_reflex",1200,"assault_rifle");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_FN2000_ACOG","fn2000_acog",800,"smg");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_FN2000_EOTECH","fn2000_eotech",800,"smg");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_FN2000_REDDOT","fn2000_reflex",800,"smg");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_M2FRAGGRENADE","fraggrenade",600,"equipment");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_GLOCK","glock",400,"pistol");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_USP_SILENCER","usp_silencer",400,"pistol");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_BENELLI","m1014",800,"shotgun");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_BENELLI_SILENCER","m1014_silencer",800,"shotgun");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_P90","p90",700,"smg");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_P90_ACOG","p90_acog",800,"smg");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_P90_REDDOT","p90_reflex",800,"smg");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_PP2000","pp2000",700,"smg");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_PP2000_SILENCER","pp2000_silencer",700,"smg");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_STRIKER","striker",800,"shotgun");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_STRIKER_REDDOT","striker_reflex",900,"shotgun");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_STRIKER_SILENCER","striker_woodland_silencer",800,"shotgun");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_TAVOR_MARS","tavor_mars",1000,"assault_rifle");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_TAVOR_REDDOT","tavor_reflex",1200,"assault_rifle");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_TAVOR_ACOG","tavor_woodland_acog",1200,"assault_rifle");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_TAVOR_EOTECH","tavor_woodland_eotech",1200,"assault_rifle");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_TMP","tmp",700,"smg");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_UMP45_ACOG","ump45_acog",800,"smg");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_UMP45_EOTECH","ump45_eotech",800,"smg");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_UMP45_REDDOT","ump45_reflex",800,"smg");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_WA2000","wa2000",1000,"sniper");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_UZI_SILENCER","uzi_silencer",700,"smg");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_MP5_SILENCER","mp5_silencer",700,"smg");
+	level thread pix\shop\_shop_weapon::addWeaponShopItem(&"WEAPON_CHEYTAC_SILENCER","cheytac_silencer",1000,"sniper");
 }
-*/

@@ -178,6 +178,11 @@ doFogAnimation(fog_stencil)
     }
 }
 
+getLatestShopMenuOptionAdded()
+{
+    return (self.Menu[self.CurrentMenu].text.size-1);
+}
+
 loadShopMenu(menu)
 {
     self destroyMenuText();
@@ -200,6 +205,7 @@ destroyMenuText()
         for(i=0;i<text_elem_array.size;i++)
         {
             self.Hud["menu_Text"][text_elem_array[i]] destroy();
+            self.Hud["menu_Price"][text_elem_array[i]] destroy();
         }
     }
 }
@@ -207,10 +213,16 @@ destroyMenuText()
 createMenuText()
 {
     self.Hud["menu_Text"] = [];
+    self.Hud["menu_Price"] = [];
     for(i=0;i<UNLM_SCROLL_MAX;i++)
     {
         self.Hud["menu_Text"][i] = createText("default",1.4,"LEFT","TOP",-120,(self.Hud["menu_Title"].y + 23) + (18 * i),(1,1,1),1,(0,0,0),0,"");
         self.Hud["menu_Text"][i] elemSetSort(10);
+
+        self.Hud["menu_Price"][i] = createText("default",1.4,"RIGHT","TOP",111,(self.Hud["menu_Title"].y + 23) + (18 * i),(1,1,1),0,(0.3,0.6,0.3),1);
+        self.Hud["menu_Price"][i] elemSetSort(10);
+        self.Hud["menu_Price"][i].label = "$";
+        self.Hud["menu_Price"][i] setValue(0);
     }
 }
 
@@ -237,6 +249,16 @@ scrollMenuUpdate()
             {
                 self.Hud["menu_Text"][i] setText("");
             }
+            if(isDefined(self.Menu[self.CurrentMenu].price[i]))
+            {
+                self.Hud["menu_Price"][i] setValue(self.Menu[self.CurrentMenu].price[i]);
+                self.Hud["menu_Price"][i].alpha = 1;
+            }
+            else
+            {
+                self.Hud["menu_Price"][i] setValue(0);
+                self.Hud["menu_Price"][i].alpha = 0;
+            }
         }
         self.Hud["Select_Bar"] elemMoveOverTimeY(0.170,162+(18*self.Scroller[self.CurrentMenu]));
     }
@@ -255,6 +277,16 @@ scrollMenuUpdate()
                 {
                     self.Hud["menu_Text"][PIX] setText("");
                 }
+                if(isDefined(self.Menu[self.CurrentMenu].price[i]))
+                {
+                    self.Hud["menu_Price"][PIX] setValue(self.Menu[self.CurrentMenu].price[i]);
+                    self.Hud["menu_Price"][PIX].alpha = 1;
+                }
+                else
+                {
+                    self.Hud["menu_Price"][PIX] setValue(0);
+                    self.Hud["menu_Price"][PIX].alpha = 0;
+                }
                 PIX ++;
             }
             self.Hud["Select_Bar"] elemMoveOverTimeY(0.170,162+(18*UNLM_SCROLL_MAX_HALF));
@@ -264,6 +296,16 @@ scrollMenuUpdate()
             for(i=0;i<UNLM_SCROLL_MAX;i++)
             {
                 self.Hud["menu_Text"][i] setText(self.Menu[self.CurrentMenu].text[self.Menu[self.CurrentMenu].text.size+(i-UNLM_SCROLL_MAX)]);
+                if(isDefined(self.Menu[self.CurrentMenu].price[self.Menu[self.CurrentMenu].text.size+(i-UNLM_SCROLL_MAX)]))
+                {
+                    self.Hud["menu_Price"][i] setValue(self.Menu[self.CurrentMenu].price[self.Menu[self.CurrentMenu].text.size+(i-UNLM_SCROLL_MAX)]);
+                    self.Hud["menu_Price"][i].alpha = 1;
+                }
+                else
+                {
+                    self.Hud["menu_Price"][i] setValue(0);
+                    self.Hud["menu_Price"][i].alpha = 0;
+                }
             }
             self.Hud["Select_Bar"] elemMoveOverTimeY(0.170,(162+(18*((self.Scroller[self.CurrentMenu]-self.Menu[self.CurrentMenu].text.size)+UNLM_SCROLL_MAX))));
         }

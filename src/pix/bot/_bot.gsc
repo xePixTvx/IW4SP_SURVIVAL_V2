@@ -159,6 +159,8 @@ removeFromBotList(bot)
 //Kill all Bots
 kill_all_bots()
 {
+	level notify("end_Wave_Bot_Spawning");//stop spawning
+	wait .4;
 	for(i=0;i<level.pix_bots.size;i++)
 	{
 		level.pix_bots[i] doDamage((level.pix_bots[i].maxhealth*99999),(0,0,0));

@@ -71,6 +71,12 @@ start_IW4SP_Survival()
 		precacheShader(level.shop_info["weapon"].headIcon);
 	}
 
+	if(!isDefined(level.WeaponsSetup_func))
+	{
+		iprintln("^3IW4SP_SURVIVAL_WARNING:^7 ------ level.startWeapon is not DEFINED! ---- set to default_weaponshopSetup ------");
+		level.WeaponsSetup_func = pix\shop\_shop_weapon::default_weaponshopSetup;
+	}
+
 	//Precache Support Shop Icon + Model if defined
 	if(isDefined(level.shop_info["support"].model))
 	{
