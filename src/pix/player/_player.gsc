@@ -47,7 +47,7 @@ init_player()
 	self switchToWeapon(level.startWeapon);
 
 	//Do intro
-	if(level.players_intro=="default")
+	if(level.players_intro=="default_zoom_in")
 	{
 		self thread pix\player\_intro::intro_flying_default();
 	}

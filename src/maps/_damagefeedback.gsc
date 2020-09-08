@@ -30,6 +30,10 @@ init_damage_feedback()
 	self.hud_damagefeedback.archived = true;
 	self.hud_damagefeedback setShader( "damage_feedback", 24, 24 * 2 );
 	self.hud_damagefeedback.y = 12;	// aligns it to the center of the crosshair.
+
+
+
+	self.hud_damagefeedback.color = (1,0,0);//hitmarker color
 }
 
 monitorDamage()

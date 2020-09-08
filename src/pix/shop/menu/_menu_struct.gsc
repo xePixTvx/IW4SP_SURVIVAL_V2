@@ -104,7 +104,6 @@ supportShopStruct()
         self addPrice(self getLatestShopMenuOptionAdded(),"main_support",level.price["weaponslot"]);
     self addOption(-1,"main_support","Faster Movement",::buy_fasterMovement,level.price["fastmove"]);
         self addPrice(self getLatestShopMenuOptionAdded(),"main_support",level.price["fastmove"]);
-    self addOption(-1,"main_support","Option 4",::Test);
 }
 
 

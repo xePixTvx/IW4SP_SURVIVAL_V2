@@ -7,6 +7,9 @@
 /*
 	LAST WORKED ON: 
 					WAVE SYSTEM & WAVE SCHEME --- Bot amount stuff to make wave setups easy to add/remove --- WAVE SCHEMES ARE CURRENTLY TEMPORARY
+
+
+					Design Update for Player Hud: Headshot Notify
 */
 
 start_IW4SP_Survival()
@@ -44,7 +47,7 @@ start_IW4SP_Survival()
 	if(!isDefined(level.players_intro))
 	{
 		iprintln("^3IW4SP_SURVIVAL_WARNING:^7 ------ level.players_intro is not DEFINED! ---- set to default ------");
-		level.players_intro = "default";
+		level.players_intro = "default_zoom_in";
 	}
 
 	//Check if Wave Scheme is defined
@@ -78,6 +81,7 @@ start_IW4SP_Survival()
 		precacheShader(level.shop_info["weapon"].headIcon);
 	}
 
+	//Check if a weaponlist setup is defined --- if not use the default one
 	if(!isDefined(level.WeaponsSetup_func))
 	{
 		iprintln("^3IW4SP_SURVIVAL_WARNING:^7 ------ level.startWeapon is not DEFINED! ---- set to default_weaponshopSetup ------");

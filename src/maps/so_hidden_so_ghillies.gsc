@@ -79,11 +79,10 @@ remove_church_door()
 init_IW4SP_Survival_setup()
 {
 	//Intro Type for Players
-	level.players_intro = "default";
+	level.players_intro = "default_zoom_in";
 
 	//Player Spawnpoints & Start Weapon
-	//p1 origin: (-35879.6,-1560.18,211.203)
-	level pix\player\_player::addPlayers((-28397,4918.78,234.715),(0,-25.6846,0),(-35819.4,-1433.56,219.505),(0,-24.1465,0),"usp_silencer");
+	level pix\player\_player::addPlayers((-35879.6,-1560.18,211.203),(0,-25.6846,0),(-35819.4,-1433.56,219.505),(0,-24.1465,0),"usp_silencer");
 
 	//Wave Scheme
 	level.wave_scheme = "default";

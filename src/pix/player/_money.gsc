@@ -18,13 +18,13 @@ givePlayerMoney(value,headShotValue)
 {
     if(isDefined(headShotValue))
     {
-        self thread MoneyNotify(value,"+",(0,1,0));
+        self thread MoneyNotify(value,"+ $",(0.3,0.6,0.3));
         self thread HeadShotMoneyNotify(headShotValue);
         self.Money += value + headShotValue;
     }
     else
     {
-        self thread MoneyNotify(value,"+",(0,1,0));
+        self thread MoneyNotify(value,"+ $",(0.3,0.6,0.3));
         self.Money += value;
     }
     self.Hud["Money"] setValue(self.Money);
@@ -33,7 +33,7 @@ givePlayerMoney(value,headShotValue)
 //Remove a specific amount to a players money
 takePlayerMoney(value)
 {
-    self thread MoneyNotify(value,"-",(1,0,0));
+    self thread MoneyNotify(value,"- $",(1,0,0));
     endValue = self.Money - value;
     if(endValue<0)
     {

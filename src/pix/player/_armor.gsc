@@ -27,7 +27,7 @@ givePlayerArmor(value)
         iprintlnBold("^4Max Armor");
         return;
     }
-    self thread ArmorNotify(value,"Armor +",(0,0,1));
+    self thread ArmorNotify(value,"+",(0,0,1));
     self.Armor += value;
     self notify("armor_update");
 }

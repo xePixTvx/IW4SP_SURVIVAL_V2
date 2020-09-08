@@ -8,7 +8,7 @@
 
 _init_dev_tool()
 {
-	level.DEV_ALLOW_START = false;
+	level.DEV_ALLOW_START = true;
 	level.DEV_BOTS_PACIFIST = false;
 	
 	

@@ -16,9 +16,10 @@ createHud()
     self.Hud["Money"] elemSetSort(20);
     self.Hud["Money"].hideWhenInMenu = true;
 
-    self.Hud["Money_Notify"] = createText("objective",1.5,"CENTER","CENTER",0,-20,(0,1,0),0,(0,1,0),0);
-    self.Hud["Money_Notify"].label = "+";
+    self.Hud["Money_Notify"] = createText("objective",1.5,"BOTTOMLEFT","BOTTOMLEFT",100,28,(1,1,1),0,(0.3,0.6,0.3),1);
+    self.Hud["Money_Notify"].label = "";
     self.Hud["Money_Notify"] setValue(0);
+    self.Hud["Money_Notify"] elemSetSort(20);
     self.Hud["Money_Notify"].hideWhenInMenu = true;
     self.money_update = 0;
 
@@ -34,9 +35,10 @@ createHud()
     self.Hud["Armor"] elemSetSort(20);
     self.Hud["Armor"].hideWhenInMenu = true;
 
-    self.Hud["Armor_Notify"] = createText("objective",1.5,"CENTER","CENTER",0,40,(0,0,1),0,(0,1,0),0);
+    self.Hud["Armor_Notify"] = createText("objective",1.5,"BOTTOMLEFT","BOTTOMLEFT",100,-5,(1,1,1),0,(0,0,1),1);
     self.Hud["Armor_Notify"].label = "+";
     self.Hud["Armor_Notify"] setValue(0);
+    self.Hud["Armor_Notify"] elemSetSort(20);
     self.Hud["Armor_Notify"].hideWhenInMenu = true;
     self.armor_update = 0;
 
@@ -72,11 +74,24 @@ MoneyNotify(amount,label,color)
     self notify("money_notify");
     self endon("money_notify");
     self.money_update += amount;
+    self.Hud["Money_Notify"].glowColor = color;
     self.Hud["Money_Notify"].label = label;
-    self.Hud["Money_Notify"].color = color;
     self.Hud["Money_Notify"] setValue(self.money_update);
     self.Hud["Money_Notify"].alpha = 1;
-    wait .5;
+    wait 4;
+    total = self.money_update;
+    takeAway = int(total/18);//18 should be smooth and fast enough
+    while(total>0)
+    {
+        total -= takeAway;
+        if(total<0)
+        {
+            total = 0;
+        }
+        self.Hud["Money_Notify"] setValue(total);
+        wait 0.05;
+    }
+    wait .4;
     self.Hud["Money_Notify"] fadeOverTime(.4);
     self.Hud["Money_Notify"].alpha = 0;
     wait .4;
@@ -107,10 +122,23 @@ ArmorNotify(amount,label,color)
     self endon("armor_notify");
     self.armor_update += amount;
     self.Hud["Armor_Notify"].label = label;
-    self.Hud["Armor_Notify"].color = color;
+    self.Hud["Armor_Notify"].glowColor = color;
     self.Hud["Armor_Notify"] setValue(self.armor_update);
     self.Hud["Armor_Notify"].alpha = 1;
-    wait .5;
+    wait 4;
+    total = self.armor_update;
+    takeAway = int(total/18);//18 should be smooth and fast enough
+    while(total>0)
+    {
+        total -= takeAway;
+        if(total<0)
+        {
+            total = 0;
+        }
+        self.Hud["Armor_Notify"] setValue(total);
+        wait 0.05;
+    }
+    wait .4;
     self.Hud["Armor_Notify"] fadeOverTime(.4);
     self.Hud["Armor_Notify"].alpha = 0;
     wait .4;

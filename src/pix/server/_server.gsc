@@ -8,7 +8,7 @@
 
 init()
 {
-    level.Wave = 10;
+    level.Wave = 0;
     level.IntermissionTime = 40;
 
     level thread createServerHud();
