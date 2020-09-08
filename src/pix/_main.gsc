@@ -40,6 +40,13 @@ start_IW4SP_Survival()
 		level.startWeapon = "defaultweapon";
 	}
 
+	//Check if Players Intro is defined --- if not use default
+	if(!isDefined(level.players_intro))
+	{
+		iprintln("^3IW4SP_SURVIVAL_WARNING:^7 ------ level.players_intro is not DEFINED! ---- set to default ------");
+		level.players_intro = "default";
+	}
+
 	//Check if Wave Scheme is defined
 	if(!isDefined(level.wave_scheme))
 	{

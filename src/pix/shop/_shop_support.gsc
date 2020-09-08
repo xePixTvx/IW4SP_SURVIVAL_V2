@@ -38,3 +38,64 @@ support_shop_main(lowMsg,unlock_wave)
     return false;
 }
 
+buy_armor(amount,price)
+{
+    if(!self pix\player\_money::hasPlayerEnoughMoney(price))
+    {
+        iprintlnBold("^1Not Enough Money!");
+        return;
+    }
+    if(self.Armor>=500)
+    {
+        iprintlnBold("^4Max Armor");
+        return;
+    }
+	self pix\player\_money::takePlayerMoney(price);
+    self pix\player\_armor::givePlayerArmor(amount);
+}
+
+buy_weaponslot(price)
+{
+    if(self.max_weapons>=4)
+	{
+		iprintlnBold("^1Max Slots!");
+		return;
+	}
+	if(!self pix\player\_money::hasPlayerEnoughMoney(price))
+    {
+        iprintlnBold("^1Not Enough Money!");
+        return;
+    }
+	self pix\player\_money::takePlayerMoney(price);
+	self.max_weapons ++;
+    self pix\shop\menu\_menu_struct::loadMenuStruct();
+	self pix\shop\menu\_menu::scrollMenuUpdate();
+}
+
+buy_fasterMovement(price)
+{
+    if(self.has_faster_movement)
+    {
+        iprintlnBold("^1You already have Faster Movement!");
+        return;
+    }
+    if(!self pix\player\_money::hasPlayerEnoughMoney(price))
+    {
+        iprintlnBold("^1Not Enough Money!");
+        return;
+    }
+	self pix\player\_money::takePlayerMoney(price);
+    self setMoveSpeedScale(1.30);
+    self thread fasterMovement_keepSpeedScale();
+}
+fasterMovement_keepSpeedScale()
+{
+    self notify("fasterMovement_keepSpeedScale_end");
+    self endon("fasterMovement_keepSpeedScale_end");
+    self.has_faster_movement = true;
+    for(;;)
+    {
+        self setMoveSpeedScale(1.30);
+        wait 2;
+    }
+}

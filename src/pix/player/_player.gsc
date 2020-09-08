@@ -41,12 +41,16 @@ init_player()
 	self.maxHealth = 100;
 	self.health = 100;
 	self.max_weapons = 2;
+	self.has_faster_movement = false;
 	self takeAllWeapons();
 	self giveWeapon(level.startWeapon,0);
 	self switchToWeapon(level.startWeapon);
 
 	//Do intro
-	self thread pix\player\_intro::intro_flying_default();
+	if(level.players_intro=="default")
+	{
+		self thread pix\player\_intro::intro_flying_default();
+	}
 
 	self waittill("intro_done");
 	self pix\player\_lowerMsg::initPlayerLowerMsg();

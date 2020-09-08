@@ -6,7 +6,14 @@
 
 init_shop()
 {
+	level.price = [];
+    level.price["refillAmmo"] = 800;
+	level.price["armor"] = 1000;
+	level.price["weaponslot"] = 3000;
+	level.price["fastmove"] = 2000;
+
 	level thread [[level.WeaponsSetup_func]]();
+
     level.shop_types = make_array("weapon","support");
 
     level.shop_model = [];
@@ -71,10 +78,12 @@ shopsWaveUpdate()
 		level.bot_dontdropweapons = true;//bots stop dropping weapons & ammo
 		level thread removePlacedWeapons();
 		level thread pix\server\_hud::simpleServerNotifyMessage("Weapon Shop Unlocked!",5);
+		level.shop_model["weapon"].entityHeadIcon.alpha = 0.8;
 	}
 	if(isDefined(level.shop_info["support"].unlock_wave) && (level.Wave==level.shop_info["support"].unlock_wave))
 	{
 		level thread pix\server\_hud::simpleServerNotifyMessage("Support Shop Unlocked!",5);
+		level.shop_model["support"].entityHeadIcon.alpha = 0.8;
 	}
 }
 
@@ -103,7 +112,7 @@ shop_SetEntHeadIcon(offset, shader, keepPosition)
 	headIcon.x = self.origin[0]+self.entityHeadIconOffset[0];
 	headIcon.y = self.origin[1]+self.entityHeadIconOffset[1];
 	headIcon.z = self.origin[2]+self.entityHeadIconOffset[2];
-	headIcon.alpha = 0.8;
+	headIcon.alpha = 0;
 	headIcon setShader(shader,10,10);
 	headIcon setWaypoint(true,true);
 	self.entityHeadIcon = headIcon;

@@ -6,6 +6,7 @@
 
 #include pix\shop\menu\_menu;
 #include pix\shop\_shop_weapon;
+#include pix\shop\_shop_support;
 
 loadMenuStruct()
 {
@@ -97,9 +98,12 @@ weaponShopStruct()
 supportShopStruct()
 {
     self CreateMenu("main_support","Support Shop","Exit");
-    self addOption(-1,"main_support","Option 1",::Test);
-    self addOption(-1,"main_support","Option 2",::Test);
-    self addOption(-1,"main_support","Option 3",::Test);
+    self addOption(-1,"main_support","+50 Armor",::buy_armor,50,level.price["armor"]);
+        self addPrice(self getLatestShopMenuOptionAdded(),"main_support",level.price["armor"]);
+    self addOption(-1,"main_support","+1 Weaponslot[Current: " + self.max_weapons + "]",::buy_weaponslot,level.price["weaponslot"]);
+        self addPrice(self getLatestShopMenuOptionAdded(),"main_support",level.price["weaponslot"]);
+    self addOption(-1,"main_support","Faster Movement",::buy_fasterMovement,level.price["fastmove"]);
+        self addPrice(self getLatestShopMenuOptionAdded(),"main_support",level.price["fastmove"]);
     self addOption(-1,"main_support","Option 4",::Test);
 }
 
