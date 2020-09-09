@@ -7,9 +7,6 @@
 /*
 	LAST WORKED ON: 
 					WAVE SYSTEM & WAVE SCHEME --- Bot amount stuff to make wave setups easy to add/remove --- WAVE SCHEMES ARE CURRENTLY TEMPORARY
-
-
-					Design Update for Player Hud: Headshot Notify
 */
 
 start_IW4SP_Survival()

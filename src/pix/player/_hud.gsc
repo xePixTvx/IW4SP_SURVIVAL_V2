@@ -23,7 +23,7 @@ createHud()
     self.Hud["Money_Notify"].hideWhenInMenu = true;
     self.money_update = 0;
 
-    self.Hud["Headshot_Notify"] = createText("objective",1.5,"CENTER","CENTER",0,-38,(1,1,1),0,(0,1,0),0);
+    self.Hud["Headshot_Notify"] = createText("objective",1.5,"CENTER","CENTER",0,-38,(1,1,1),0,(1,0,0),1);
     self.Hud["Headshot_Notify"].label = "Headshot ^2+";
     self.Hud["Headshot_Notify"] setValue(0);
     self.Hud["Headshot_Notify"].hideWhenInMenu = true;
@@ -65,9 +65,6 @@ fadeHud(time,alpha)
     self.Hud["Armor"] elemFadeOverTime(time,alpha);//hmmmmm????
 }
 
-
-
-
 //Show Money Notify to Player
 MoneyNotify(amount,label,color)
 {
@@ -104,8 +101,7 @@ HeadShotMoneyNotify(amount)
     self notify("headshot_notify");
     self endon("headshot_notify");
     self.headshot_update += amount;
-    self.Hud["Headshot_Notify"].label = "Headshot ^2+";
-    self.Hud["Headshot_Notify"].color = (1,1,1);
+    self.Hud["Headshot_Notify"].label = "Headshot: +";
     self.Hud["Headshot_Notify"] setValue(self.headshot_update);
     self.Hud["Headshot_Notify"].alpha = 1;
     wait .5;

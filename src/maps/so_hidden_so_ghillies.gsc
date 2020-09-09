@@ -25,7 +25,7 @@ main()
 	//--- IW4SP SURVIVAL ---
 
 	//DEV
-	level.player thread pix\_dev::_init_dev_tool();
+	//level.player thread pix\_dev::_init_dev_tool();
 
 	//minimap & compass
 	minimap_setup("");
