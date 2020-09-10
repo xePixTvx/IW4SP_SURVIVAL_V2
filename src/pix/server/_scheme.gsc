@@ -64,7 +64,7 @@ setup_default_bots()
 	}
 	else
 	{
-		reset_wave_scheme_settings();
+		reset_wave_scheme_settings("default");
 	}
 }
 
@@ -107,7 +107,7 @@ setup_dog_bots()
 	}
 	else
 	{
-		reset_wave_scheme_settings();
+		reset_wave_scheme_settings("dog");
 	}
 }
 
@@ -140,19 +140,39 @@ setup_jugger_bots()
 	}
 	else
 	{
-		reset_wave_scheme_settings();
+		reset_wave_scheme_settings("jugger");
 	}
 }
 
 
-reset_wave_scheme_settings()
+reset_wave_scheme_settings(type)
 {
-	level.wave_bot_amount["default"] = 0;
-	level.wave_bot_amount["dog"] = 0;
-    level.wave_bot_amount["jugger"] = 0;
-	pix\server\_wave::setupWaveBotSettings("default",120,50,5,80);
-    pix\server\_wave::setupWaveBotSettings("dog",140,50,5,100);
-    pix\server\_wave::setupWaveBotSettings("jugger",3600,150,5,100);
+	switch(type)
+	{
+		case "default":
+			level.wave_bot_amount["default"] = 0;
+			pix\server\_wave::setupWaveBotSettings("default",120,50,5,80);
+		break;
+
+		case "dog":
+			level.wave_bot_amount["dog"] = 0;
+			pix\server\_wave::setupWaveBotSettings("dog",140,50,5,100);
+		break;
+
+		case "jugger":
+			level.wave_bot_amount["jugger"] = 0;
+			pix\server\_wave::setupWaveBotSettings("jugger",3600,150,5,100);
+		break;
+
+		default:
+			level.wave_bot_amount["default"] = 0;
+			level.wave_bot_amount["dog"] = 0;
+			level.wave_bot_amount["jugger"] = 0;
+			pix\server\_wave::setupWaveBotSettings("default",120,50,5,80);
+			pix\server\_wave::setupWaveBotSettings("dog",140,50,5,100);
+			pix\server\_wave::setupWaveBotSettings("jugger",3600,150,5,100);
+		break;
+	}
 }
 
 //Check for valid wave scheme
