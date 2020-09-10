@@ -75,7 +75,7 @@ intermission_players_skip()
     {
         foreach(player in getPlayers())
         {
-            if(player FragButtonPressed() && player MeleeButtonPressed())
+            if(player MeleeButtonPressed() && player UseButtonPressed())
             {
                 if(!player.hasIntermissionSkipped)
                 {
@@ -85,7 +85,7 @@ intermission_players_skip()
                 wait .4;
             }
         }
-        level.Hud["intermission_skip_info"] setText("Press ^3[{+frag}]^7 + ^3[{+melee}]^7 to Skip!("+level.intermissionSkipped_count+"/"+getPlayers().size+")");
+        level.Hud["intermission_skip_info"] setText("Press ^3[{+melee}]^7 + ^3[{+activate}]^7 to Skip!("+level.intermissionSkipped_count+"/"+getPlayers().size+")");
         wait 0.05;
     }
 }
