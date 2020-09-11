@@ -104,6 +104,12 @@ supportShopStruct()
         self addPrice(self getLatestShopMenuOptionAdded(),"main_support",level.price["weaponslot"]);
     self addOption(-1,"main_support","Faster Movement",::buy_fasterMovement,level.price["fastmove"]);
         self addPrice(self getLatestShopMenuOptionAdded(),"main_support",level.price["fastmove"]);
+    
+    if(isDefined(level.MortarStrike.bullet))
+    {
+        self addOption(-1,"main_support","Mortar Strike",pix\shop\support\_mortar_strike::buy_mortar,level.MortarStrike.type,level.price["mortar"]);
+            self addPrice(self getLatestShopMenuOptionAdded(),"main_support",level.price["mortar"]);
+    }
 }
 
 

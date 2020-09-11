@@ -11,6 +11,7 @@ init_shop()
 	level.price["armor"] = 1000;
 	level.price["weaponslot"] = 3000;
 	level.price["fastmove"] = 2000;
+	level.price["mortar"] = 3000;
 
 	level thread [[level.WeaponsSetup_func]]();
 
@@ -42,7 +43,7 @@ shop_monitor()
                 {
                     if(distance(level.shop_model[type].origin,player.origin)<=100)
                     {
-                        if(player thread [[level.shop_info[type].mainFunction]](level.shop_info[type].lowMsg,level.shop_info[type].unlock_wave))
+                        if(player [[level.shop_info[type].mainFunction]](level.shop_info[type].lowMsg,level.shop_info[type].unlock_wave))
                         {
                             wait .6;
                         }

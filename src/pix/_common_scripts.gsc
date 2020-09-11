@@ -263,9 +263,10 @@ getCursorPos(multiplier)
 	{
 		multiplier = 1000000;
 	}
-    angle_forward      = AnglesToForward(self getPlayerAngles());
+    angle_forward = AnglesToForward(self getPlayerAngles());
     multiplied_vector3 = angle_forward * multiplier;
-    return BulletTrace(self getTagOrigin("tag_eye"),multiplied_vector3,0,self)["position"];
+    //dont use self getTagOrigin("tag_eye")
+    return BulletTrace(self getEye(),multiplied_vector3,false,self)["position"];
 }
 
 //Delete or Destroy Entity after some time

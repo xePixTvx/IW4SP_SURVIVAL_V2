@@ -42,6 +42,8 @@ init_player()
 	self.health = 100;
 	self.max_weapons = 2;
 	self.has_faster_movement = false;
+	self.has_mortar_strike = false;
+
 	self takeAllWeapons();
 	self giveWeapon(level.startWeapon,0);
 	self switchToWeapon(level.startWeapon);

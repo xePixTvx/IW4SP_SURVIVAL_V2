@@ -4,9 +4,20 @@
 #include maps\_hud_util;
 #include pix\_common_scripts;
 
+
 /*
-	LAST WORKED ON: 
-					WAVE SYSTEM & WAVE SCHEME --- Bot amount stuff to make wave setups easy to add/remove --- WAVE SCHEMES ARE CURRENTLY TEMPORARY
+	TODO:
+			WAVE SYSTEM & WAVE SCHEME --- Bot amount stuff to make wave setups easy to add/remove --- WAVE SCHEMES ARE CURRENTLY TEMPORARY
+			Add some sort of killstreak saving/using system
+*/
+
+/*
+	LAST WORKED ON:
+					Delta Squad
+*/
+
+/*
+	KOWN BUGS:
 */
 
 start_IW4SP_Survival()
@@ -97,7 +108,7 @@ start_IW4SP_Survival()
 
 
 	//Start Mod Systems
-	level thread pix\server\_server::init();
+	level thread pix\server\_server::init_server();
 	level thread pix\shop\_shop::init_shop();
 	level thread pix\player\_player::spawn_players();
 }

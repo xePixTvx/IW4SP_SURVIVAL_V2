@@ -6,7 +6,7 @@
 
 #include pix\server\_hud;
 
-init()
+init_server()
 {
     level.Wave = 0;
     level.IntermissionTime = 40;

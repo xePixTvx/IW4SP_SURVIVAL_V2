@@ -110,6 +110,9 @@ init_IW4SP_Survival_setup()
 	//Support Shop
 	pix\shop\_shop_support::addSupportShop((-5296.21,3024.58,780.125),(0,-35,0),"com_plasticcase_beige_big","hud_burningcaricon");
 
+	//Mortar Strike
+	pix\shop\support\_mortar_strike::addMortarStrike("rpg_player");
+
 
 	level thread pix\_main::start_IW4SP_Survival();
 }
