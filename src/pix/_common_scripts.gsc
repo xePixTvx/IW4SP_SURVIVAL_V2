@@ -341,3 +341,33 @@ getIW4Difficulty()
     }
     return diffi;
 }
+
+//Create a Trigger
+/*createTrigger(origin,width,height,cursorHint,string)
+{
+    trig = spawn("trigger_radius", origin, 1, width, height);
+    trig setCursorHint(cursorHint, trig);
+    trig setHintString( string );
+    trig setvisibletoall();
+    return trig;
+}*/
+
+
+
+printToConsole(text,lineBreak)
+{
+    if(!isDefined(lineBreak))
+    {
+        lineBreak = true;
+    }
+    /#
+    if(lineBreak)
+    {
+        println(text);
+    }
+    else
+    {
+        print(text);
+    }
+    #/
+}

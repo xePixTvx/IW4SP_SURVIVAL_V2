@@ -12,7 +12,7 @@
 
 /*
 	LAST WORKED ON:
-					Delta Squad
+					Updated some dev stuff
 */
 
 /*
@@ -104,7 +104,6 @@ start_IW4SP_Survival()
 	{
 		precacheShader(level.shop_info["support"].headIcon);
 	}
-
 
 	//Start Mod Systems
 	level thread pix\server\_server::init_server();

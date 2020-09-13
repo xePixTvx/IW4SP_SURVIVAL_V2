@@ -6,6 +6,9 @@
 
 //use level.player thread pix\_dev::_init_dev_tool(); --- on map main() function --- before mod setup
 
+
+//set developer and developer_script dvars to 1 for info dumping
+
 _init_dev_tool()
 {
 	level.DEV_ALLOW_START = true;
@@ -25,13 +28,8 @@ _init_dev_tool()
 	dev_info_texts[7] = "^3J^7 - Test Survival Spawners";
 	dev_info_texts[8] = "^3K^7 - Test Vehicle Spawner";
 	dev_info_texts[9] = "^3N^7 - Super Speed";
-	dev_info_texts[10] = "^3L^7 - Clear Print String";
-	dev_info_texts[11] = "^3M^7 - Test Function";
+	dev_info_texts[10] = "^3M^7 - Test Function";
 
-	self.DEV_HUD["print_1"] = createText("default",1.5,"CENTER","CENTER",0,0,(1,1,1),1,(0,0,0),0);
-	self.DEV_HUD["print_2"] = createText("default",1.5,"CENTER","CENTER",0,30,(1,1,1),1,(0,0,0),0);
-	self.DEV_HUD["print_3"] = createText("default",1.5,"CENTER","CENTER",0,60,(1,1,1),1,(0,0,0),0);
-	self.DEV_HUD["print_4"] = createText("default",1.5,"CENTER","CENTER",0,90,(1,1,1),1,(0,0,0),0);
 	self.DEV_HUD["Info"] = [];
 	for(i=0;i<dev_info_texts.size;i++)
 	{
@@ -40,15 +38,9 @@ _init_dev_tool()
 	
 	level.SuperSpeed = false;
 	self.dev_god = false;
-	bot_spawners = GetSpawnerArray();
-	bot_spawner_cycle = 0;
-	vehicle_spawners = GetVehicleSpawnerArray();
-	vehicle_spawner_cycle = 0;
-	ents = GetEntArray();
-	ent_cycle = 0;
 	test_bot_spawner_cycle = 0;
-	
-	
+	level.isPrintingInfoDump = false;
+
 	self endon("end_dev_tool");
 	for(;;)
 	{
@@ -85,25 +77,27 @@ _init_dev_tool()
 		}
 		if(self buttonPressed("i"))
 		{
-			self _setPrintString("Origin: " + self.origin,"Angles: " + self.angles);
+			iprintln("Printed to Console!");
+			printToConsole("Origin: " + self.origin);
+			printToConsole("Angles: " + self.angles);
 			wait .4;
 		}
 		if(self buttonPressed("o"))
 		{
-			self _setPrintString("Bot Spawners: " + bot_spawners.size,"id: " + bot_spawner_cycle + " ----- classname: " + bot_spawners[bot_spawner_cycle].classname,"id: " + bot_spawner_cycle + " ----- targetname: " + bot_spawners[bot_spawner_cycle].targetname);
-			bot_spawner_cycle ++;
+			bot_spawners = GetSpawnerArray();
+			self thread dev_dumpInfoToConsole(bot_spawners,"Bot Spawner");
 			wait .4;
 		}
 		if(self buttonPressed("p"))
 		{
-			self _setPrintString("Vehicle Spawners: " + vehicle_spawners.size,"id: " + vehicle_spawner_cycle + " ----- classname: " + vehicle_spawners[vehicle_spawner_cycle].classname,"id: " + vehicle_spawner_cycle + " ----- targetname: " + vehicle_spawners[vehicle_spawner_cycle].targetname);
-			vehicle_spawner_cycle ++;
+			vehicle_spawners = GetVehicleSpawnerArray();
+			self thread dev_dumpInfoToConsole(vehicle_spawners,"Vehicle Spawner");
 			wait .4;
 		}
 		if(self buttonPressed("h"))
 		{
-			self _setPrintString("Entities: " + ents.size,"id: " + ent_cycle + " ----- classname: " + ents[ent_cycle].classname,"id: " + vehicle_spawner_cycle + " ----- targetname: " + ents[ent_cycle].targetname,"id: " + vehicle_spawner_cycle + " ----- model: " + ents[ent_cycle].model);
-			ent_cycle ++;
+			ent_array = GetEntArray();
+			self thread dev_dumpInfoToConsole(ent_array,"Entity");
 			wait .4;
 		}
 		if(self buttonPressed("j"))
@@ -115,9 +109,7 @@ _init_dev_tool()
 		}
 		if(self buttonPressed("k"))
 		{
-			//iprintln("^1UNFINISHED!");
-			//heli_strike_heli
-			//thread pix\bot\_vehicle::_spawnEnemyHeli("harrier");//change targetname to the one you want to test or use kill_heli
+			iprintln("^1UNFINISHED!");
 			wait .4;
 		}
 		if(self buttonPressed("n"))
@@ -138,11 +130,6 @@ _init_dev_tool()
 			}
 			wait .4;
 		}
-		if(self buttonPressed("l"))
-		{
-			self _setPrintString();
-			wait .4;
-		}
 		if(self buttonPressed("m"))
 		{
 			self _dev_test_function();
@@ -151,28 +138,42 @@ _init_dev_tool()
 		wait 0.05;
 	}
 }
-_setPrintString(a,b,c,d)
+
+//you need to do it a few times to dump all
+dev_dumpInfoToConsole(arrayToDump,printingName)
 {
-	if(!isDefined(a))
+	if(level.isPrintingInfoDump)
 	{
-		a = "";
+		iprintlnBold("^1Already Dumping Info!");
+		return;
 	}
-	if(!isDefined(b))
+	if(arrayToDump.size<=0)
 	{
-		b = "";
+		iprintln("^1No " + printingName + " Found!");
+		return;
 	}
-	if(!isDefined(c))
+	level.isPrintingInfoDump = true;
+	array = arrayToDump;
+	iprintln("^1Printing " + printingName + ".....");
+	printToConsole("");
+	printToConsole("---------------------------------------------------------------");
+	printToConsole("--- IW4SP_SURVIVAL " + printingName + " Info Dump ---");
+	printToConsole("--- Size: " + array.size + " ---");
+	printToConsole("---------------------------------------------------------------");
+	wait .5;
+	for(i=0;i<array.size;i++)
 	{
-		c = "";
+		iprintln("Printing " + printingName + ": ^1"+i);
+		printToConsole("");
+		printToConsole("----------------------------------");
+		printToConsole("Index Number(id): " + i);
+		printToConsole("Classname: " + array[i].classname);
+		printToConsole("Targetname: " + array[i].targetname);
+		printToConsole("----------------------------------");
+		wait .2;
 	}
-	if(!isDefined(d))
-	{
-		d = "";
-	}
-	self.DEV_HUD["print_1"] setText(a);
-	self.DEV_HUD["print_2"] setText(b);
-	self.DEV_HUD["print_3"] setText(c);
-	self.DEV_HUD["print_4"] setText(d);
+	iprintln("^1Printing Finished!");
+	level.isPrintingInfoDump = false;
 }
 
 

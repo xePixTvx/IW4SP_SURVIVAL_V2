@@ -95,7 +95,6 @@ spawnDeltaSquadBot(id,owner)
 	bot.team = "allies";
 	bot.health = 6000;//6000;
 	bot.deltasquad_owner = owner;
-    //bot setGoalEntity(owner);
 	level.DeltaSquad_bots_alive ++;
     wait 0.05;
     bot thread monitorDeltaSquadBotDeath();
@@ -118,7 +117,6 @@ monitorDeltaSquadBotOwnerDistance()
 {
     self.goalradius = 500;
     self enable_danger_react(10);
-    //self thread showDangerReactStatus();
     self endon("dsg_death");
     for(;;)
     {
@@ -126,26 +124,7 @@ monitorDeltaSquadBotOwnerDistance()
         {
             self setGoalEntity(self.deltasquad_owner);
 			wait 2;
-			continue;
         }
         wait 2;
-    }
-}
-
-showDangerReactStatus()
-{
-    self endon("dsg_death");
-    for(;;)
-    {
-        if(self.doDangerReact)
-        {
-            color = (0,1,0);
-        }
-        else
-        {
-            color = (1,0,0);
-        }
-        print3D(self.origin+(0,0,100),"Danger React",color,1,0.5,1);
-        wait 0.05;
     }
 }
