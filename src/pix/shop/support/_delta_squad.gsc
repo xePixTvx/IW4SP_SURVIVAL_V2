@@ -83,10 +83,10 @@ spawnDeltaSquadBot(id,owner)
 {
 	spawners = GetSpawnerArray();
 	spawners[id].script_forcespawn = true;
-    //spawners[id].script_delayed_playerseek = true;
-	spawners[id].script_playerseek = true;
+    spawners[id].script_delayed_playerseek = undefined;
+	spawners[id].script_playerseek = undefined;
 	spawners[id].script_pacifist = undefined;
-	spawners[id].script_ignoreme = undefined;
+	spawners[id].script_ignoreme = true;
 	spawners[id].dontdropweapon = undefined;
 	spawners[id].script_stealth = undefined;
 	spawners[id].count = 9999;
@@ -95,9 +95,11 @@ spawnDeltaSquadBot(id,owner)
 	bot.team = "allies";
 	bot.health = 6000;//6000;
 	bot.deltasquad_owner = owner;
-    bot setGoalEntity(owner);
-	bot thread monitorDeltaSquadBotDeath();
+    //bot setGoalEntity(owner);
 	level.DeltaSquad_bots_alive ++;
+    wait 0.05;
+    bot thread monitorDeltaSquadBotDeath();
+    bot thread monitorDeltaSquadBotOwnerDistance();
 }
 
 monitorDeltaSquadBotDeath()
@@ -110,4 +112,40 @@ monitorDeltaSquadBotDeath()
 		self notify("dsg_death");
 		wait 0.05;
 	}
+}
+
+monitorDeltaSquadBotOwnerDistance()
+{
+    self.goalradius = 500;
+    self enable_danger_react(10);
+    //self thread showDangerReactStatus();
+    self endon("dsg_death");
+    for(;;)
+    {
+        if(distanceSquared(self.origin,self.deltasquad_owner.origin) > (self.goalradius*self.goalradius))
+        {
+            self setGoalEntity(self.deltasquad_owner);
+			wait 2;
+			continue;
+        }
+        wait 2;
+    }
+}
+
+showDangerReactStatus()
+{
+    self endon("dsg_death");
+    for(;;)
+    {
+        if(self.doDangerReact)
+        {
+            color = (0,1,0);
+        }
+        else
+        {
+            color = (1,0,0);
+        }
+        print3D(self.origin+(0,0,100),"Danger React",color,1,0.5,1);
+        wait 0.05;
+    }
 }
