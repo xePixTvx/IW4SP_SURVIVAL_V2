@@ -110,6 +110,11 @@ supportShopStruct()
         self addOption(-1,"main_support","Mortar Strike",pix\shop\support\_mortar_strike::buy_mortar,level.MortarStrike.type,level.price["mortar"]);
             self addPrice(self getLatestShopMenuOptionAdded(),"main_support",level.price["mortar"]);
     }
+    if(isDefined(level.DeltaSquad.spawnpoint))
+    {
+        self addOption(-1,"main_support","Delta Squad",pix\shop\support\_delta_squad::buy_deltaSquad,level.price["delta_squad"]);
+            self addPrice(self getLatestShopMenuOptionAdded(),"main_support",level.price["delta_squad"]);
+    }
 }
 
 

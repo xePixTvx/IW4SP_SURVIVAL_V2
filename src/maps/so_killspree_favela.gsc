@@ -113,6 +113,8 @@ init_IW4SP_Survival_setup()
 	//Mortar Strike
 	pix\shop\support\_mortar_strike::addMortarStrike("rpg_player");
 
+	//Delta Squad
+	pix\shop\support\_delta_squad::addDeltaSquad((-6369.54,2727.36,766.761),52,53,187,222);
 
 	level thread pix\_main::start_IW4SP_Survival();
 }

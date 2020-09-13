@@ -101,6 +101,11 @@ monitor_bot_death()
 	for(;;)
 	{
 		self waittill("death",attacker);
+		if(isDefined(attacker.deltasquad_owner))
+		{
+			attacker = attacker.deltasquad_owner;
+		}
+
 		if(self.damageLocation == "head")
 		{
 			attacker pix\player\_money::givePlayerMoney(self.kill_reward,self.headshot_reward);
@@ -122,6 +127,11 @@ monitor_bot_damage()
 	for(;;)
 	{
 		self waittill("damage",damage,attacker,direction_vec,point,type,modelName,tagName);
+		if(isDefined(attacker.deltasquad_owner))
+		{
+			attacker = attacker.deltasquad_owner;
+		}
+		
 		attacker pix\player\_money::givePlayerMoney(self.hit_reward);
 		wait 0.05;
 	}

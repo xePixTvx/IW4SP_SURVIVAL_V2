@@ -8,7 +8,6 @@
 /*
 	TODO:
 			WAVE SYSTEM & WAVE SCHEME --- Bot amount stuff to make wave setups easy to add/remove --- WAVE SCHEMES ARE CURRENTLY TEMPORARY
-			Add some sort of killstreak saving/using system
 */
 
 /*

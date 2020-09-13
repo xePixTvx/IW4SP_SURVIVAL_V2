@@ -13,6 +13,9 @@ init_shop()
 	level.price["fastmove"] = 2000;
 	level.price["mortar"] = 3000;
 
+	level.price["delta_squad"] = 5000;
+	level.DeltaSquad_Active = false;
+
 	level thread [[level.WeaponsSetup_func]]();
 
     level.shop_types = make_array("weapon","support");

@@ -34,6 +34,8 @@ buy_mortar(bullet,price)
         return;
     }
 	self pix\player\_money::takePlayerMoney(price);
+    wait .5;
+    self notify("shopMenu_close");
     self thread mortarStrike_main();//TMP!!!!!!
 }
 
