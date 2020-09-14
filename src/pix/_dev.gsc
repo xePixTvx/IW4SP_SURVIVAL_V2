@@ -7,11 +7,11 @@
 //use level.player thread pix\_dev::_init_dev_tool(); --- on map main() function --- before mod setup
 
 
-//set developer and developer_script dvars to 1 for info dumping
+//set developer and developer_script dvars to 1 to use all dev options
 
 _init_dev_tool()
 {
-	level.DEV_ALLOW_START = true;
+	level.DEV_ALLOW_START = false;
 	level.DEV_BOTS_PACIFIST = false;
 	
 	
@@ -29,6 +29,7 @@ _init_dev_tool()
 	dev_info_texts[8] = "^3K^7 - Test Vehicle Spawner";
 	dev_info_texts[9] = "^3N^7 - Super Speed";
 	dev_info_texts[10] = "^3M^7 - Test Function";
+	dev_info_texts[11] = "^3L^7 - Show Survival Spawnpoints";
 
 	self.DEV_HUD["Info"] = [];
 	for(i=0;i<dev_info_texts.size;i++)
@@ -40,6 +41,7 @@ _init_dev_tool()
 	self.dev_god = false;
 	test_bot_spawner_cycle = 0;
 	level.isPrintingInfoDump = false;
+	self.dev_showSpawnpoints = false;
 
 	self endon("end_dev_tool");
 	for(;;)
@@ -135,6 +137,22 @@ _init_dev_tool()
 			self _dev_test_function();
 			wait .4;
 		}
+		if(self buttonPressed("l"))
+		{
+			if(!self.dev_showSpawnpoints)
+			{
+				self.dev_showSpawnpoints = true;
+				self thread dev_showSpawnpoints();
+				iprintln("Show Survival Spawnpoints - ^2ON");
+			}
+			else
+			{
+				self.dev_showSpawnpoints = false;
+				self notify("end_show_spawnpoints");
+				iprintln("Show Survival Spawnpoints - ^1OFF");
+			}
+			wait .4;
+		}
 		wait 0.05;
 	}
 }
@@ -174,6 +192,41 @@ dev_dumpInfoToConsole(arrayToDump,printingName)
 	}
 	iprintln("^1Printing Finished!");
 	level.isPrintingInfoDump = false;
+}
+
+
+dev_showSpawnpoints()
+{
+	self endon("end_show_spawnpoints");
+	for(;;)
+	{
+		/#
+		if(isDefined(level.bot_spawnPoints))
+		{
+			foreach(index,point in level.bot_spawnPoints)
+			{
+				print3D(point+(0,0,50),"Bot Spawnpoint: " + index,(1,0,0),1,1.5,1);
+				line(self.origin+(0,0,50),point+(0,0,50),(1,0,0));
+			}
+		}
+		if(isDefined(level.player1_spawnPoint))
+		{
+			print3D(level.player1_spawnPoint+(0,0,50),"Player1 Spawnpoint",(0,1,0),1,1.5,1);
+			line(self.origin+(0,0,50),level.player1_spawnPoint+(0,0,50),(0,1,0));
+		}
+		if(isDefined(level.player2_spawnPoint))
+		{
+			print3D(level.player2_spawnPoint+(0,0,50),"Player2 Spawnpoint",(0,1,0),1,1.5,1);
+			line(self.origin+(0,0,50),level.player2_spawnPoint+(0,0,50),(0,1,0));
+		}
+		if(isDefined(level.DeltaSquad.spawnpoint))
+		{
+			print3D(level.DeltaSquad.spawnpoint+(0,0,50),"Delta Squad Spawnpoint",(0,0,1),1,1.5,1);
+			line(self.origin+(0,0,50),level.DeltaSquad.spawnpoint+(0,0,50),(0,0,1));
+		}
+		#/
+		wait 0.05;
+	}
 }
 
 

@@ -12,7 +12,8 @@
 
 /*
 	LAST WORKED ON:
-					Updated some dev stuff
+					Invasion Maps
+									add more spawnpoints for bots + create some trigger stuff to stop players from leaving the playable area
 */
 
 /*

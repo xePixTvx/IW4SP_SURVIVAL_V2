@@ -1,4 +1,4 @@
 main()
 {
-	level thread maps\map_survival_invasion::init_invasion();	
+	level thread maps\survival_invasion::init_invasion();	
 }
