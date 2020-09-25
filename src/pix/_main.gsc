@@ -41,6 +41,7 @@ start_IW4SP_Survival()
 	if(!isDefined(level.player1_spawnPoint)||!isDefined(level.player1_spawnAngle)||!isDefined(level.player2_spawnPoint)||!isDefined(level.player2_spawnAngle))
 	{
 		iprintln("^1IW4SP_SURVIVAL_ERROR:^7 ------ a player spawnpoint is not DEFINED! ------");
+		printToConsole("IW4SP_SURVIVAL_ERROR: ------ a player spawnpoint is not DEFINED! ------");
 		return;
 	}
 
@@ -49,6 +50,7 @@ start_IW4SP_Survival()
 	{
 		iprintln("^3IW4SP_SURVIVAL_WARNING:^7 ------ level.startWeapon is not DEFINED! ---- set to defaultweapon ------");
 		level.startWeapon = "defaultweapon";
+		printToConsole("IW4SP_SURVIVAL_WARNING: ------ level.startWeapon is not DEFINED! ---- set to defaultweapon ------");
 	}
 
 	//Check if Players Intro is defined --- if not use default
@@ -56,12 +58,14 @@ start_IW4SP_Survival()
 	{
 		iprintln("^3IW4SP_SURVIVAL_WARNING:^7 ------ level.players_intro is not DEFINED! ---- set to default ------");
 		level.players_intro = "default_zoom_in";
+		printToConsole("IW4SP_SURVIVAL_WARNING: ------ level.players_intro is not DEFINED! ---- set to default ------");
 	}
 
 	//Check if Wave Scheme is defined
 	if(!isDefined(level.wave_scheme))
 	{
 		iprintln("^1IW4SP_SURVIVAL_ERROR:^7 ------ level.wave_scheme not DEFINED! ------");
+		printToConsole("IW4SP_SURVIVAL_ERROR: ------ level.wave_scheme not DEFINED! ------");
 		return;
 	}
 
@@ -69,6 +73,7 @@ start_IW4SP_Survival()
 	if(!isDefined(level.bot_spawnPoints))
 	{
 		iprintln("^1IW4SP_SURVIVAL_ERROR:^7 ------ no bot spawnpoint DEFINED! ------");
+		printToConsole("IW4SP_SURVIVAL_ERROR: ------ no bot spawnpoint DEFINED! ------");
 		return;
 	}
 
@@ -76,6 +81,7 @@ start_IW4SP_Survival()
 	if(!isDefined(level.pix_spawner))
 	{
 		iprintln("^1IW4SP_SURVIVAL_ERROR:^7 ------ no bot spawner DEFINED! ------");
+		printToConsole("IW4SP_SURVIVAL_ERROR: ------ no bot spawner DEFINED! ------");
 		return;
 	}
 
@@ -94,6 +100,7 @@ start_IW4SP_Survival()
 	{
 		iprintln("^3IW4SP_SURVIVAL_WARNING:^7 ------ level.startWeapon is not DEFINED! ---- set to default_weaponshopSetup ------");
 		level.WeaponsSetup_func = pix\shop\_shop_weapon::default_weaponshopSetup;
+		printToConsole("IW4SP_SURVIVAL_WARNING: ------ level.startWeapon is not DEFINED! ---- set to default_weaponshopSetup ------");
 	}
 
 	//Precache Support Shop Icon + Model if defined

@@ -4,10 +4,7 @@
 #include maps\_hud_util;
 #include pix\_common_scripts;
 
-//use level.player thread pix\_dev::_init_dev_tool(); --- on map main() function --- before mod setup
-
-
-//set developer and developer_script dvars to 1 to use all dev options
+//set developer and developer_script dvars to 1 to use dev options
 
 _init_dev_tool()
 {

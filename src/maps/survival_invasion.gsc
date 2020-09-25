@@ -5,6 +5,9 @@
 #include maps\_specialops;
 #include pix\_common_scripts;
 
+//map so_defense_invasion & so_killspree_invasion
+
+
 init_invasion()
 {
     //Check if we could use some of those strings
@@ -40,7 +43,7 @@ init_invasion()
 	maps\_load::main();
 	thread maps\invasion_amb::main();
 	maps\invasion_anim::main_anim();
-	if(cointoss())
+	if(cointoss())//cointoss music selection
 	{
 		thread music_loop("so_defense_invasion_music",191);
 	}
@@ -77,7 +80,7 @@ init_invasion()
 	
 	//Setup Survival
 	init_IW4SP_Survival_setup();
-
+	
 	//--- IW4SP SURVIVAL END ---
 }
 
@@ -165,6 +168,7 @@ init_IW4SP_Survival_setup()
 	level.bot_spawnPoints = [];
 	level.bot_spawnPoints[0] = (3799.49,-5861.3,2306.89);
 	level.bot_spawnPoints[1] = (-4881.62,-2047.27,2314.79);
+	level.bot_spawnPoints[2] = (4676.17,-2774.83,2310.13);
 
 	//Bot Spawners
 	pix\bot\_bot_spawner::addSpawner(43,"default",level.bot_spawnPoints[0]);//ar
@@ -175,20 +179,18 @@ init_IW4SP_Survival_setup()
 	pix\bot\_bot_spawner::addSpawner(8,"default",level.bot_spawnPoints[1]);//shotgun
 	pix\bot\_bot_spawner::addSpawner(28,"default",level.bot_spawnPoints[1]);//lmg
 	pix\bot\_bot_spawner::addSpawner(25,"default",level.bot_spawnPoints[1]);//rpg
-
-	//More spawnpoints needed
-	/*pix\bot\_bot_spawner::addSpawner(3,"default",level.bot_spawnPoints[2]);//ar
+	pix\bot\_bot_spawner::addSpawner(3,"default",level.bot_spawnPoints[2]);//ar
 	pix\bot\_bot_spawner::addSpawner(20,"default",level.bot_spawnPoints[2]);//shotgun
 	pix\bot\_bot_spawner::addSpawner(64,"default",level.bot_spawnPoints[2]);//lmg
 	pix\bot\_bot_spawner::addSpawner(30,"default",level.bot_spawnPoints[2]);//rpg
-	pix\bot\_bot_spawner::addSpawner(44,"default",level.bot_spawnPoints[3]);//ar
-	pix\bot\_bot_spawner::addSpawner(68,"default",level.bot_spawnPoints[3]);//shotgun
-	pix\bot\_bot_spawner::addSpawner(81,"default",level.bot_spawnPoints[3]);//lmg
-	pix\bot\_bot_spawner::addSpawner(65,"default",level.bot_spawnPoints[3]);//rpg
-	pix\bot\_bot_spawner::addSpawner(45,"default",level.bot_spawnPoints[4]);//ar
-	pix\bot\_bot_spawner::addSpawner(60,"default",level.bot_spawnPoints[4]);//shotgun
-	pix\bot\_bot_spawner::addSpawner(152,"default",level.bot_spawnPoints[4]);//lmg
-	pix\bot\_bot_spawner::addSpawner(82,"default",level.bot_spawnPoints[4]);//rpg*/
+	pix\bot\_bot_spawner::addSpawner(44,"default",level.bot_spawnPoints[randomIntRange(0,2)]);//ar
+	pix\bot\_bot_spawner::addSpawner(68,"default",level.bot_spawnPoints[randomIntRange(0,2)]);//shotgun
+	pix\bot\_bot_spawner::addSpawner(81,"default",level.bot_spawnPoints[randomIntRange(0,2)]);//lmg
+	pix\bot\_bot_spawner::addSpawner(65,"default",level.bot_spawnPoints[randomIntRange(0,2)]);//rpg
+	pix\bot\_bot_spawner::addSpawner(45,"default",level.bot_spawnPoints[randomIntRange(0,2)]);//ar
+	pix\bot\_bot_spawner::addSpawner(60,"default",level.bot_spawnPoints[randomIntRange(0,2)]);//shotgun
+	pix\bot\_bot_spawner::addSpawner(152,"default",level.bot_spawnPoints[randomIntRange(0,2)]);//lmg
+	pix\bot\_bot_spawner::addSpawner(82,"default",level.bot_spawnPoints[randomIntRange(0,2)]);//rpg
 
 	//Weapon Shop
 	level.WeaponsSetup_func = maps\survival_invasion::setUpWeaponShop_Weapons;
