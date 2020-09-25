@@ -200,6 +200,10 @@ init_IW4SP_Survival_setup()
 	//Support Shop
 	pix\shop\_shop_support::addSupportShop((482.177,-5602.88,2358.13),(0,-90,0),"weapon_uav_control_unit","hud_burningcaricon");
 
+	//TESSSSTTTTTTT!!!!!!!!!!!!!!!!!!
+	//level.testriggerYAY = pix\map\_trigger_map_leave::addMapLeavingTrigger((-4506.39, -5559.04, 2310.13),100,100,"TestTrigger","TestTrigger");
+
+
 
 	level thread pix\_main::start_IW4SP_Survival();
 }

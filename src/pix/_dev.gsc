@@ -5,6 +5,7 @@
 #include pix\_common_scripts;
 
 //set developer and developer_script dvars to 1 to use dev options
+//to use the console print stuff you also need to use this: https://cabconmodding.com/threads/mw2-singleplayer-spec-ops-modloader.2481/
 
 _init_dev_tool()
 {
@@ -14,7 +15,7 @@ _init_dev_tool()
 		iprintlnBold("^1PLS Enable Dev Mode!(dvars = developer & developer_script)");
 	}
 
-	level.DEV_ALLOW_START = false;
+	level.DEV_ALLOW_START = true;
 	level.DEV_BOTS_PACIFIST = false;
 	
 	
