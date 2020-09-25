@@ -13,7 +13,7 @@
 /*
 	LAST WORKED ON:
 					Invasion Maps
-									add more spawnpoints for bots + create some trigger stuff to stop players from leaving the playable area
+									create some trigger stuff to stop players from leaving the playable area
 */
 
 /*

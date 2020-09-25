@@ -8,6 +8,12 @@
 
 _init_dev_tool()
 {
+	if(!isDeveloperMode())
+	{
+		iprintln("^1PLS Enable Dev Mode!(dvars = developer & developer_script)");
+		iprintlnBold("^1PLS Enable Dev Mode!(dvars = developer & developer_script)");
+	}
+
 	level.DEV_ALLOW_START = false;
 	level.DEV_BOTS_PACIFIST = false;
 	
@@ -197,31 +203,32 @@ dev_showSpawnpoints()
 	self endon("end_show_spawnpoints");
 	for(;;)
 	{
-		/#
-		if(isDefined(level.bot_spawnPoints))
+		if(isDeveloperMode())
 		{
-			foreach(index,point in level.bot_spawnPoints)
+			if(isDefined(level.bot_spawnPoints))
 			{
-				print3D(point+(0,0,50),"Bot Spawnpoint: " + index,(1,0,0),1,1.5,1);
-				line(self.origin+(0,0,50),point+(0,0,50),(1,0,0));
+				foreach(index,point in level.bot_spawnPoints)
+				{
+					print3D(point+(0,0,50),"Bot Spawnpoint: " + index,(1,0,0),1,1.5,1);
+					line(self.origin+(0,0,50),point+(0,0,50),(1,0,0));
+				}
+			}
+			if(isDefined(level.player1_spawnPoint))
+			{
+				print3D(level.player1_spawnPoint+(0,0,50),"Player1 Spawnpoint",(0,1,0),1,1.5,1);
+				line(self.origin+(0,0,50),level.player1_spawnPoint+(0,0,50),(0,1,0));
+			}
+			if(isDefined(level.player2_spawnPoint))
+			{
+				print3D(level.player2_spawnPoint+(0,0,50),"Player2 Spawnpoint",(0,1,0),1,1.5,1);
+				line(self.origin+(0,0,50),level.player2_spawnPoint+(0,0,50),(0,1,0));
+			}
+			if(isDefined(level.DeltaSquad.spawnpoint))
+			{
+				print3D(level.DeltaSquad.spawnpoint+(0,0,50),"Delta Squad Spawnpoint",(0,0,1),1,1.5,1);
+				line(self.origin+(0,0,50),level.DeltaSquad.spawnpoint+(0,0,50),(0,0,1));
 			}
 		}
-		if(isDefined(level.player1_spawnPoint))
-		{
-			print3D(level.player1_spawnPoint+(0,0,50),"Player1 Spawnpoint",(0,1,0),1,1.5,1);
-			line(self.origin+(0,0,50),level.player1_spawnPoint+(0,0,50),(0,1,0));
-		}
-		if(isDefined(level.player2_spawnPoint))
-		{
-			print3D(level.player2_spawnPoint+(0,0,50),"Player2 Spawnpoint",(0,1,0),1,1.5,1);
-			line(self.origin+(0,0,50),level.player2_spawnPoint+(0,0,50),(0,1,0));
-		}
-		if(isDefined(level.DeltaSquad.spawnpoint))
-		{
-			print3D(level.DeltaSquad.spawnpoint+(0,0,50),"Delta Squad Spawnpoint",(0,0,1),1,1.5,1);
-			line(self.origin+(0,0,50),level.DeltaSquad.spawnpoint+(0,0,50),(0,0,1));
-		}
-		#/
 		wait 0.05;
 	}
 }

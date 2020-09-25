@@ -71,9 +71,10 @@ init_invasion()
 	//--- IW4SP SURVIVAL ---
 
 	//DEV
-	/#
-	level.player thread pix\_dev::_init_dev_tool();
-	#/
+	if(isDeveloperMode())
+	{
+		level.player thread pix\_dev::_init_dev_tool();
+	}
 
 	//minimap & compass
 	minimap_setup("compass_map_invasion");

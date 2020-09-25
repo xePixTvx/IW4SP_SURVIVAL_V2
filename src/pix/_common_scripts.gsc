@@ -353,6 +353,13 @@ getIW4Difficulty()
 }*/
 
 
+isDeveloperMode()
+{
+    /#
+    return true;
+    #/
+    return false;
+}
 
 printToConsole(text,lineBreak)
 {
@@ -360,14 +367,15 @@ printToConsole(text,lineBreak)
     {
         lineBreak = true;
     }
-    /#
-    if(lineBreak)
+    if(isDeveloperMode())
     {
-        println(text);
+        if(lineBreak)
+        {
+            println(text);
+        }
+        else
+        {
+            print(text);
+        }
     }
-    else
-    {
-        print(text);
-    }
-    #/
 }
