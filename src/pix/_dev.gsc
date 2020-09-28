@@ -15,7 +15,7 @@ _init_dev_tool()
 		iprintlnBold("^1PLS Enable Dev Mode!(dvars = developer & developer_script)");
 	}
 
-	level.DEV_ALLOW_START = true;
+	level.DEV_ALLOW_START = false;
 	level.DEV_BOTS_PACIFIST = false;
 	
 	
@@ -34,6 +34,7 @@ _init_dev_tool()
 	dev_info_texts[9] = "^3N^7 - Super Speed";
 	dev_info_texts[10] = "^3M^7 - Test Function";
 	dev_info_texts[11] = "^3L^7 - Show Survival Spawnpoints";
+	dev_info_texts[12] = "^3F1^7 - Show Triggers[^1NONE^7]";
 
 	self.DEV_HUD["Info"] = [];
 	for(i=0;i<dev_info_texts.size;i++)
@@ -46,6 +47,10 @@ _init_dev_tool()
 	test_bot_spawner_cycle = 0;
 	level.isPrintingInfoDump = false;
 	self.dev_showSpawnpoints = false;
+	level.debugTriggerListCreated = false;
+	self thread createDebugTriggerList();
+	level.debugTriggerTypes = make_array("NONE","MAP LEAVING");
+	self.debugTriggerScroller = 0;
 
 	self endon("end_dev_tool");
 	for(;;)
@@ -157,6 +162,23 @@ _init_dev_tool()
 			}
 			wait .4;
 		}
+		if(self buttonPressed("F1"))
+		{
+			if(level.debugTriggerListCreated)
+			{
+				self.debugTriggerScroller ++;
+				if(self.debugTriggerScroller>level.debugTriggerTypes.size-1)
+				{
+					self.debugTriggerScroller = 0;
+				}
+				self updateTriggersToShow();
+			}
+			else
+			{
+				iprintln("^1No Triggers Found!");
+			}
+			wait .4;
+		}
 		wait 0.05;
 	}
 }
@@ -233,6 +255,118 @@ dev_showSpawnpoints()
 		wait 0.05;
 	}
 }
+
+
+
+createDebugTriggerList()
+{
+	level waittill("host_spawn_complete");
+
+	if(isDefined(level.survival_map_leaving_triggers))
+	{
+		level.debug_survival_map_leaving_triggers = [];
+		for(i=0;i<level.survival_map_leaving_triggers.size;i++)
+		{
+			s = level.debug_survival_map_leaving_triggers.size;
+			level.debug_survival_map_leaving_triggers[s] = createDebugCircle(level.survival_map_leaving_triggers[i].centerPos,level.survival_map_leaving_triggers[i].radius,(1,0,0),true,"Map Leaving Trigger " + i);
+		}
+
+		level.debugTriggerListCreated = true;
+	}
+}
+updateTriggersToShow()
+{
+	self.DEV_HUD["Info"][12] setText("^3F1^7 - Show Triggers[^1" + level.debugTriggerTypes[self.debugTriggerScroller] +"^7]");
+
+	if(isDefined(level.debug_survival_map_leaving_triggers))
+	{
+		foreach(circ in level.debug_survival_map_leaving_triggers)
+		{
+			circ notify("end_Drawing");
+		}
+	}
+
+
+	if(level.debugTriggerTypes[self.debugTriggerScroller]=="MAP LEAVING")
+	{
+		if(isDefined(level.debug_survival_map_leaving_triggers))
+		{
+			foreach(circ in level.debug_survival_map_leaving_triggers)
+			{
+				circ thread drawDebugCircle();
+			}
+		}
+	}
+}
+
+//Debug Circle for showing trigger radius
+createDebugCircle(origin,radius,color,fillCenter,text)
+{
+    circle = spawnStruct();
+    circle.origin = origin;
+    circle.color = color;
+    circle.radius = radius;
+    circle.fillCenter = fillCenter;
+	circle.text = text;
+    circle.points = [];
+
+    circle_sides = 16;
+	angleFrac = 360/circle_sides;
+	circlepoints = [];
+	for(i=0;i<circle_sides;i++)
+	{
+		angle = (angleFrac * i);
+		xAdd = cos(angle) * radius;
+		yAdd = sin(angle) * radius;
+		x = origin[0] + xAdd;
+		y = origin[1] + yAdd;
+		z = origin[2];
+		circlepoints[circlepoints.size] = (x,y,z);
+	}
+    circle.points = circlepoints;
+    return circle;
+}
+drawDebugCircle()
+{
+    for(i=0;i<self.points.size;i++)
+	{
+		start = self.points[i];
+		if ( i + 1 >= self.points.size )
+        {
+			end = self.points[0];
+        }
+		else
+        {
+			end = self.points[i + 1];
+        }
+        self thread drawDebugCircleLines(start,end,self.color);
+		if(self.fillCenter)
+        {
+            self thread drawDebugCircleLines(self.origin,start,self.color);
+        }
+	}
+}
+drawDebugCircleLines(start,end,color)
+{
+    self endon("end_Drawing");
+    for(;;)
+	{
+		print3D(self.origin+(0,0,50),self.text,(1,0,0),1,1.5);
+		line(start,end,color);
+		wait 0.05;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 _dev_test_function()
