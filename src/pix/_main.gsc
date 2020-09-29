@@ -37,6 +37,10 @@ start_IW4SP_Survival()
 	precacheShader("xpbar_stencilbase");
 	precacheShader("menu_setting_selection_bar");
 
+	//Precache Map Leaving Strings
+	precacheString(&"SPECIAL_OPS_ESCAPE_WARNING");
+	precacheString(&"SPECIAL_OPS_ESCAPE_SPLASH");
+
 	//Check if Player Spawnpoints & Spawnangles are defined
 	if(!isDefined(level.player1_spawnPoint)||!isDefined(level.player1_spawnAngle)||!isDefined(level.player2_spawnPoint)||!isDefined(level.player2_spawnAngle))
 	{
@@ -111,6 +115,13 @@ start_IW4SP_Survival()
 	if(isDefined(level.shop_info["support"].headIcon))
 	{
 		precacheShader(level.shop_info["support"].headIcon);
+	}
+
+	//Map Leaving Stuff
+	if(isDefined(level.survival_use_so_escape_triggers) && level.survival_use_so_escape_triggers)
+	{
+		level thread maps\_specialops::enable_escape_warning();
+		level thread maps\_specialops::enable_escape_failure();
 	}
 
 	//Start Mod Systems

@@ -15,15 +15,35 @@ addMapLeavingTrigger(origin,radius)
     level.survival_map_leaving_triggers[i].type = "trigger_map_leave";
     level.survival_map_leaving_triggers[i].centerPos = origin;
     level.survival_map_leaving_triggers[i].radius = radius;
-    level.survival_map_leaving_triggers[i] thread trigger_touch_test();
+    level.survival_map_leaving_triggers[i] thread updateMapLeavingTrigger();
 }
 
 
-trigger_touch_test()
+updateMapLeavingTrigger()
 {
     for(;;)
     {
-        self waittill("trigger");
-        iprintlnBold("^1Touching");
+        self waittill("trigger",player);
+        self thread updateMapLeavingPlayer(player);
     }
+}
+
+
+updateMapLeavingPlayer(player)
+{
+    if(!isDefined(player.isInsideMapLeaveTrigger))
+    {
+        player.isInsideMapLeaveTrigger = false;
+    }
+    if(player.isInsideMapLeaveTrigger)
+    {
+        return;
+    }
+    player.isInsideMapLeaveTrigger = true;
+    while(player isTouching(self))
+    {
+        iprintln("^1UPDATE");
+        wait 2;
+    }
+    player.isInsideMapLeaveTrigger = false;
 }

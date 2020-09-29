@@ -160,6 +160,7 @@ init_IW4SP_Survival_setup()
 	level.players_intro = "default_zoom_in";
 
 	//Player Spawnpoints & Start Weapon
+	//p1 origin: (-4215.57,-5834.71,2310.13)
 	level pix\player\_player::addPlayers((-4215.57,-5834.71,2310.13),(0,88.3502,0),(-4454.06,-5827.83,2310.13),(0,88.3502,0),"beretta");
 
 	//Wave Scheme
@@ -201,7 +202,8 @@ init_IW4SP_Survival_setup()
 	pix\shop\_shop_support::addSupportShop((482.177,-5602.88,2358.13),(0,-90,0),"weapon_uav_control_unit","hud_burningcaricon");
 
 	//Map Leaving Triggers
-	pix\map\_trigger_map_leave::addMapLeavingTrigger((-4506.39,-5559.04,2310.13),300);//TESTTTTT
+	level.survival_use_so_escape_triggers = true;
+	pix\map\_trigger_map_leave::addMapLeavingTrigger((-4583.89, -3619.79, 2310.13),200);//actually not needed on this map
 
 
 
