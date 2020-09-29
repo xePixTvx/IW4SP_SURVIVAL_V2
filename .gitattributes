@@ -1,1 +1,2 @@
 *.gsc linguist-language=cpp
+*.menu linguist-language=cpp
