@@ -1,0 +1,256 @@
+[     54273] ---------------------------------------------------------------
+[     54276] --- IW4SP_SURVIVAL Bot Spawner Info Dump ---
+[     54280] --- Size: 42 ---
+[     54283] ---------------------------------------------------------------
+[     54769] 
+[     54773] ----------------------------------
+[     54776] Index Number(id): 0
+[     54779] Classname: actor_enemy_merc_SMG
+[     54783] undefined
+[     54786] ----------------------------------
+[     54970] 
+[     54973] ----------------------------------
+[     54977] Index Number(id): 1
+[     54980] Classname: actor_enemy_merc_AR
+[     54983] undefined
+[     54987] ----------------------------------
+[     55170] 
+[     55173] ----------------------------------
+[     55177] Index Number(id): 2
+[     55180] Classname: actor_enemy_merc_SHOTGUNAUTO
+[     55183] undefined
+[     55186] ----------------------------------
+[     55369] 
+[     55372] ----------------------------------
+[     55376] Index Number(id): 3
+[     55379] Classname: actor_enemy_merc_SNPR
+[     55382] undefined
+[     55385] ----------------------------------
+[     55570] 
+[     55573] ----------------------------------
+[     55577] Index Number(id): 4
+[     55580] Classname: actor_enemy_ghillie_sniper
+[     55583] undefined
+[     55587] ----------------------------------
+[     55772] 
+[     55776] ----------------------------------
+[     55779] Index Number(id): 5
+[     55782] Classname: actor_enemy_merc_SHOTGUNAUTO
+[     55785] Targetname: patrol_enemy_crates
+[     55789] ----------------------------------
+[     55968] 
+[     55971] ----------------------------------
+[     55974] Index Number(id): 6
+[     55977] Classname: actor_enemy_merc_AR
+[     55981] Targetname: patrol_enemy_crates
+[     55984] ----------------------------------
+[     56170] 
+[     56173] ----------------------------------
+[     56176] Index Number(id): 7
+[     56179] Classname: actor_enemy_ghillie_sniper
+[     56182] Targetname: ghillie_enemy_houses
+[     56186] ----------------------------------
+[     56372] 
+[     56375] ----------------------------------
+[     56379] Index Number(id): 8
+[     56382] Classname: actor_enemy_ghillie_sniper
+[     56386] Targetname: ghillie_enemy_houses
+[     56389] ----------------------------------
+[     56568] 
+[     56573] ----------------------------------
+[     56576] Index Number(id): 9
+[     56579] Classname: actor_enemy_ghillie_sniper
+[     56582] Targetname: ghillie_enemy_houses
+[     56586] ----------------------------------
+[     56765] 
+[     56769] ----------------------------------
+[     56772] Index Number(id): 10
+[     56775] Classname: actor_enemy_ghillie_sniper
+[     56778] Targetname: ghillie_enemy_houses
+[     56781] ----------------------------------
+[     56965] 
+[     56968] ----------------------------------
+[     56972] Index Number(id): 11
+[     56975] Classname: actor_enemy_ghillie_sniper
+[     56978] Targetname: ghillie_enemy_houses
+[     56981] ----------------------------------
+[     57164] 
+[     57168] ----------------------------------
+[     57171] Index Number(id): 12
+[     57174] Classname: actor_enemy_merc_SMG
+[     57178] Targetname: patrol_enemy_crates
+[     57181] ----------------------------------
+[     57363] 
+[     57366] ----------------------------------
+[     57371] Index Number(id): 13
+[     57374] Classname: actor_enemy_merc_SMG
+[     57377] Targetname: patrol_enemy_crates
+[     57381] ----------------------------------
+[     57564] 
+[     57568] ----------------------------------
+[     57571] Index Number(id): 14
+[     57574] Classname: actor_enemy_merc_AR
+[     57577] Targetname: patrol_enemy_church
+[     57580] ----------------------------------
+[     57768] 
+[     57772] ----------------------------------
+[     57775] Index Number(id): 15
+[     57778] Classname: actor_enemy_merc_AR
+[     57781] Targetname: patrol_enemy_church
+[     57785] ----------------------------------
+[     57962] 
+[     57966] ----------------------------------
+[     57971] Index Number(id): 16
+[     57975] Classname: actor_enemy_merc_SMG
+[     57978] Targetname: patrol_enemy_church
+[     57981] ----------------------------------
+[     58163] 
+[     58167] ----------------------------------
+[     58171] Index Number(id): 17
+[     58174] Classname: actor_enemy_merc_SNPR
+[     58177] Targetname: patrol_enemy_church
+[     58180] ----------------------------------
+[     58363] 
+[     58366] ----------------------------------
+[     58372] Index Number(id): 18
+[     58375] Classname: actor_enemy_merc_AR
+[     58378] Targetname: patrol_enemy_church
+[     58380] ----------------------------------
+[     58559] 
+[     58560] ----------------------------------
+[     58563] Index Number(id): 19
+[     58565] Classname: actor_enemy_merc_AR
+[     58567] Targetname: patrol_enemy_church
+[     58569] ----------------------------------
+[     58762] 
+[     58764] ----------------------------------
+[     58766] Index Number(id): 20
+[     58770] Classname: actor_enemy_merc_AR
+[     58772] Targetname: patrol_enemy_church
+[     58774] ----------------------------------
+[     58962] 
+[     58965] ----------------------------------
+[     58968] Index Number(id): 21
+[     58970] Classname: actor_enemy_merc_SHOTGUNAUTO
+[     58973] Targetname: patrol_enemy_houses
+[     58976] ----------------------------------
+[     59162] 
+[     59165] ----------------------------------
+[     59169] Index Number(id): 22
+[     59172] Classname: actor_enemy_merc_AR
+[     59175] Targetname: patrol_enemy_houses
+[     59179] ----------------------------------
+[     59361] 
+[     59365] ----------------------------------
+[     59368] Index Number(id): 23
+[     59371] Classname: actor_enemy_merc_AR
+[     59375] Targetname: patrol_enemy_houses
+[     59378] ----------------------------------
+[     59562] 
+[     59566] ----------------------------------
+[     59570] Index Number(id): 24
+[     59573] Classname: actor_enemy_merc_AR
+[     59576] Targetname: patrol_enemy_barn
+[     59579] ----------------------------------
+[     59760] 
+[     59764] ----------------------------------
+[     59767] Index Number(id): 25
+[     59771] Classname: actor_enemy_ghillie_sniper
+[     59774] Targetname: ghillie_enemy_crates
+[     59777] ----------------------------------
+[     59962] 
+[     59966] ----------------------------------
+[     59969] Index Number(id): 26
+[     59972] Classname: actor_enemy_merc_SMG
+[     59975] Targetname: patrol_enemy_houses
+[     59979] ----------------------------------
+[     60161] 
+[     60164] ----------------------------------
+[     60168] Index Number(id): 27
+[     60171] Classname: actor_enemy_merc_AR
+[     60175] Targetname: patrol_enemy_houses
+[     60178] ----------------------------------
+[     60363] 
+[     60366] ----------------------------------
+[     60370] Index Number(id): 28
+[     60373] Classname: actor_enemy_merc_AR
+[     60377] Targetname: patrol_enemy_houses
+[     60380] ----------------------------------
+[     60565] 
+[     60569] ----------------------------------
+[     60573] Index Number(id): 29
+[     60576] Classname: actor_enemy_ghillie_sniper
+[     60580] Targetname: ghillie_enemy_crates
+[     60583] ----------------------------------
+[     60762] 
+[     60766] ----------------------------------
+[     60770] Index Number(id): 30
+[     60773] Classname: actor_enemy_ghillie_sniper
+[     60776] Targetname: ghillie_enemy_crates
+[     60779] ----------------------------------
+[     60962] 
+[     60965] ----------------------------------
+[     60968] Index Number(id): 31
+[     60972] Classname: actor_enemy_ghillie_sniper
+[     60975] Targetname: ghillie_enemy_valley
+[     60978] ----------------------------------
+[     61164] 
+[     61167] ----------------------------------
+[     61170] Index Number(id): 32
+[     61174] Classname: actor_enemy_ghillie_sniper
+[     61177] Targetname: ghillie_enemy_valley
+[     61180] ----------------------------------
+[     61362] 
+[     61366] ----------------------------------
+[     61369] Index Number(id): 33
+[     61372] Classname: actor_enemy_ghillie_sniper
+[     61376] Targetname: ghillie_enemy_valley
+[     61379] ----------------------------------
+[     61560] 
+[     61563] ----------------------------------
+[     61566] Index Number(id): 34
+[     61569] Classname: actor_enemy_ghillie_sniper
+[     61573] Targetname: ghillie_enemy_valley
+[     61576] ----------------------------------
+[     61760] 
+[     61763] ----------------------------------
+[     61767] Index Number(id): 35
+[     61770] Classname: actor_enemy_merc_SHOTGUNAUTO
+[     61773] Targetname: patrol_enemy_barn
+[     61777] ----------------------------------
+[     61963] 
+[     61967] ----------------------------------
+[     61970] Index Number(id): 36
+[     61974] Classname: actor_enemy_merc_SHOTGUNAUTO
+[     61977] Targetname: patrol_enemy_barn
+[     61980] ----------------------------------
+[     62162] 
+[     62165] ----------------------------------
+[     62169] Index Number(id): 37
+[     62172] Classname: actor_enemy_merc_SMG
+[     62175] Targetname: patrol_enemy_barn
+[     62178] ----------------------------------
+[     62361] 
+[     62364] ----------------------------------
+[     62367] Index Number(id): 38
+[     62371] Classname: actor_enemy_merc_SHOTGUNAUTO
+[     62374] Targetname: patrol_enemy_barn
+[     62377] ----------------------------------
+[     62560] 
+[     62564] ----------------------------------
+[     62567] Index Number(id): 39
+[     62570] Classname: actor_enemy_merc_SMG
+[     62574] Targetname: patrol_enemy_barn
+[     62577] ----------------------------------
+[     62765] 
+[     62769] ----------------------------------
+[     62772] Index Number(id): 40
+[     62775] Classname: actor_enemy_merc_SHOTGUNAUTO
+[     62778] Targetname: patrol_enemy_barn
+[     62782] ----------------------------------
+[     62961] 
+[     62964] ----------------------------------
+[     62967] Index Number(id): 41
+[     62970] Classname: actor_enemy_ghillie_sniper
+[     62974] Targetname: ghillie_enemy_valley
+[     62977] ----------------------------------

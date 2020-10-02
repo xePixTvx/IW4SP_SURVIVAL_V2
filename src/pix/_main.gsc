@@ -12,9 +12,13 @@
 
 /*
 	LAST WORKED ON:
-					Invasion Maps
-									create some trigger stuff to stop players from leaving the playable area
 */
+
+/*
+	PAUSED:
+			Map Leaving Triggers ----- wait for the right map to do it
+*/
+
 
 /*
 	KOWN BUGS:

@@ -1,0 +1,279 @@
+{
+	menuDef
+	{
+		name "pausedmenu"
+		rect 0 0 640 480 0 0
+		legacySplitScreenScale
+		forecolor 1 1 1 1
+		focuscolor 1 1 1 1
+		allowedBinding "pause"
+		onOpen
+		{
+			//showMenu "pausedbkgnd" showMenu "objectiveinfo" showMenu "overheadmap" focusfirst;
+		}
+		onClose
+		{
+			//hideMenu "pausedbkgnd" hideMenu "objectiveinfo" hideMenu "overheadmap";
+		}
+		onEsc
+		{
+			close "pausedmenu";
+		}
+		
+		//Title
+		itemDef
+		{
+			name "pausedMsg"
+			rect -160 13 160 40 10 8
+			decoration
+			visible 1
+			forecolor 1 1 1 1
+			textfont 9
+			textalign 4
+			textscale 0.5
+			text "^1Paused Menu"
+			exp rect y (13+((dvarbool("specialops"))||(dvarstring("mapname")=="ending" && dvarstring("ui_char_museum_mode")=="free"))*24)
+			visible when (!dvarbool("coop"))
+		}
+		
+		//Resume Game
+		itemDef
+		{
+			name "resumegame"
+			rect -200 48 336 20 10 8
+			group "paused_buttons"
+			style 1
+			visible 1
+			forecolor 1 1 1 1
+			disablecolor 0.6 0.55 0.55 1
+			background "popup_button_selection_bar"
+			type 1
+			textfont 3
+			textalign 4
+			textalignx 40
+			textscale 0.375
+			text "@MENU_RESUMEGAME"
+			exp rect y ((28+1*20)+((dvarbool( "specialops"))||(dvarstring("mapname")=="ending"&&dvarstring("ui_char_museum_mode")=="free"))*24)
+			visible 1
+			action
+			{
+				play "mouse_click";
+				play "mouse_click";
+				close "pausedmenu";
+			}
+			onFocus
+			{
+				play "mouse_over";
+				if(dvarstring("gameMode")!="mp")
+				{
+					setItemColor "mw2_button" backcolor 0 0 0 0;
+				}
+				setItemColor self backcolor 0 0 0 1;
+				setLocalVarBool "ui_menuAButton" (1);
+				setLocalVarFloat "ui_popupYPos" (getfocuseditemy());
+				play "mouse_over";
+			}
+			leaveFocus
+			{
+				setItemColor self backcolor 0 0 0 "0.0";
+				setLocalVarString "ui_hint_text" ("@NULL_EMPTY");
+				setLocalVarBool "ui_menuAButton" (0);
+				setItemColor "paused_buttons" backcolor 0 0 0 "0.0";
+			}
+		}
+		
+		//Map Restart
+		itemDef
+		{
+			name "maprestart"
+			rect -200 48 336 20 10 8
+			group "paused_buttons"
+			style 1
+			visible 1
+			forecolor 1 1 1 1
+			disablecolor 0.6 0.55 0.55 1
+			background "popup_button_selection_bar"
+			type 1
+			textfont 3
+			textalign 4
+			textalignx 40
+			textscale 0.375
+			text "^1Restart Map"
+			exp rect y ((28+2*20)+((dvarbool( "specialops"))||(dvarstring("mapname")=="ending"&&dvarstring("ui_char_museum_mode")=="free"))*24)
+			visible 1
+			action
+			{
+				play "mouse_click";
+				play "mouse_click";
+				close "pausedmenu";
+				exec "map_restart";
+			}
+			onFocus
+			{
+				play "mouse_over";
+				if(dvarstring("gameMode")!="mp")
+				{
+					setItemColor "mw2_button" backcolor 0 0 0 0;
+				}
+				setItemColor self backcolor 0 0 0 1;
+				setLocalVarBool "ui_menuAButton" (1);
+				setLocalVarFloat "ui_popupYPos" (getfocuseditemy());
+				play "mouse_over";
+			}
+			leaveFocus
+			{
+				setItemColor self backcolor 0 0 0 "0.0";
+				setLocalVarString "ui_hint_text" ("@NULL_EMPTY");
+				setLocalVarBool "ui_menuAButton" (0);
+				setItemColor "paused_buttons" backcolor 0 0 0 "0.0";
+			}
+		}
+		
+		//Toggle sv_cheats
+		itemDef
+		{
+			name "togglecheats"
+			rect -200 48 336 20 10 8
+			group "paused_buttons"
+			style 1
+			forecolor 1 1 1 1
+			disablecolor 0.6 0.55 0.55 1
+			background "popup_button_selection_bar"
+			type 11
+			textfont 3
+			textalign 6
+			textalignx -350
+			textscale 0.375
+			dvar "sv_cheats"
+			visible 1
+			exp rect y ((28+3*20)+((dvarbool( "specialops"))||(dvarstring("mapname")=="ending"&&dvarstring("ui_char_museum_mode")=="free"))*24)
+			action
+			{
+				play "mouse_click";
+				play "mouse_click";
+				close "pausedmenu";
+				exec "map_restart";
+			}
+			onFocus
+			{
+				setItemColor self backcolor 0 0 0 1 
+				play "mouse_over";
+			}
+			leaveFocus
+			{
+				setItemColor self backcolor 0 0 0 0;
+			}
+		}
+		itemDef
+		{
+			rect -200 48 336 20 10 8
+			decoration
+			visible 1
+			forecolor 1 1 1 1
+			disablecolor 0.6 0.55 0.55 1
+			textfont 3
+			textalign 6
+			textalignx -241
+			textscale 0.375
+			exp rect y ((28+3*20)+((dvarbool( "specialops"))||(dvarstring("mapname")=="ending"&&dvarstring("ui_char_museum_mode")=="free"))*24)
+			text "^1sv_cheats"
+			visible 1
+		}
+		
+		//Quit
+		itemDef
+		{
+			name "quit"
+			rect -200 48 336 20 10 8
+			group "paused_buttons"
+			style 1
+			visible 1
+			forecolor 1 1 1 1
+			disablecolor 0.6 0.55 0.55 1
+			background "popup_button_selection_bar"
+			type 1
+			textfont 3
+			textalign 4
+			textalignx 40
+			textscale 0.375
+			text "Quit"
+			exp rect y ((28+4*20)+((dvarbool( "specialops"))||(dvarstring("mapname")=="ending"&&dvarstring("ui_char_museum_mode")=="free"))*24)
+			visible 1
+			action
+			{
+				play "mouse_click";
+				play "mouse_click";
+				close "pausedmenu";
+				exec "disconnect";
+			}
+			onFocus
+			{
+				play "mouse_over";
+				if(dvarstring("gameMode")!="mp")
+				{
+					setItemColor "mw2_button" backcolor 0 0 0 0;
+				}
+				setItemColor self backcolor 0 0 0 1;
+				setLocalVarBool "ui_menuAButton" (1);
+				setLocalVarFloat "ui_popupYPos" (getfocuseditemy());
+				play "mouse_over";
+			}
+			leaveFocus
+			{
+				setItemColor self backcolor 0 0 0 "0.0";
+				setLocalVarString "ui_hint_text" ("@NULL_EMPTY");
+				setLocalVarBool "ui_menuAButton" (0);
+				setItemColor "paused_buttons" backcolor 0 0 0 "0.0";
+			}
+		}
+		
+		/* something is wrong
+		//Toggle noclip
+		itemDef
+		{
+			name "togglenoclip"
+			rect -200 48 336 20 10 8
+			group "paused_buttons"
+			style 1
+			forecolor 1 1 1 1
+			disablecolor 0.6 0.55 0.55 1
+			background "popup_button_selection_bar"
+			type 11
+			textfont 3
+			textalign 6
+			textalignx -350
+			textscale 0.375
+			exp rect y ((28+5*20)+((dvarbool( "specialops"))||(dvarstring("mapname")=="ending"&&dvarstring("ui_char_museum_mode")=="free"))*24)
+			dvar "noclip"
+			visible when (dvarbool("sv_cheats"))
+			action
+			{
+				play "mouse_click";
+			}
+			onFocus
+			{
+				setItemColor self backcolor 0 0 0 1 
+				play "mouse_over";
+			}
+			leaveFocus
+			{
+				setItemColor self backcolor 0 0 0 0;
+			}
+		}
+		itemDef
+		{
+			rect -200 48 336 20 10 8
+			decoration
+			forecolor 1 1 1 1
+			disablecolor 0.6 0.55 0.55 1
+			textfont 3
+			textalign 6
+			textalignx -220
+			textscale 0.375
+			exp rect y ((28+5*20)+((dvarbool( "specialops"))||(dvarstring("mapname")=="ending"&&dvarstring("ui_char_museum_mode")=="free"))*24)
+			text "^1Toggle Noclip"
+			visible when (dvarbool("sv_cheats"))
+		}
+		*/
+	}
+}

@@ -1,0 +1,1751 @@
+[     59061] ---------------------------------------------------------------
+[     59065] --- IW4SP_SURVIVAL Bot Spawner Info Dump ---
+[     59068] --- Size: 290 ---
+[     59072] ---------------------------------------------------------------
+[     59553] 
+[     59556] ----------------------------------
+[     59560] Index Number(id): 0
+[     59563] Classname: actor_civilian_slum_male
+[     59566] Targetname: street_civilian
+[     59570] ----------------------------------
+[     59751] 
+[     59754] ----------------------------------
+[     59758] Index Number(id): 1
+[     59761] Classname: actor_civilian_slum_male
+[     59764] Targetname: street_civilian
+[     59767] ----------------------------------
+[     59949] 
+[     59952] ----------------------------------
+[     59956] Index Number(id): 2
+[     59959] Classname: actor_civilian_slum_male
+[     59962] Targetname: street_civilian
+[     59965] ----------------------------------
+[     60145] 
+[     60148] ----------------------------------
+[     60151] Index Number(id): 3
+[     60154] Classname: actor_enemy_favela_AR
+[     60157] Targetname: pf0_auto27
+[     60161] ----------------------------------
+[     60345] 
+[     60348] ----------------------------------
+[     60351] Index Number(id): 4
+[     60354] Classname: actor_enemy_favela_LMG
+[     60358] Targetname: pf0_auto29
+[     60361] ----------------------------------
+[     60542] 
+[     60545] ----------------------------------
+[     60548] Index Number(id): 5
+[     60551] Classname: actor_enemy_favela_AR
+[     60555] Targetname: pf0_auto30
+[     60558] ----------------------------------
+[     60739] 
+[     60743] ----------------------------------
+[     60746] Index Number(id): 6
+[     60749] Classname: actor_enemy_favela_AR
+[     60752] Targetname: pf0_auto31
+[     60755] ----------------------------------
+[     60940] 
+[     60943] ----------------------------------
+[     60946] Index Number(id): 7
+[     60949] Classname: actor_enemy_favela_AR
+[     60952] Targetname: pf0_auto28
+[     60956] ----------------------------------
+[     61140] 
+[     61143] ----------------------------------
+[     61146] Index Number(id): 8
+[     61149] Classname: actor_enemy_favela_AR
+[     61152] Targetname: pf0_auto32
+[     61155] ----------------------------------
+[     61337] 
+[     61341] ----------------------------------
+[     61344] Index Number(id): 9
+[     61347] Classname: actor_enemy_favela_AR
+[     61350] Targetname: pf0_auto32
+[     61353] ----------------------------------
+[     61536] 
+[     61540] ----------------------------------
+[     61543] Index Number(id): 10
+[     61546] Classname: actor_enemy_favela_LMG
+[     61549] Targetname: pf0_auto32
+[     61552] ----------------------------------
+[     61739] 
+[     61742] ----------------------------------
+[     61745] Index Number(id): 11
+[     61748] Classname: actor_enemy_favela_AR
+[     61751] Targetname: pf0_auto32
+[     61755] ----------------------------------
+[     61938] 
+[     61942] ----------------------------------
+[     61945] Index Number(id): 12
+[     61948] Classname: actor_enemy_favela_SMG
+[     61951] Targetname: pf0_auto32
+[     61954] ----------------------------------
+[     62141] 
+[     62144] ----------------------------------
+[     62146] Index Number(id): 13
+[     62147] Classname: actor_enemy_favela_RPG
+[     62148] Targetname: pf0_auto34
+[     62150] ----------------------------------
+[     62340] 
+[     62342] ----------------------------------
+[     62344] Index Number(id): 14
+[     62346] Classname: actor_enemy_favela_AR
+[     62348] Targetname: pf0_auto40
+[     62350] ----------------------------------
+[     62534] 
+[     62536] ----------------------------------
+[     62539] Index Number(id): 15
+[     62542] Classname: actor_enemy_favela_AR
+[     62545] Targetname: pf0_auto40
+[     62547] ----------------------------------
+[     62738] 
+[     62741] ----------------------------------
+[     62744] Index Number(id): 16
+[     62747] Classname: actor_enemy_favela_SMG
+[     62750] Targetname: pf0_auto40
+[     62753] ----------------------------------
+[     62938] 
+[     62942] ----------------------------------
+[     62945] Index Number(id): 17
+[     62948] Classname: actor_enemy_favela_AR
+[     62952] Targetname: pf0_auto40
+[     62955] ----------------------------------
+[     63136] 
+[     63139] ----------------------------------
+[     63143] Index Number(id): 18
+[     63146] Classname: actor_enemy_favela_RPG
+[     63149] Targetname: pf0_auto40
+[     63152] ----------------------------------
+[     63334] 
+[     63338] ----------------------------------
+[     63341] Index Number(id): 19
+[     63345] Classname: actor_enemy_favela_AR
+[     63348] Targetname: pf0_auto55
+[     63351] ----------------------------------
+[     63533] 
+[     63536] ----------------------------------
+[     63540] Index Number(id): 20
+[     63543] Classname: actor_enemy_favela_SMG
+[     63546] Targetname: pf0_auto55
+[     63549] ----------------------------------
+[     63731] 
+[     63734] ----------------------------------
+[     63737] Index Number(id): 21
+[     63740] Classname: actor_enemy_favela_AR
+[     63744] Targetname: pf0_auto55
+[     63747] ----------------------------------
+[     63927] 
+[     63931] ----------------------------------
+[     63934] Index Number(id): 22
+[     63937] Classname: actor_enemy_favela_AR
+[     63940] Targetname: pf0_auto55
+[     63944] ----------------------------------
+[     64122] 
+[     64126] ----------------------------------
+[     64129] Index Number(id): 23
+[     64132] Classname: actor_ally_favela_grabteam_guy1
+[     64135] Targetname: opening_gunner1_spawner
+[     64139] ----------------------------------
+[     64321] 
+[     64324] ----------------------------------
+[     64328] Index Number(id): 24
+[     64331] Classname: actor_ally_favela_grabteam_driver
+[     64334] Targetname: opening_driver_spawner
+[     64337] ----------------------------------
+[     64522] 
+[     64526] ----------------------------------
+[     64529] Index Number(id): 25
+[     64533] Classname: actor_ally_favela_grabteam_guy2
+[     64536] Targetname: opening_gunner2_spawner
+[     64539] ----------------------------------
+[     64721] 
+[     64725] ----------------------------------
+[     64728] Index Number(id): 26
+[     64731] Classname: actor_enemy_favela_AR
+[     64734] Targetname: pf0_auto60
+[     64737] ----------------------------------
+[     64918] 
+[     64922] ----------------------------------
+[     64925] Index Number(id): 27
+[     64928] Classname: actor_enemy_favela_SMG
+[     64932] Targetname: pf0_auto60
+[     64935] ----------------------------------
+[     65119] 
+[     65122] ----------------------------------
+[     65125] Index Number(id): 28
+[     65128] Classname: actor_enemy_favela_AR
+[     65132] Targetname: pf0_auto60
+[     65135] ----------------------------------
+[     65313] 
+[     65316] ----------------------------------
+[     65319] Index Number(id): 29
+[     65323] Classname: actor_enemy_favela_SMG
+[     65326] Targetname: pf0_auto60
+[     65329] ----------------------------------
+[     65514] 
+[     65517] ----------------------------------
+[     65520] Index Number(id): 30
+[     65523] Classname: actor_enemy_favela_AR
+[     65527] Targetname: pf0_auto77
+[     65530] ----------------------------------
+[     65716] 
+[     65719] ----------------------------------
+[     65722] Index Number(id): 31
+[     65725] Classname: actor_enemy_favela_AR
+[     65729] Targetname: pf0_auto77
+[     65732] ----------------------------------
+[     65912] 
+[     65916] ----------------------------------
+[     65919] Index Number(id): 32
+[     65922] Classname: actor_enemy_favela_AR
+[     65925] Targetname: pf0_auto77
+[     65929] ----------------------------------
+[     66112] 
+[     66116] ----------------------------------
+[     66119] Index Number(id): 33
+[     66122] Classname: actor_enemy_favela_SMG
+[     66125] Targetname: pf0_auto77
+[     66128] ----------------------------------
+[     66310] 
+[     66313] ----------------------------------
+[     66316] Index Number(id): 34
+[     66319] Classname: actor_civilian_slum_male
+[     66323] Targetname: civilian_180_runaway
+[     66326] ----------------------------------
+[     66514] 
+[     66517] ----------------------------------
+[     66521] Index Number(id): 35
+[     66524] Classname: actor_civilian_slum_male
+[     66528] Targetname: wounded_guy_helper_1
+[     66531] ----------------------------------
+[     66710] 
+[     66714] ----------------------------------
+[     66717] Index Number(id): 36
+[     66720] Classname: actor_civilian_slum_male
+[     66723] Targetname: wounded_guy_1
+[     66726] ----------------------------------
+[     66908] 
+[     66912] ----------------------------------
+[     66915] Index Number(id): 37
+[     66918] Classname: actor_enemy_villian_faust_assistant
+[     66921] Targetname: makarov_spawner
+[     66924] ----------------------------------
+[     67108] 
+[     67111] ----------------------------------
+[     67114] Index Number(id): 38
+[     67117] Classname: actor_civilian_slum_male
+[     67120] Targetname: pf0_auto83
+[     67124] ----------------------------------
+[     67303] 
+[     67306] ----------------------------------
+[     67309] Index Number(id): 39
+[     67313] Classname: actor_civilian_slum_male
+[     67316] Targetname: pf0_auto83
+[     67319] ----------------------------------
+[     67501] 
+[     67504] ----------------------------------
+[     67507] Index Number(id): 40
+[     67511] Classname: actor_civilian_slum_male
+[     67514] Targetname: pf0_auto83
+[     67517] ----------------------------------
+[     67699] 
+[     67702] ----------------------------------
+[     67705] Index Number(id): 41
+[     67708] Classname: actor_enemy_favela_AR
+[     67712] Targetname: pf0_auto141
+[     67715] ----------------------------------
+[     67900] 
+[     67904] ----------------------------------
+[     67908] Index Number(id): 42
+[     67913] Classname: actor_civilian_slum_male
+[     67916] Targetname: pf0_auto93
+[     67920] ----------------------------------
+[     68094] 
+[     68098] ----------------------------------
+[     68101] Index Number(id): 43
+[     68106] Classname: actor_enemy_favela_SMG
+[     68109] Targetname: pf0_auto34
+[     68112] ----------------------------------
+[     68295] 
+[     68299] ----------------------------------
+[     68302] Index Number(id): 44
+[     68305] Classname: actor_civilian_slum_male
+[     68308] Targetname: pf0_auto93
+[     68312] ----------------------------------
+[     68491] 
+[     68496] ----------------------------------
+[     68499] Index Number(id): 45
+[     68502] Classname: actor_civilian_slum_male
+[     68505] Targetname: pf0_auto97
+[     68508] ----------------------------------
+[     68697] 
+[     68702] ----------------------------------
+[     68707] Index Number(id): 46
+[     68711] Classname: actor_civilian_slum_male
+[     68717] Targetname: pf0_auto97
+[     68721] ----------------------------------
+[     68897] 
+[     68902] ----------------------------------
+[     68906] Index Number(id): 47
+[     68909] Classname: actor_civilian_slum_male
+[     68916] Targetname: pf0_auto102
+[     68920] ----------------------------------
+[     69096] 
+[     69099] ----------------------------------
+[     69103] Index Number(id): 48
+[     69106] Classname: actor_civilian_slum_male
+[     69110] Targetname: pf0_auto102
+[     69114] ----------------------------------
+[     69310] 
+[     69318] ----------------------------------
+[     69322] Index Number(id): 49
+[     69326] Classname: actor_civilian_slum_male
+[     69332] Targetname: pf0_auto102
+[     69335] ----------------------------------
+[     69494] 
+[     69500] ----------------------------------
+[     69507] Index Number(id): 50
+[     69522] Classname: actor_civilian_slum_male
+[     69526] Targetname: pf0_auto102
+[     69532] ----------------------------------
+[     69674] 
+[     69678] ----------------------------------
+[     69682] Index Number(id): 51
+[     69685] Classname: actor_enemy_dog
+[     69689] Targetname: pf0_auto109
+[     69693] ----------------------------------
+[     69876] 
+[     69880] ----------------------------------
+[     69884] Index Number(id): 52
+[     69887] Classname: actor_ally_socom_MP5
+[     69890] Targetname: meat_spawner
+[     69894] ----------------------------------
+[     70071] 
+[     70075] ----------------------------------
+[     70078] Index Number(id): 53
+[     70082] Classname: actor_ally_socom_M4
+[     70086] Targetname: royce_spawner
+[     70089] ----------------------------------
+[     70272] 
+[     70275] ----------------------------------
+[     70278] Index Number(id): 54
+[     70282] Classname: actor_enemy_favela_AR
+[     70286] Targetname: pf0_auto152
+[     70289] ----------------------------------
+[     70470] 
+[     70474] ----------------------------------
+[     70477] Index Number(id): 55
+[     70481] Classname: actor_enemy_dog
+[     70484] Targetname: fence_dog_spawner
+[     70488] ----------------------------------
+[     70668] 
+[     70672] ----------------------------------
+[     70676] Index Number(id): 56
+[     70682] Classname: actor_enemy_favela_AR
+[     70685] Targetname: pf0_auto152
+[     70689] ----------------------------------
+[     70868] 
+[     70872] ----------------------------------
+[     70875] Index Number(id): 57
+[     70878] Classname: actor_enemy_favela_AR
+[     70884] Targetname: pf0_auto152
+[     70887] ----------------------------------
+[     71068] 
+[     71073] ----------------------------------
+[     71078] Index Number(id): 58
+[     71084] Classname: actor_enemy_favela_AR
+[     71087] Targetname: pf0_auto152
+[     71091] ----------------------------------
+[     71265] 
+[     71269] ----------------------------------
+[     71272] Index Number(id): 59
+[     71275] Classname: actor_enemy_favela_AR
+[     71279] Targetname: pf0_auto478
+[     71284] ----------------------------------
+[     71467] 
+[     71470] ----------------------------------
+[     71474] Index Number(id): 60
+[     71477] Classname: actor_civilian_slum_male
+[     71482] Targetname: window_civilian_spawner_1
+[     71485] ----------------------------------
+[     71664] 
+[     71668] ----------------------------------
+[     71672] Index Number(id): 61
+[     71675] Classname: actor_civilian_slum_male
+[     71680] Targetname: pf0_auto136
+[     71684] ----------------------------------
+[     71861] 
+[     71865] ----------------------------------
+[     71868] Index Number(id): 62
+[     71872] Classname: actor_enemy_favela_SNPR
+[     71875] Targetname: pf0_auto131
+[     71878] ----------------------------------
+[     72062] 
+[     72066] ----------------------------------
+[     72069] Index Number(id): 63
+[     72073] Classname: actor_civilian_slum_male
+[     72076] Targetname: pf0_auto136
+[     72081] ----------------------------------
+[     72266] 
+[     72270] ----------------------------------
+[     72273] Index Number(id): 64
+[     72276] Classname: actor_civilian_slum_male
+[     72279] Targetname: pf0_auto136
+[     72284] ----------------------------------
+[     72466] 
+[     72469] ----------------------------------
+[     72472] Index Number(id): 65
+[     72476] Classname: actor_civilian_slum_male
+[     72479] Targetname: favela_opening_civilian_spawner
+[     72484] ----------------------------------
+[     72660] 
+[     72665] ----------------------------------
+[     72668] Index Number(id): 66
+[     72672] Classname: actor_civilian_slum_male
+[     72675] Targetname: favela_opening_civilian_spawner
+[     72678] ----------------------------------
+[     72858] 
+[     72868] ----------------------------------
+[     72871] Index Number(id): 67
+[     72874] Classname: actor_civilian_slum_male
+[     72878] Targetname: favela_opening_civilian_spawner
+[     72883] ----------------------------------
+[     73058] 
+[     73061] ----------------------------------
+[     73066] Index Number(id): 68
+[     73069] Classname: actor_civilian_slum_male
+[     73072] Targetname: favela_opening_civilian_spawner
+[     73076] ----------------------------------
+[     73253] 
+[     73256] ----------------------------------
+[     73260] Index Number(id): 69
+[     73263] Classname: actor_civilian_slum_male
+[     73267] Targetname: favela_opening_civilian_spawner
+[     73270] ----------------------------------
+[     73453] 
+[     73456] ----------------------------------
+[     73460] Index Number(id): 70
+[     73462] Classname: actor_civilian_slum_male
+[     73466] Targetname: favela_opening_civilian_spawner
+[     73470] ----------------------------------
+[     73653] 
+[     73657] ----------------------------------
+[     73660] Index Number(id): 71
+[     73663] Classname: actor_civilian_slum_male
+[     73667] Targetname: favela_opening_civilian_spawner
+[     73670] ----------------------------------
+[     73850] 
+[     73853] ----------------------------------
+[     73857] Index Number(id): 72
+[     73860] Classname: actor_civilian_slum_male
+[     73863] Targetname: favela_opening_civilian_spawner
+[     73866] ----------------------------------
+[     74051] 
+[     74055] ----------------------------------
+[     74058] Index Number(id): 73
+[     74061] Classname: actor_enemy_favela_SMG
+[     74065] Targetname: pf0_auto149
+[     74068] ----------------------------------
+[     74249] 
+[     74253] ----------------------------------
+[     74256] Index Number(id): 74
+[     74259] Classname: actor_enemy_favela_AR
+[     74262] Targetname: pf0_auto149
+[     74267] ----------------------------------
+[     74447] 
+[     74452] ----------------------------------
+[     74455] Index Number(id): 75
+[     74458] Classname: actor_enemy_favela_RPG
+[     74462] Targetname: pf0_auto149
+[     74465] ----------------------------------
+[     74646] 
+[     74650] ----------------------------------
+[     74653] Index Number(id): 76
+[     74656] Classname: actor_enemy_favela_AR
+[     74661] Targetname: pf0_auto149
+[     74665] ----------------------------------
+[     74850] 
+[     74853] ----------------------------------
+[     74857] Index Number(id): 77
+[     74860] Classname: actor_enemy_favela_LMG
+[     74863] Targetname: pf0_auto149
+[     74867] ----------------------------------
+[     75048] 
+[     75053] ----------------------------------
+[     75056] Index Number(id): 78
+[     75059] Classname: actor_enemy_favela_SHGN
+[     75063] Targetname: pf0_auto149
+[     75067] ----------------------------------
+[     75251] 
+[     75254] ----------------------------------
+[     75257] Index Number(id): 79
+[     75260] Classname: actor_enemy_favela_AR
+[     75264] Targetname: pf0_auto150
+[     75268] ----------------------------------
+[     75445] 
+[     75448] ----------------------------------
+[     75452] Index Number(id): 80
+[     75455] Classname: actor_enemy_favela_AR
+[     75458] Targetname: pf0_auto306
+[     75461] ----------------------------------
+[     75647] 
+[     75651] ----------------------------------
+[     75654] Index Number(id): 81
+[     75657] Classname: actor_enemy_favela_AR
+[     75660] Targetname: pf0_auto159
+[     75664] ----------------------------------
+[     75846] 
+[     75851] ----------------------------------
+[     75854] Index Number(id): 82
+[     75857] Classname: actor_enemy_favela_SMG
+[     75861] Targetname: pf0_auto159
+[     75864] ----------------------------------
+[     76043] 
+[     76046] ----------------------------------
+[     76050] Index Number(id): 83
+[     76053] Classname: actor_enemy_favela_AR
+[     76056] Targetname: pf0_auto159
+[     76060] ----------------------------------
+[     76241] 
+[     76245] ----------------------------------
+[     76248] Index Number(id): 84
+[     76251] Classname: actor_enemy_favela_SMG
+[     76254] Targetname: pf0_auto159
+[     76258] ----------------------------------
+[     76439] 
+[     76443] ----------------------------------
+[     76446] Index Number(id): 85
+[     76450] Classname: actor_enemy_favela_RPG
+[     76453] Targetname: pf0_auto159
+[     76457] ----------------------------------
+[     76644] 
+[     76647] ----------------------------------
+[     76650] Index Number(id): 86
+[     76653] Classname: actor_enemy_favela_AR
+[     76657] Targetname: pf0_auto159
+[     76660] ----------------------------------
+[     76842] 
+[     76845] ----------------------------------
+[     76850] Index Number(id): 87
+[     76853] Classname: actor_enemy_favela_AR
+[     76857] Targetname: pf0_auto161
+[     76860] ----------------------------------
+[     77049] 
+[     77055] ----------------------------------
+[     77059] Index Number(id): 88
+[     77062] Classname: actor_enemy_favela_SHGN
+[     77065] Targetname: pf0_auto161
+[     77070] ----------------------------------
+[     77251] 
+[     77255] ----------------------------------
+[     77258] Index Number(id): 89
+[     77261] Classname: actor_enemy_favela_SMG
+[     77265] Targetname: pf0_auto161
+[     77268] ----------------------------------
+[     77445] 
+[     77448] ----------------------------------
+[     77452] Index Number(id): 90
+[     77456] Classname: actor_enemy_favela_AR
+[     77459] Targetname: pf0_auto162
+[     77463] ----------------------------------
+[     77647] 
+[     77650] ----------------------------------
+[     77654] Index Number(id): 91
+[     77657] Classname: actor_enemy_favela_AR
+[     77660] Targetname: pf0_auto162
+[     77663] ----------------------------------
+[     77845] 
+[     77848] ----------------------------------
+[     77852] Index Number(id): 92
+[     77855] Classname: actor_enemy_favela_SNPR
+[     77858] Targetname: pf0_auto131
+[     77861] ----------------------------------
+[     78045] 
+[     78052] ----------------------------------
+[     78055] Index Number(id): 93
+[     78058] Classname: actor_enemy_favela_LMG
+[     78061] Targetname: pf0_auto182
+[     78064] ----------------------------------
+[     78240] 
+[     78244] ----------------------------------
+[     78247] Index Number(id): 94
+[     78250] Classname: actor_enemy_favela_SMG
+[     78254] Targetname: pf0_auto182
+[     78258] ----------------------------------
+[     78440] 
+[     78444] ----------------------------------
+[     78447] Index Number(id): 95
+[     78450] Classname: actor_enemy_favela_AR
+[     78454] Targetname: pf0_auto182
+[     78457] ----------------------------------
+[     78644] 
+[     78647] ----------------------------------
+[     78650] Index Number(id): 96
+[     78654] Classname: actor_enemy_villian_faust_assistant_trailer
+[     78657] Targetname: torture_enemy_spawner_trailer
+[     78660] ----------------------------------
+[     78843] 
+[     78846] ----------------------------------
+[     78849] Index Number(id): 97
+[     78852] Classname: actor_enemy_favela_AR
+[     78855] Targetname: pf0_auto192
+[     78858] ----------------------------------
+[     79048] 
+[     79053] ----------------------------------
+[     79057] Index Number(id): 98
+[     79060] Classname: actor_enemy_favela_SMG
+[     79063] Targetname: pf0_auto192
+[     79067] ----------------------------------
+[     79243] 
+[     79246] ----------------------------------
+[     79249] Index Number(id): 99
+[     79252] Classname: actor_enemy_favela_AR
+[     79255] Targetname: pf0_auto192
+[     79259] ----------------------------------
+[     79444] 
+[     79447] ----------------------------------
+[     79451] Index Number(id): 100
+[     79455] Classname: actor_enemy_favela_AR
+[     79458] Targetname: pf0_auto192
+[     79462] ----------------------------------
+[     79640] 
+[     79644] ----------------------------------
+[     79647] Index Number(id): 101
+[     79650] Classname: actor_enemy_favela_SMG
+[     79655] Targetname: pf0_auto192
+[     79658] ----------------------------------
+[     79840] 
+[     79843] ----------------------------------
+[     79846] Index Number(id): 102
+[     79851] Classname: actor_enemy_favela_SMG
+[     79855] Targetname: pf0_auto197
+[     79858] ----------------------------------
+[     80039] 
+[     80042] ----------------------------------
+[     80045] Index Number(id): 103
+[     80049] Classname: actor_enemy_favela_AR
+[     80053] Targetname: pf0_auto197
+[     80057] ----------------------------------
+[     80243] 
+[     80246] ----------------------------------
+[     80250] Index Number(id): 104
+[     80253] Classname: actor_enemy_favela_SMG
+[     80257] Targetname: pf0_auto198
+[     80260] ----------------------------------
+[     80445] 
+[     80449] ----------------------------------
+[     80453] Index Number(id): 105
+[     80459] Classname: actor_enemy_favela_AR
+[     80462] Targetname: pf0_auto198
+[     80467] ----------------------------------
+[     80644] 
+[     80648] ----------------------------------
+[     80651] Index Number(id): 106
+[     80657] Classname: actor_enemy_favela_AR
+[     80660] Targetname: pf0_auto202
+[     80664] ----------------------------------
+[     80841] 
+[     80845] ----------------------------------
+[     80848] Index Number(id): 107
+[     80851] Classname: actor_enemy_favela_DesertEagle
+[     80856] Targetname: pf0_auto350
+[     80860] ----------------------------------
+[     80972] Com_TouchMemory: 0 msec. Using sum: -929944979
+[     81042] 
+[     81046] ----------------------------------
+[     81050] Index Number(id): 108
+[     81055] Classname: actor_enemy_favela_AR
+[     81059] Targetname: pf0_auto208
+[     81062] ----------------------------------
+[     81244] 
+[     81248] ----------------------------------
+[     81251] Index Number(id): 109
+[     81255] Classname: actor_enemy_favela_AR
+[     81259] Targetname: pf0_auto208
+[     81262] ----------------------------------
+[     81396] Too many bsp pretess surfaces - using fallback
+[     81401] Too many bsp pretess surfaces - using fallback
+[     81407] Too many bsp pretess surfaces - using fallback
+[     81449] 
+[     81453] ----------------------------------
+[     81458] Index Number(id): 110
+[     81461] Classname: actor_enemy_favela_SMG
+[     81465] Targetname: pf0_auto208
+[     81468] ----------------------------------
+[     81648] 
+[     81651] ----------------------------------
+[     81656] Index Number(id): 111
+[     81659] Classname: actor_ally_favela_driver
+[     81663] Targetname: car_driver
+[     81666] ----------------------------------
+[     81847] 
+[     81851] ----------------------------------
+[     81855] Index Number(id): 112
+[     81858] Classname: actor_civilian_slum_male
+[     81862] Targetname: street_civilian
+[     81865] ----------------------------------
+[     82053] 
+[     82057] ----------------------------------
+[     82062] Index Number(id): 113
+[     82065] Classname: actor_civilian_slum_male
+[     82069] Targetname: street_civilian
+[     82072] ----------------------------------
+[     82249] 
+[     82253] ----------------------------------
+[     82258] Index Number(id): 114
+[     82262] Classname: actor_civilian_slum_male
+[     82265] Targetname: street_civilian
+[     82268] ----------------------------------
+[     82446] 
+[     82447] ----------------------------------
+[     82449] Index Number(id): 115
+[     82451] Classname: actor_civilian_slum_male
+[     82453] Targetname: street_civilian
+[     82456] ----------------------------------
+[     82645] 
+[     82647] ----------------------------------
+[     82649] Index Number(id): 116
+[     82652] Classname: actor_civilian_slum_male
+[     82654] Targetname: street_civilian
+[     82657] ----------------------------------
+[     82848] 
+[     82850] ----------------------------------
+[     82853] Index Number(id): 117
+[     82857] Classname: actor_civilian_slum_male
+[     82860] Targetname: street_civilian
+[     82862] ----------------------------------
+[     83047] 
+[     83051] ----------------------------------
+[     83056] Index Number(id): 118
+[     83060] Classname: actor_civilian_slum_male
+[     83063] Targetname: street_civilian
+[     83066] ----------------------------------
+[     83247] 
+[     83252] ----------------------------------
+[     83256] Index Number(id): 119
+[     83259] Classname: actor_civilian_slum_male
+[     83262] Targetname: street_civilian
+[     83266] ----------------------------------
+[     83451] 
+[     83454] ----------------------------------
+[     83460] Index Number(id): 120
+[     83463] Classname: actor_civilian_slum_male
+[     83466] Targetname: street_civilian
+[     83470] ----------------------------------
+[     83651] 
+[     83655] ----------------------------------
+[     83659] Index Number(id): 121
+[     83663] Classname: actor_civilian_slum_male
+[     83666] Targetname: street_civilian
+[     83669] ----------------------------------
+[     83849] 
+[     83853] ----------------------------------
+[     83858] Index Number(id): 122
+[     83861] Classname: actor_civilian_slum_male
+[     83865] Targetname: street_civilian
+[     83868] ----------------------------------
+[     84052] 
+[     84056] ----------------------------------
+[     84059] Index Number(id): 123
+[     84063] Classname: actor_civilian_slum_male
+[     84066] Targetname: street_civilian
+[     84069] ----------------------------------
+[     84250] 
+[     84253] ----------------------------------
+[     84258] Index Number(id): 124
+[     84261] Classname: actor_civilian_slum_male
+[     84265] Targetname: street_civilian
+[     84268] ----------------------------------
+[     84447] 
+[     84450] ----------------------------------
+[     84454] Index Number(id): 125
+[     84458] Classname: actor_civilian_slum_male
+[     84461] Targetname: street_civilian
+[     84465] ----------------------------------
+[     84646] 
+[     84649] ----------------------------------
+[     84653] Index Number(id): 126
+[     84657] Classname: actor_civilian_slum_male
+[     84660] Targetname: street_civilian
+[     84663] ----------------------------------
+[     84842] 
+[     84845] ----------------------------------
+[     84848] Index Number(id): 127
+[     84852] Classname: actor_civilian_slum_male
+[     84855] Targetname: street_civilian
+[     84858] ----------------------------------
+[     85042] 
+[     85046] ----------------------------------
+[     85050] Index Number(id): 128
+[     85054] Classname: actor_civilian_slum_male
+[     85058] Targetname: street_civilian
+[     85061] ----------------------------------
+[     85247] 
+[     85251] ----------------------------------
+[     85256] Index Number(id): 129
+[     85259] Classname: actor_enemy_favela_trailerguy2
+[     85263] Targetname: trailer_talkers_1
+[     85266] ----------------------------------
+[     85447] 
+[     85451] ----------------------------------
+[     85455] Index Number(id): 130
+[     85458] Classname: actor_enemy_villian_faust
+[     85462] Targetname: ending_faust_spawner
+[     85465] ----------------------------------
+[     85646] 
+[     85650] ----------------------------------
+[     85653] Index Number(id): 131
+[     85657] Classname: actor_ally_hero_soap_socom
+[     85661] Targetname: ending_soap_spawner
+[     85664] ----------------------------------
+[     85847] 
+[     85851] ----------------------------------
+[     85854] Index Number(id): 132
+[     85858] Classname: actor_enemy_favela_AR
+[     85861] Targetname: pf0_auto288
+[     85864] ----------------------------------
+[     86047] 
+[     86051] ----------------------------------
+[     86055] Index Number(id): 133
+[     86058] Classname: actor_enemy_favela_AR
+[     86062] Targetname: pf0_auto288
+[     86065] ----------------------------------
+[     86252] 
+[     86255] ----------------------------------
+[     86260] Index Number(id): 134
+[     86264] Classname: actor_enemy_favela_AR
+[     86267] Targetname: pf0_auto293
+[     86270] ----------------------------------
+[     86449] 
+[     86453] ----------------------------------
+[     86456] Index Number(id): 135
+[     86460] Classname: actor_enemy_favela_AR
+[     86463] Targetname: pf0_auto293
+[     86466] ----------------------------------
+[     86648] 
+[     86651] ----------------------------------
+[     86656] Index Number(id): 136
+[     86660] Classname: actor_enemy_favela_AR
+[     86663] Targetname: pf0_auto294
+[     86667] ----------------------------------
+[     86849] 
+[     86853] ----------------------------------
+[     86857] Index Number(id): 137
+[     86860] Classname: actor_enemy_favela_AR
+[     86863] Targetname: pf0_auto296
+[     86867] ----------------------------------
+[     87052] 
+[     87056] ----------------------------------
+[     87061] Index Number(id): 138
+[     87064] Classname: actor_enemy_favela_AR
+[     87067] Targetname: pf0_auto296
+[     87071] ----------------------------------
+[     87250] 
+[     87255] ----------------------------------
+[     87259] Index Number(id): 139
+[     87262] Classname: actor_enemy_favela_AR
+[     87266] Targetname: pf0_auto301
+[     87269] ----------------------------------
+[     87447] 
+[     87451] ----------------------------------
+[     87454] Index Number(id): 140
+[     87458] Classname: actor_enemy_favela_AR
+[     87461] Targetname: pf0_auto301
+[     87464] ----------------------------------
+[     87646] 
+[     87650] ----------------------------------
+[     87653] Index Number(id): 141
+[     87656] Classname: actor_enemy_favela_AR
+[     87659] Targetname: pf0_auto310
+[     87662] ----------------------------------
+[     87847] 
+[     87851] ----------------------------------
+[     87854] Index Number(id): 142
+[     87857] Classname: actor_enemy_favela_RPG
+[     87861] Targetname: random_favela_background_runner
+[     87864] ----------------------------------
+[     88046] 
+[     88051] ----------------------------------
+[     88055] Index Number(id): 143
+[     88058] Classname: actor_enemy_favela_SNPR
+[     88061] Targetname: random_favela_background_runner
+[     88065] ----------------------------------
+[     88101] Too many bsp pretess surfaces - using fallback
+[     88106] Too many bsp pretess surfaces - using fallback
+[     88120] Too many bsp pretess surfaces - using fallback
+[     88247] 
+[     88250] ----------------------------------
+[     88254] Index Number(id): 144
+[     88258] Classname: actor_enemy_favela_RPG
+[     88261] Targetname: random_favela_background_runner
+[     88265] ----------------------------------
+[     88450] 
+[     88453] ----------------------------------
+[     88457] Index Number(id): 145
+[     88461] Classname: actor_enemy_favela_SNPR
+[     88464] Targetname: random_favela_background_runner
+[     88467] ----------------------------------
+[     88649] 
+[     88653] ----------------------------------
+[     88657] Index Number(id): 146
+[     88660] Classname: actor_enemy_favela_RPG
+[     88664] Targetname: random_favela_background_runner
+[     88667] ----------------------------------
+[     88851] 
+[     88854] ----------------------------------
+[     88857] Index Number(id): 147
+[     88861] Classname: actor_enemy_favela_SNPR
+[     88864] Targetname: random_favela_background_runner
+[     88867] ----------------------------------
+[     89050] 
+[     89055] ----------------------------------
+[     89059] Index Number(id): 148
+[     89062] Classname: actor_enemy_favela_AR
+[     89065] Targetname: pf0_auto315
+[     89068] ----------------------------------
+[     89254] 
+[     89257] ----------------------------------
+[     89262] Index Number(id): 149
+[     89265] Classname: actor_enemy_favela_AR
+[     89268] Targetname: pf0_auto315
+[     89272] ----------------------------------
+[     89452] 
+[     89455] ----------------------------------
+[     89459] Index Number(id): 150
+[     89462] Classname: actor_enemy_favela_AR
+[     89465] Targetname: pf0_auto478
+[     89468] ----------------------------------
+[     89652] 
+[     89655] ----------------------------------
+[     89659] Index Number(id): 151
+[     89663] Classname: actor_enemy_favela_AR
+[     89666] Targetname: pf0_auto149
+[     89669] ----------------------------------
+[     89849] 
+[     89853] ----------------------------------
+[     89856] Index Number(id): 152
+[     89859] Classname: actor_enemy_favela_trailerguy1
+[     89863] Targetname: trailer_talkers_1
+[     89866] ----------------------------------
+[     90052] 
+[     90055] ----------------------------------
+[     90059] Index Number(id): 153
+[     90062] Classname: actor_enemy_favela_AR
+[     90066] Targetname: pf0_auto333
+[     90069] ----------------------------------
+[     90251] 
+[     90254] ----------------------------------
+[     90258] Index Number(id): 154
+[     90261] Classname: actor_enemy_favela_AR
+[     90264] Targetname: pf0_auto333
+[     90268] ----------------------------------
+[     90451] 
+[     90455] ----------------------------------
+[     90458] Index Number(id): 155
+[     90462] Classname: actor_enemy_favela_AR
+[     90465] Targetname: pf0_auto363
+[     90468] ----------------------------------
+[     90655] 
+[     90659] ----------------------------------
+[     90662] Index Number(id): 156
+[     90665] Classname: actor_enemy_favela_AR
+[     90668] Targetname: pf0_auto363
+[     90671] ----------------------------------
+[     90856] 
+[     90859] ----------------------------------
+[     90863] Index Number(id): 157
+[     90866] Classname: actor_enemy_favela_trailerguy3
+[     90869] Targetname: trailer_talkers_1
+[     90873] ----------------------------------
+[     91054] 
+[     91059] ----------------------------------
+[     91063] Index Number(id): 158
+[     91066] Classname: actor_enemy_favela_AR
+[     91069] Targetname: pf0_auto333
+[     91072] ----------------------------------
+[     91256] 
+[     91259] ----------------------------------
+[     91262] Index Number(id): 159
+[     91266] Classname: actor_enemy_favela_RPG
+[     91269] Targetname: pf0_auto338
+[     91274] ----------------------------------
+[     91452] 
+[     91456] ----------------------------------
+[     91460] Index Number(id): 160
+[     91463] Classname: actor_enemy_favela_AR
+[     91466] Targetname: pf0_auto338
+[     91469] ----------------------------------
+[     91651] 
+[     91655] ----------------------------------
+[     91658] Index Number(id): 161
+[     91661] Classname: actor_enemy_favela_AR
+[     91665] Targetname: pf0_auto340
+[     91668] ----------------------------------
+[     91849] 
+[     91853] ----------------------------------
+[     91856] Index Number(id): 162
+[     91859] Classname: actor_enemy_favela_AR
+[     91863] Targetname: pf0_auto340
+[     91866] ----------------------------------
+[     92052] 
+[     92056] ----------------------------------
+[     92059] Index Number(id): 163
+[     92062] Classname: actor_enemy_favela_AR
+[     92066] Targetname: pf0_auto340
+[     92069] ----------------------------------
+[     92247] 
+[     92250] ----------------------------------
+[     92254] Index Number(id): 164
+[     92257] Classname: actor_enemy_favela_AR
+[     92260] Targetname: pf0_auto162
+[     92263] ----------------------------------
+[     92446] 
+[     92449] ----------------------------------
+[     92452] Index Number(id): 165
+[     92455] Classname: actor_enemy_favela_AR
+[     92459] Targetname: pf0_auto162
+[     92462] ----------------------------------
+[     92643] 
+[     92648] ----------------------------------
+[     92651] Index Number(id): 166
+[     92654] Classname: actor_enemy_favela_SHGN
+[     92657] Targetname: pf0_auto346
+[     92660] ----------------------------------
+[     92846] 
+[     92850] ----------------------------------
+[     92853] Index Number(id): 167
+[     92856] Classname: actor_enemy_favela_DesertEagle
+[     92859] Targetname: pf0_auto351
+[     92862] ----------------------------------
+[     93051] 
+[     93054] ----------------------------------
+[     93058] Index Number(id): 168
+[     93061] Classname: actor_enemy_favela_DesertEagle
+[     93064] Targetname: pf0_auto352
+[     93067] ----------------------------------
+[     93247] 
+[     93251] ----------------------------------
+[     93254] Index Number(id): 169
+[     93257] Classname: actor_enemy_favela_DesertEagle
+[     93260] Targetname: pf0_auto354
+[     93264] ----------------------------------
+[     93448] 
+[     93452] ----------------------------------
+[     93455] Index Number(id): 170
+[     93458] Classname: actor_enemy_favela_DesertEagle
+[     93462] Targetname: pf0_auto356
+[     93465] ----------------------------------
+[     93640] 
+[     93643] ----------------------------------
+[     93646] Index Number(id): 171
+[     93649] Classname: actor_enemy_favela_DesertEagle
+[     93652] Targetname: pf0_auto357
+[     93655] ----------------------------------
+[     93836] 
+[     93839] ----------------------------------
+[     93843] Index Number(id): 172
+[     93846] Classname: actor_enemy_favela_LMG
+[     93849] Targetname: pf0_auto161
+[     93852] ----------------------------------
+[     94036] 
+[     94039] ----------------------------------
+[     94042] Index Number(id): 173
+[     94045] Classname: actor_enemy_favela_AR
+[     94049] Targetname: pf0_auto161
+[     94052] ----------------------------------
+[     94234] 
+[     94238] ----------------------------------
+[     94241] Index Number(id): 174
+[     94244] Classname: actor_enemy_favela_LMG
+[     94247] Targetname: pf0_auto161
+[     94250] ----------------------------------
+[     94436] 
+[     94440] ----------------------------------
+[     94443] Index Number(id): 175
+[     94446] Classname: actor_enemy_favela_AR
+[     94449] Targetname: pf0_auto161
+[     94453] ----------------------------------
+[     94633] 
+[     94637] ----------------------------------
+[     94640] Index Number(id): 176
+[     94643] Classname: actor_enemy_favela_LMG
+[     94646] Targetname: pf0_auto162
+[     94650] ----------------------------------
+[     94836] 
+[     94839] ----------------------------------
+[     94842] Index Number(id): 177
+[     94845] Classname: actor_civilian_slum_male
+[     94848] Targetname: favela_opening_civilian_spawner
+[     94852] ----------------------------------
+[     95036] 
+[     95039] ----------------------------------
+[     95043] Index Number(id): 178
+[     95045] Classname: actor_civilian_slum_male
+[     95049] Targetname: favela_opening_civilian_spawner
+[     95052] ----------------------------------
+[     95235] 
+[     95238] ----------------------------------
+[     95242] Index Number(id): 179
+[     95245] Classname: actor_enemy_favela_AR
+[     95248] Targetname: pf0_auto374
+[     95251] ----------------------------------
+[     95436] 
+[     95440] ----------------------------------
+[     95443] Index Number(id): 180
+[     95446] Classname: actor_enemy_favela_AR
+[     95449] Targetname: pf0_auto374
+[     95452] ----------------------------------
+[     95635] 
+[     95638] ----------------------------------
+[     95641] Index Number(id): 181
+[     95644] Classname: actor_enemy_favela_AR
+[     95647] Targetname: pf0_auto374
+[     95650] ----------------------------------
+[     95832] 
+[     95836] ----------------------------------
+[     95839] Index Number(id): 182
+[     95842] Classname: actor_enemy_favela_SMG
+[     95845] Targetname: pf0_auto374
+[     95849] ----------------------------------
+[     96032] 
+[     96035] ----------------------------------
+[     96039] Index Number(id): 183
+[     96042] Classname: actor_enemy_favela_AR
+[     96045] Targetname: pf0_auto340
+[     96049] ----------------------------------
+[     96230] 
+[     96234] ----------------------------------
+[     96237] Index Number(id): 184
+[     96241] Classname: actor_enemy_favela_AR
+[     96244] Targetname: pf0_auto340
+[     96247] ----------------------------------
+[     96429] 
+[     96433] ----------------------------------
+[     96436] Index Number(id): 185
+[     96439] Classname: actor_enemy_villian_faust
+[     96442] Targetname: faust_spawner_1
+[     96446] ----------------------------------
+[     96626] 
+[     96630] ----------------------------------
+[     96633] Index Number(id): 186
+[     96636] Classname: actor_enemy_favela_AR
+[     96639] Targetname: pf0_auto340
+[     96642] ----------------------------------
+[     96827] 
+[     96830] ----------------------------------
+[     96834] Index Number(id): 187
+[     96837] Classname: actor_ally_hero_soap_socom
+[     96841] Targetname: soap_spawner
+[     96844] ----------------------------------
+[     97026] 
+[     97029] ----------------------------------
+[     97033] Index Number(id): 188
+[     97036] Classname: actor_civilian_slum_male
+[     97039] Targetname: pf0_auto393
+[     97042] ----------------------------------
+[     97227] 
+[     97231] ----------------------------------
+[     97236] Index Number(id): 189
+[     97239] Classname: actor_civilian_slum_male
+[     97242] Targetname: pf0_auto393
+[     97246] ----------------------------------
+[     97429] 
+[     97433] ----------------------------------
+[     97436] Index Number(id): 190
+[     97439] Classname: actor_civilian_slum_male
+[     97442] Targetname: pf0_auto393
+[     97445] ----------------------------------
+[     97631] 
+[     97635] ----------------------------------
+[     97638] Index Number(id): 191
+[     97641] Classname: actor_civilian_slum_male
+[     97644] Targetname: pf0_auto393
+[     97647] ----------------------------------
+[     97833] 
+[     97837] ----------------------------------
+[     97840] Index Number(id): 192
+[     97843] Classname: actor_civilian_slum_male
+[     97846] Targetname: pf0_auto393
+[     97849] ----------------------------------
+[     98033] 
+[     98036] ----------------------------------
+[     98039] Index Number(id): 193
+[     98042] Classname: actor_civilian_slum_male
+[     98045] Targetname: pf0_auto393
+[     98049] ----------------------------------
+[     98228] 
+[     98232] ----------------------------------
+[     98235] Index Number(id): 194
+[     98238] Classname: actor_civilian_slum_male
+[     98242] Targetname: pf0_auto393
+[     98245] ----------------------------------
+[     98425] 
+[     98428] ----------------------------------
+[     98431] Index Number(id): 195
+[     98435] Classname: actor_civilian_slum_male
+[     98438] Targetname: pf0_auto393
+[     98441] ----------------------------------
+[     98628] 
+[     98631] ----------------------------------
+[     98634] Index Number(id): 196
+[     98637] Classname: actor_civilian_slum_male
+[     98641] Targetname: pf0_auto393
+[     98644] ----------------------------------
+[     98831] 
+[     98835] ----------------------------------
+[     98838] Index Number(id): 197
+[     98841] Classname: actor_civilian_slum_male
+[     98844] Targetname: pf0_auto393
+[     98847] ----------------------------------
+[     99030] 
+[     99034] ----------------------------------
+[     99037] Index Number(id): 198
+[     99041] Classname: actor_civilian_slum_male
+[     99044] Targetname: pf0_auto393
+[     99047] ----------------------------------
+[     99229] 
+[     99232] ----------------------------------
+[     99235] Index Number(id): 199
+[     99239] Classname: actor_civilian_slum_male
+[     99242] Targetname: pf0_auto393
+[     99245] ----------------------------------
+[     99429] 
+[     99433] ----------------------------------
+[     99436] Index Number(id): 200
+[     99439] Classname: actor_civilian_slum_male
+[     99443] Targetname: pf0_auto393
+[     99445] ----------------------------------
+[     99631] 
+[     99634] ----------------------------------
+[     99638] Index Number(id): 201
+[     99641] Classname: actor_civilian_slum_male
+[     99644] Targetname: pf0_auto393
+[     99647] ----------------------------------
+[     99830] 
+[     99833] ----------------------------------
+[     99837] Index Number(id): 202
+[     99840] Classname: actor_civilian_slum_male
+[     99843] Targetname: pf0_auto393
+[     99846] ----------------------------------
+[    100028] 
+[    100031] ----------------------------------
+[    100034] Index Number(id): 203
+[    100038] Classname: actor_civilian_slum_male
+[    100041] Targetname: pf0_auto393
+[    100044] ----------------------------------
+[    100227] 
+[    100230] ----------------------------------
+[    100233] Index Number(id): 204
+[    100236] Classname: actor_civilian_slum_male
+[    100239] Targetname: pf0_auto394
+[    100242] ----------------------------------
+[    100426] 
+[    100429] ----------------------------------
+[    100432] Index Number(id): 205
+[    100435] Classname: actor_civilian_slum_male
+[    100438] Targetname: pf0_auto394
+[    100442] ----------------------------------
+[    100627] 
+[    100630] ----------------------------------
+[    100634] Index Number(id): 206
+[    100637] Classname: actor_civilian_slum_male
+[    100640] Targetname: pf0_auto419
+[    100644] ----------------------------------
+[    100826] 
+[    100829] ----------------------------------
+[    100832] Index Number(id): 207
+[    100836] Classname: actor_civilian_slum_male
+[    100839] Targetname: pf0_auto398
+[    100842] ----------------------------------
+[    101027] 
+[    101031] ----------------------------------
+[    101033] Index Number(id): 208
+[    101037] Classname: actor_civilian_slum_male
+[    101040] Targetname: pf0_auto398
+[    101043] ----------------------------------
+[    101233] 
+[    101236] ----------------------------------
+[    101239] Index Number(id): 209
+[    101242] Classname: actor_civilian_slum_male
+[    101245] Targetname: pf0_auto419
+[    101249] ----------------------------------
+[    101430] 
+[    101434] ----------------------------------
+[    101437] Index Number(id): 210
+[    101440] Classname: actor_civilian_slum_male
+[    101443] Targetname: pf0_auto419
+[    101446] ----------------------------------
+[    101631] 
+[    101634] ----------------------------------
+[    101637] Index Number(id): 211
+[    101640] Classname: actor_civilian_slum_male
+[    101643] Targetname: pf0_auto398
+[    101646] ----------------------------------
+[    101831] 
+[    101834] ----------------------------------
+[    101838] Index Number(id): 212
+[    101841] Classname: actor_civilian_slum_male
+[    101844] Targetname: pf0_auto419
+[    101847] ----------------------------------
+[    102030] 
+[    102034] ----------------------------------
+[    102037] Index Number(id): 213
+[    102040] Classname: actor_civilian_slum_male
+[    102043] Targetname: pf0_auto398
+[    102046] ----------------------------------
+[    102229] 
+[    102232] ----------------------------------
+[    102236] Index Number(id): 214
+[    102239] Classname: actor_civilian_slum_male
+[    102243] Targetname: pf0_auto419
+[    102246] ----------------------------------
+[    102434] 
+[    102438] ----------------------------------
+[    102441] Index Number(id): 215
+[    102444] Classname: actor_civilian_slum_male
+[    102446] Targetname: pf0_auto419
+[    102447] ----------------------------------
+[    102631] 
+[    102633] ----------------------------------
+[    102635] Index Number(id): 216
+[    102637] Classname: actor_civilian_slum_male
+[    102639] Targetname: pf0_auto398
+[    102641] ----------------------------------
+[    102831] 
+[    102833] ----------------------------------
+[    102836] Index Number(id): 217
+[    102838] Classname: actor_civilian_slum_male
+[    102840] Targetname: pf0_auto398
+[    102843] ----------------------------------
+[    103031] 
+[    103033] ----------------------------------
+[    103037] Index Number(id): 218
+[    103040] Classname: actor_civilian_slum_male
+[    103043] Targetname: pf0_auto398
+[    103045] ----------------------------------
+[    103226] 
+[    103229] ----------------------------------
+[    103233] Index Number(id): 219
+[    103236] Classname: actor_civilian_slum_male
+[    103239] Targetname: pf0_auto398
+[    103243] ----------------------------------
+[    103426] 
+[    103430] ----------------------------------
+[    103433] Index Number(id): 220
+[    103436] Classname: actor_civilian_slum_male
+[    103440] Targetname: pf0_auto398
+[    103443] ----------------------------------
+[    103629] 
+[    103633] ----------------------------------
+[    103636] Index Number(id): 221
+[    103640] Classname: actor_enemy_villian_faust_assistant
+[    103643] Targetname: makarov_street_spawner
+[    103646] ----------------------------------
+[    103827] 
+[    103831] ----------------------------------
+[    103834] Index Number(id): 222
+[    103837] Classname: actor_ally_hero_ghost_socom
+[    103840] Targetname: ending_ghost_spawner
+[    103844] ----------------------------------
+[    104025] 
+[    104028] ----------------------------------
+[    104031] Index Number(id): 223
+[    104034] Classname: actor_enemy_villian_faust
+[    104038] Targetname: faust_spawner_2
+[    104042] ----------------------------------
+[    104224] 
+[    104228] ----------------------------------
+[    104231] Index Number(id): 224
+[    104234] Classname: actor_enemy_favela_RPG
+[    104237] Targetname: pf0_auto432
+[    104241] ----------------------------------
+[    104424] 
+[    104427] ----------------------------------
+[    104430] Index Number(id): 225
+[    104433] Classname: actor_ally_hero_ghost_socom
+[    104436] Targetname: torture_friendly_1_spawner
+[    104440] ----------------------------------
+[    104626] 
+[    104629] ----------------------------------
+[    104632] Index Number(id): 226
+[    104635] Classname: actor_ally_hero_soap_socom
+[    104639] Targetname: torture_friendly_2_spawner
+[    104642] ----------------------------------
+[    104829] 
+[    104832] ----------------------------------
+[    104835] Index Number(id): 227
+[    104839] Classname: actor_enemy_villian_faust_assistant
+[    104842] Targetname: torture_enemy_spawner
+[    104845] ----------------------------------
+[    105027] 
+[    105031] ----------------------------------
+[    105034] Index Number(id): 228
+[    105037] Classname: actor_ally_socom_MP5
+[    105040] Targetname: pf0_auto440
+[    105044] ----------------------------------
+[    105230] 
+[    105234] ----------------------------------
+[    105237] Index Number(id): 229
+[    105241] Classname: actor_ally_socom_M4
+[    105244] Targetname: pf0_auto440
+[    105247] ----------------------------------
+[    105428] 
+[    105432] ----------------------------------
+[    105435] Index Number(id): 230
+[    105439] Classname: actor_ally_hero_ghost_socom
+[    105442] Targetname: pf0_auto440
+[    105445] ----------------------------------
+[    105628] 
+[    105632] ----------------------------------
+[    105635] Index Number(id): 231
+[    105638] Classname: actor_ally_socom_MP5
+[    105641] Targetname: pf0_auto439
+[    105644] ----------------------------------
+[    105826] 
+[    105829] ----------------------------------
+[    105832] Index Number(id): 232
+[    105836] Classname: actor_ally_socom_M4
+[    105839] Targetname: pf0_auto439
+[    105842] ----------------------------------
+[    106025] 
+[    106028] ----------------------------------
+[    106031] Index Number(id): 233
+[    106034] Classname: actor_ally_hero_ghost_socom
+[    106037] Targetname: pf0_auto439
+[    106041] ----------------------------------
+[    106225] 
+[    106229] ----------------------------------
+[    106232] Index Number(id): 234
+[    106235] Classname: actor_enemy_favela_AR
+[    106239] Targetname: pf0_auto441
+[    106242] ----------------------------------
+[    106425] 
+[    106428] ----------------------------------
+[    106431] Index Number(id): 235
+[    106434] Classname: actor_enemy_favela_AR
+[    106438] Targetname: pf0_auto443
+[    106442] ----------------------------------
+[    106627] 
+[    106630] ----------------------------------
+[    106633] Index Number(id): 236
+[    106636] Classname: actor_enemy_favela_AR
+[    106640] Targetname: pf0_auto445
+[    106643] ----------------------------------
+[    106821] 
+[    106825] ----------------------------------
+[    106828] Index Number(id): 237
+[    106831] Classname: actor_civilian_slum_male
+[    106834] Targetname: pf0_auto506
+[    106838] ----------------------------------
+[    107027] 
+[    107030] ----------------------------------
+[    107033] Index Number(id): 238
+[    107036] Classname: actor_enemy_favela_RPG
+[    107039] Targetname: pf0_auto467
+[    107043] ----------------------------------
+[    107225] 
+[    107228] ----------------------------------
+[    107231] Index Number(id): 239
+[    107235] Classname: actor_enemy_favela_RPG
+[    107238] Targetname: pf0_auto467
+[    107241] ----------------------------------
+[    107426] 
+[    107430] ----------------------------------
+[    107433] Index Number(id): 240
+[    107436] Classname: actor_enemy_favela_AR
+[    107440] Targetname: pf0_auto467
+[    107443] ----------------------------------
+[    107621] 
+[    107625] ----------------------------------
+[    107628] Index Number(id): 241
+[    107631] Classname: actor_enemy_favela_AR
+[    107634] Targetname: pf0_auto467
+[    107637] ----------------------------------
+[    107822] 
+[    107825] ----------------------------------
+[    107828] Index Number(id): 242
+[    107832] Classname: actor_enemy_favela_AR
+[    107835] Targetname: pf0_auto479
+[    107838] ----------------------------------
+[    108020] 
+[    108023] ----------------------------------
+[    108026] Index Number(id): 243
+[    108029] Classname: actor_enemy_villian_faust
+[    108032] Targetname: faust_spawner_3
+[    108035] ----------------------------------
+[    108215] 
+[    108219] ----------------------------------
+[    108223] Index Number(id): 244
+[    108226] Classname: actor_enemy_villian_faust
+[    108229] Targetname: faust_spawner_4
+[    108232] ----------------------------------
+[    108415] 
+[    108418] ----------------------------------
+[    108422] Index Number(id): 245
+[    108425] Classname: actor_civilian_slum_male
+[    108428] Targetname: pf0_auto480
+[    108431] ----------------------------------
+[    108614] 
+[    108618] ----------------------------------
+[    108621] Index Number(id): 246
+[    108624] Classname: actor_civilian_slum_male
+[    108628] Targetname: pf0_auto492
+[    108631] ----------------------------------
+[    108814] 
+[    108817] ----------------------------------
+[    108821] Index Number(id): 247
+[    108824] Classname: actor_civilian_slum_male
+[    108827] Targetname: pf0_auto231
+[    108830] ----------------------------------
+[    109014] 
+[    109017] ----------------------------------
+[    109020] Index Number(id): 248
+[    109023] Classname: actor_civilian_slum_male
+[    109026] Targetname: pf0_auto233
+[    109030] ----------------------------------
+[    109213] 
+[    109216] ----------------------------------
+[    109220] Index Number(id): 249
+[    109223] Classname: actor_civilian_slum_male
+[    109226] Targetname: pf0_auto5
+[    109229] ----------------------------------
+[    109411] 
+[    109414] ----------------------------------
+[    109417] Index Number(id): 250
+[    109420] Classname: actor_civilian_slum_male
+[    109423] Targetname: pf0_auto3
+[    109427] ----------------------------------
+[    109615] 
+[    109618] ----------------------------------
+[    109621] Index Number(id): 251
+[    109625] Classname: actor_enemy_favela_trailerguy2
+[    109628] Targetname: trailer_talkers_2
+[    109631] ----------------------------------
+[    109814] 
+[    109817] ----------------------------------
+[    109821] Index Number(id): 252
+[    109824] Classname: actor_enemy_favela_trailerguy1
+[    109827] Targetname: trailer_talkers_2
+[    109830] ----------------------------------
+[    110014] 
+[    110017] ----------------------------------
+[    110020] Index Number(id): 253
+[    110023] Classname: actor_enemy_favela_trailerguy3
+[    110027] Targetname: trailer_talkers_2
+[    110030] ----------------------------------
+[    110213] 
+[    110217] ----------------------------------
+[    110220] Index Number(id): 254
+[    110223] Classname: actor_enemy_favela_SMG
+[    110227] Targetname: ambush_dude
+[    110230] ----------------------------------
+[    110419] 
+[    110422] ----------------------------------
+[    110426] Index Number(id): 255
+[    110429] Classname: actor_enemy_favela_AR
+[    110432] Targetname: ambush_dude
+[    110435] ----------------------------------
+[    110617] 
+[    110620] ----------------------------------
+[    110623] Index Number(id): 256
+[    110626] Classname: actor_enemy_favela_LMG
+[    110629] Targetname: ambush_dude
+[    110633] ----------------------------------
+[    110818] 
+[    110821] ----------------------------------
+[    110824] Index Number(id): 257
+[    110827] Classname: actor_enemy_favela_SMG
+[    110830] Targetname: ambush_dude
+[    110833] ----------------------------------
+[    111015] 
+[    111018] ----------------------------------
+[    111022] Index Number(id): 258
+[    111025] Classname: actor_enemy_favela_AR
+[    111028] Targetname: ambush_dude
+[    111032] ----------------------------------
+[    111215] 
+[    111218] ----------------------------------
+[    111222] Index Number(id): 259
+[    111225] Classname: actor_enemy_favela_SMG
+[    111228] Targetname: ambush_dude
+[    111231] ----------------------------------
+[    111418] 
+[    111422] ----------------------------------
+[    111425] Index Number(id): 260
+[    111428] Classname: actor_enemy_favela_AR
+[    111431] Targetname: ambush_dude
+[    111434] ----------------------------------
+[    111617] 
+[    111620] ----------------------------------
+[    111624] Index Number(id): 261
+[    111628] Classname: actor_enemy_favela_SMG
+[    111631] Targetname: ambush_dude
+[    111634] ----------------------------------
+[    111817] 
+[    111820] ----------------------------------
+[    111823] Index Number(id): 262
+[    111826] Classname: actor_enemy_favela_SMG
+[    111829] Targetname: ambush_dude
+[    111833] ----------------------------------
+[    112015] 
+[    112019] ----------------------------------
+[    112022] Index Number(id): 263
+[    112025] Classname: actor_enemy_favela_SMG
+[    112029] Targetname: ambush_dude
+[    112032] ----------------------------------
+[    112216] 
+[    112219] ----------------------------------
+[    112222] Index Number(id): 264
+[    112225] Classname: actor_enemy_favela_SMG
+[    112229] Targetname: ambush_dude
+[    112232] ----------------------------------
+[    112415] 
+[    112418] ----------------------------------
+[    112421] Index Number(id): 265
+[    112424] Classname: actor_enemy_favela_SMG
+[    112428] Targetname: ambush_dude
+[    112431] ----------------------------------
+[    112618] 
+[    112621] ----------------------------------
+[    112624] Index Number(id): 266
+[    112627] Classname: actor_enemy_favela_SMG
+[    112630] Targetname: me0_auto26
+[    112633] ----------------------------------
+[    112815] 
+[    112818] ----------------------------------
+[    112822] Index Number(id): 267
+[    112825] Classname: actor_enemy_dog
+[    112828] Targetname: fence_dog_spawner
+[    112832] ----------------------------------
+[    113014] 
+[    113018] ----------------------------------
+[    113021] Index Number(id): 268
+[    113024] Classname: actor_enemy_favela_SMG
+[    113027] Targetname: me0_auto26
+[    113030] ----------------------------------
+[    113212] 
+[    113216] ----------------------------------
+[    113219] Index Number(id): 269
+[    113222] Classname: actor_enemy_favela_SMG
+[    113225] Targetname: me0_auto26
+[    113229] ----------------------------------
+[    113411] 
+[    113414] ----------------------------------
+[    113417] Index Number(id): 270
+[    113420] Classname: actor_enemy_favela_AR
+[    113423] Targetname: me0_auto152
+[    113426] ----------------------------------
+[    113608] 
+[    113613] ----------------------------------
+[    113616] Index Number(id): 271
+[    113619] Classname: actor_enemy_dog
+[    113622] Targetname: fence_dog_spawner
+[    113625] ----------------------------------
+[    113808] 
+[    113811] ----------------------------------
+[    113814] Index Number(id): 272
+[    113818] Classname: actor_enemy_favela_LMG
+[    113821] Targetname: me0_auto26
+[    113824] ----------------------------------
+[    114006] 
+[    114010] ----------------------------------
+[    114013] Index Number(id): 273
+[    114017] Classname: actor_enemy_favela_SMG
+[    114020] Targetname: me0_auto26
+[    114023] ----------------------------------
+[    114205] 
+[    114209] ----------------------------------
+[    114212] Index Number(id): 274
+[    114215] Classname: actor_enemy_favela_SMG
+[    114218] Targetname: me0_auto26
+[    114222] ----------------------------------
+[    114407] 
+[    114411] ----------------------------------
+[    114414] Index Number(id): 275
+[    114417] Classname: actor_enemy_favela_AR
+[    114420] Targetname: me0_auto26
+[    114423] ----------------------------------
+[    114604] 
+[    114607] ----------------------------------
+[    114610] Index Number(id): 276
+[    114613] Classname: actor_enemy_favela_SMG
+[    114616] Targetname: me0_auto26
+[    114619] ----------------------------------
+[    114803] 
+[    114806] ----------------------------------
+[    114809] Index Number(id): 277
+[    114813] Classname: actor_enemy_favela_LMG
+[    114816] Targetname: me0_auto29
+[    114819] ----------------------------------
+[    115003] 
+[    115006] ----------------------------------
+[    115009] Index Number(id): 278
+[    115013] Classname: actor_enemy_favela_SMG
+[    115016] Targetname: me0_auto30
+[    115019] ----------------------------------
+[    115204] 
+[    115207] ----------------------------------
+[    115210] Index Number(id): 279
+[    115214] Classname: actor_enemy_favela_AR
+[    115217] Targetname: me0_auto31
+[    115220] ----------------------------------
+[    115404] 
+[    115407] ----------------------------------
+[    115411] Index Number(id): 280
+[    115414] Classname: actor_enemy_favela_SMG
+[    115417] Targetname: me0_auto28
+[    115420] ----------------------------------
+[    115601] 
+[    115604] ----------------------------------
+[    115608] Index Number(id): 281
+[    115611] Classname: actor_enemy_favela_SMG
+[    115614] Targetname: me0_auto26
+[    115617] ----------------------------------
+[    115802] 
+[    115805] ----------------------------------
+[    115808] Index Number(id): 282
+[    115812] Classname: actor_enemy_favela_AR
+[    115815] Targetname: me0_auto26
+[    115818] ----------------------------------
+[    116004] 
+[    116007] ----------------------------------
+[    116010] Index Number(id): 283
+[    116014] Classname: actor_enemy_favela_SMG
+[    116017] Targetname: me0_auto26
+[    116020] ----------------------------------
+[    116201] 
+[    116204] ----------------------------------
+[    116208] Index Number(id): 284
+[    116211] Classname: actor_enemy_favela_AR
+[    116214] Targetname: me0_auto40
+[    116217] ----------------------------------
+[    116398] 
+[    116402] ----------------------------------
+[    116405] Index Number(id): 285
+[    116408] Classname: actor_enemy_favela_AR
+[    116411] Targetname: me0_auto40
+[    116415] ----------------------------------
+[    116602] 
+[    116606] ----------------------------------
+[    116609] Index Number(id): 286
+[    116612] Classname: actor_enemy_favela_RPG
+[    116615] Targetname: me0_auto40
+[    116618] ----------------------------------
+[    116807] 
+[    116810] ----------------------------------
+[    116813] Index Number(id): 287
+[    116816] Classname: actor_enemy_favela_SMG
+[    116819] Targetname: me0_auto77
+[    116823] ----------------------------------
+[    117007] 
+[    117010] ----------------------------------
+[    117014] Index Number(id): 288
+[    117017] Classname: actor_enemy_favela_AR
+[    117020] Targetname: me0_auto77
+[    117024] ----------------------------------
+[    117208] 
+[    117212] ----------------------------------
+[    117215] Index Number(id): 289
+[    117218] Classname: actor_enemy_favela_AR
+[    117221] Targetname: me0_auto77
+[    117225] ----------------------------------

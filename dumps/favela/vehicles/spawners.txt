@@ -1,0 +1,58 @@
+[     44813] ---------------------------------------------------------------
+[     44817] --- IW4SP_SURVIVAL Vehicle Spawner Info Dump ---
+[     44821] --- Size: 9 ---
+[     44824] ---------------------------------------------------------------
+[     45313] 
+[     45316] ----------------------------------
+[     45320] Index Number(id): 0
+[     45323] Classname: script_vehicle_coupe_gray
+[     45326] Targetname: traffic_car_groupA_1
+[     45330] ----------------------------------
+[     45510] 
+[     45514] ----------------------------------
+[     45517] Index Number(id): 1
+[     45521] Classname: script_vehicle_coupe_gold
+[     45524] Targetname: traffic_car_groupA_2
+[     45527] ----------------------------------
+[     45708] 
+[     45711] ----------------------------------
+[     45714] Index Number(id): 2
+[     45717] Classname: script_vehicle_coupe_gray
+[     45721] undefined
+[     45724] ----------------------------------
+[     45911] 
+[     45914] ----------------------------------
+[     45917] Index Number(id): 3
+[     45921] Classname: script_vehicle_coupe_gold
+[     45924] undefined
+[     45927] ----------------------------------
+[     46111] 
+[     46114] ----------------------------------
+[     46117] Index Number(id): 4
+[     46120] Classname: script_vehicle_luxurysedan_viewmodel
+[     46123] Targetname: player_vehicle
+[     46126] ----------------------------------
+[     46309] 
+[     46313] ----------------------------------
+[     46316] Index Number(id): 5
+[     46319] Classname: script_vehicle_uaz_van
+[     46323] Targetname: van
+[     46326] ----------------------------------
+[     46511] 
+[     46514] ----------------------------------
+[     46517] Index Number(id): 6
+[     46520] Classname: script_vehicle_coupe_gray
+[     46523] Targetname: traffic_car_groupB_2
+[     46526] ----------------------------------
+[     46714] 
+[     46718] ----------------------------------
+[     46721] Index Number(id): 7
+[     46724] Classname: script_vehicle_coupe_gold
+[     46727] Targetname: traffic_car_groupB_1
+[     46730] ----------------------------------
+[     46911] 
+[     46915] ----------------------------------
+[     46918] Index Number(id): 8
+[     46921] Classname: script_vehicle_coupe_gold
+[     46924] undefined
+[     46927] ----------------------------------

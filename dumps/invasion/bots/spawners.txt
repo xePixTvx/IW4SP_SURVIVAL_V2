@@ -1,0 +1,1276 @@
+[     35037] ---------------------------------------------------------------
+[     35041] --- IW4SP_SURVIVAL Bot Spawner Info Dump ---
+[     35044] --- Size: 212 ---
+[     35048] ---------------------------------------------------------------
+[     35533] 
+[     35537] ----------------------------------
+[     35540] Index Number(id): 0
+[     35544] Classname: actor_enemy_airborne_AR
+[     35547] Targetname: auto632
+[     35550] ----------------------------------
+[     35725] 
+[     35729] ----------------------------------
+[     35733] Index Number(id): 1
+[     35736] Classname: actor_enemy_airborne_AR
+[     35739] Targetname: auto632
+[     35742] ----------------------------------
+[     35922] 
+[     35925] ----------------------------------
+[     35929] Index Number(id): 2
+[     35932] Classname: actor_enemy_airborne_SHTGN_striker
+[     35936] Targetname: auto632
+[     35938] ----------------------------------
+[     36119] 
+[     36122] ----------------------------------
+[     36126] Index Number(id): 3
+[     36129] Classname: actor_enemy_airborne_AR
+[     36132] Targetname: auto632
+[     36135] ----------------------------------
+[     36319] 
+[     36323] ----------------------------------
+[     36326] Index Number(id): 4
+[     36329] Classname: actor_ally_hero_dunn
+[     36333] Targetname: secretservice_friendly
+[     36337] ----------------------------------
+[     36519] 
+[     36522] ----------------------------------
+[     36525] Index Number(id): 5
+[     36528] Classname: actor_ally_hero_foley
+[     36531] Targetname: secretservice_friendly
+[     36534] ----------------------------------
+[     36721] 
+[     36725] ----------------------------------
+[     36728] Index Number(id): 6
+[     36731] Classname: actor_ally_us_army_M249
+[     36734] Targetname: secretservice_friendly
+[     36738] ----------------------------------
+[     36922] 
+[     36925] ----------------------------------
+[     36929] Index Number(id): 7
+[     36932] Classname: actor_enemy_airborne_AR
+[     36934] Targetname: pizza_rushers
+[     36938] ----------------------------------
+[     37122] 
+[     37126] ----------------------------------
+[     37129] Index Number(id): 8
+[     37134] Classname: actor_enemy_airborne_SHTGN_striker
+[     37137] Targetname: pizza_rushers
+[     37140] ----------------------------------
+[     37323] 
+[     37326] ----------------------------------
+[     37330] Index Number(id): 9
+[     37333] Classname: actor_enemy_airborne_AR
+[     37336] Targetname: ambient_battle
+[     37339] ----------------------------------
+[     37528] 
+[     37531] ----------------------------------
+[     37535] Index Number(id): 10
+[     37538] Classname: actor_enemy_airborne_AR
+[     37541] Targetname: ambient_battle
+[     37544] ----------------------------------
+[     37730] 
+[     37733] ----------------------------------
+[     37737] Index Number(id): 11
+[     37740] Classname: actor_ally_us_army_SCAR
+[     37743] undefined
+[     37746] ----------------------------------
+[     37931] 
+[     37934] ----------------------------------
+[     37938] Index Number(id): 12
+[     37941] Classname: actor_ally_us_army_SCAR
+[     37944] undefined
+[     37947] ----------------------------------
+[     38137] 
+[     38140] ----------------------------------
+[     38143] Index Number(id): 13
+[     38146] Classname: actor_enemy_airborne_AR
+[     38149] Targetname: ambient_battle
+[     38153] ----------------------------------
+[     38335] 
+[     38339] ----------------------------------
+[     38341] Index Number(id): 14
+[     38344] Classname: actor_enemy_airborne_AR
+[     38348] Targetname: ambient_battle
+[     38351] ----------------------------------
+[     38533] 
+[     38537] ----------------------------------
+[     38539] Index Number(id): 15
+[     38540] Classname: actor_enemy_airborne_AR
+[     38542] Targetname: ambient_battle
+[     38543] ----------------------------------
+[     38738] 
+[     38740] ----------------------------------
+[     38742] Index Number(id): 16
+[     38744] Classname: actor_enemy_airborne_LMG
+[     38746] Targetname: ambient_battle
+[     38748] ----------------------------------
+[     38934] 
+[     38939] ----------------------------------
+[     38941] Index Number(id): 17
+[     38943] Classname: actor_enemy_airborne_AR
+[     38946] Targetname: ambient_battle
+[     38948] ----------------------------------
+[     39136] 
+[     39140] ----------------------------------
+[     39143] Index Number(id): 18
+[     39146] Classname: actor_enemy_airborne_RPG
+[     39149] Targetname: gas_station_truck_guys
+[     39152] ----------------------------------
+[     39337] 
+[     39341] ----------------------------------
+[     39345] Index Number(id): 19
+[     39348] Classname: actor_enemy_airborne_AR
+[     39351] Targetname: gas_station_truck_guys
+[     39355] ----------------------------------
+[     39536] 
+[     39540] ----------------------------------
+[     39544] Index Number(id): 20
+[     39546] Classname: actor_enemy_airborne_SHTGN_striker
+[     39550] Targetname: gas_station_truck_guys
+[     39553] ----------------------------------
+[     39735] 
+[     39739] ----------------------------------
+[     39742] Index Number(id): 21
+[     39745] Classname: actor_enemy_airborne_AR
+[     39748] Targetname: gas_station_truck_guys
+[     39752] ----------------------------------
+[     39932] 
+[     39935] ----------------------------------
+[     39938] Index Number(id): 22
+[     39941] Classname: actor_enemy_airborne_AR
+[     39944] Targetname: gas_station_truck_guys
+[     39947] ----------------------------------
+[     40131] 
+[     40134] ----------------------------------
+[     40138] Index Number(id): 23
+[     40141] Classname: actor_enemy_airborne_AR
+[     40145] Targetname: gas_station_truck_guys
+[     40148] ----------------------------------
+[     40332] 
+[     40336] ----------------------------------
+[     40340] Index Number(id): 24
+[     40343] Classname: actor_enemy_airborne_AR
+[     40346] Targetname: burger_town_nates_attackers
+[     40350] ----------------------------------
+[     40531] 
+[     40534] ----------------------------------
+[     40538] Index Number(id): 25
+[     40541] Classname: actor_enemy_airborne_RPG
+[     40544] Targetname: burger_town_nates_attackers
+[     40548] ----------------------------------
+[     40725] 
+[     40728] ----------------------------------
+[     40731] Index Number(id): 26
+[     40735] Classname: actor_enemy_airborne_AR
+[     40738] Targetname: burger_town_nates_attackers
+[     40741] ----------------------------------
+[     40926] 
+[     40930] ----------------------------------
+[     40932] Index Number(id): 27
+[     40935] Classname: actor_enemy_airborne_AR
+[     40939] Targetname: burger_town_nates_attackers
+[     40942] ----------------------------------
+[     41128] 
+[     41131] ----------------------------------
+[     41134] Index Number(id): 28
+[     41138] Classname: actor_enemy_airborne_LMG
+[     41141] Targetname: burger_town_nates_attackers
+[     41144] ----------------------------------
+[     41324] 
+[     41327] ----------------------------------
+[     41331] Index Number(id): 29
+[     41334] Classname: actor_enemy_airborne_AR
+[     41337] Targetname: burger_town_nates_attackers
+[     41341] ----------------------------------
+[     41527] 
+[     41530] ----------------------------------
+[     41533] Index Number(id): 30
+[     41537] Classname: actor_enemy_airborne_RPG
+[     41541] Targetname: burger_town_nates_attackers
+[     41544] ----------------------------------
+[     41726] 
+[     41730] ----------------------------------
+[     41733] Index Number(id): 31
+[     41736] Classname: actor_enemy_airborne_AR
+[     41740] Targetname: burger_town_nates_attackers
+[     41743] ----------------------------------
+[     41926] 
+[     41930] ----------------------------------
+[     41933] Index Number(id): 32
+[     41936] Classname: actor_enemy_airborne_RPG
+[     41939] Targetname: burger_town_nates_attackers
+[     41943] ----------------------------------
+[     42129] 
+[     42132] ----------------------------------
+[     42136] Index Number(id): 33
+[     42140] Classname: actor_ally_us_army_SCAR
+[     42143] undefined
+[     42146] ----------------------------------
+[     42330] 
+[     42334] ----------------------------------
+[     42337] Index Number(id): 34
+[     42341] Classname: actor_enemy_airborne_AR
+[     42344] Targetname: burger_town_nates_attackers
+[     42347] ----------------------------------
+[     42525] 
+[     42529] ----------------------------------
+[     42532] Index Number(id): 35
+[     42536] Classname: actor_enemy_airborne_AR
+[     42540] Targetname: burger_town_nates_attackers
+[     42543] ----------------------------------
+[     42724] 
+[     42727] ----------------------------------
+[     42730] Index Number(id): 36
+[     42734] Classname: actor_enemy_airborne_AR
+[     42737] Targetname: burger_town_nates_attackers
+[     42740] ----------------------------------
+[     42926] 
+[     42930] ----------------------------------
+[     42933] Index Number(id): 37
+[     42936] Classname: actor_ally_us_army_SCAR
+[     42940] undefined
+[     42943] ----------------------------------
+[     43127] 
+[     43131] ----------------------------------
+[     43134] Index Number(id): 38
+[     43137] Classname: actor_ally_us_army_SCAR
+[     43140] undefined
+[     43143] ----------------------------------
+[     43327] 
+[     43332] ----------------------------------
+[     43335] Index Number(id): 39
+[     43338] Classname: actor_ally_us_army_SCAR
+[     43342] undefined
+[     43345] ----------------------------------
+[     43535] 
+[     43539] ----------------------------------
+[     43543] Index Number(id): 40
+[     43546] Classname: actor_ally_us_army_SCAR
+[     43549] undefined
+[     43552] ----------------------------------
+[     43734] 
+[     43737] ----------------------------------
+[     43740] Index Number(id): 41
+[     43744] Classname: actor_ally_us_army_SCAR
+[     43747] undefined
+[     43750] ----------------------------------
+[     43929] 
+[     43933] ----------------------------------
+[     43936] Index Number(id): 42
+[     43939] Classname: actor_ally_us_army_SCAR
+[     43943] undefined
+[     43946] ----------------------------------
+[     44130] 
+[     44133] ----------------------------------
+[     44136] Index Number(id): 43
+[     44139] Classname: actor_enemy_airborne_AR
+[     44143] Targetname: diner_enemy_defenders
+[     44146] ----------------------------------
+[     44327] 
+[     44331] ----------------------------------
+[     44334] Index Number(id): 44
+[     44337] Classname: actor_enemy_airborne_AR
+[     44341] Targetname: diner_enemy_defenders
+[     44344] ----------------------------------
+[     44525] 
+[     44528] ----------------------------------
+[     44531] Index Number(id): 45
+[     44534] Classname: actor_enemy_airborne_AR
+[     44538] Targetname: nates_regroup_enemies
+[     44542] ----------------------------------
+[     44726] 
+[     44729] ----------------------------------
+[     44732] Index Number(id): 46
+[     44735] Classname: actor_enemy_airborne_AR
+[     44739] Targetname: wounded_carry_attackers_TC
+[     44742] ----------------------------------
+[     44926] 
+[     44929] ----------------------------------
+[     44932] Index Number(id): 47
+[     44935] Classname: actor_enemy_airborne_AR
+[     44939] Targetname: wounded_carry_attackers_TC
+[     44943] ----------------------------------
+[     45125] 
+[     45129] ----------------------------------
+[     45132] Index Number(id): 48
+[     45136] Classname: actor_enemy_airborne_AR
+[     45139] Targetname: diner_enemy_defenders
+[     45142] ----------------------------------
+[     45327] 
+[     45330] ----------------------------------
+[     45333] Index Number(id): 49
+[     45337] Classname: actor_enemy_airborne_AR
+[     45340] Targetname: diner_enemy_defenders
+[     45344] ----------------------------------
+[     45526] 
+[     45529] ----------------------------------
+[     45532] Index Number(id): 50
+[     45535] Classname: actor_ally_us_army_SCAR
+[     45538] Targetname: auto3228
+[     45542] ----------------------------------
+[     45726] 
+[     45729] ----------------------------------
+[     45733] Index Number(id): 51
+[     45736] Classname: actor_ally_us_army_M249
+[     45739] Targetname: auto3228
+[     45743] ----------------------------------
+[     45926] 
+[     45929] ----------------------------------
+[     45932] Index Number(id): 52
+[     45935] Classname: actor_ally_us_army_SCAR
+[     45939] undefined
+[     45942] ----------------------------------
+[     46122] 
+[     46126] ----------------------------------
+[     46130] Index Number(id): 53
+[     46133] Classname: actor_enemy_airborne_AR
+[     46136] Targetname: bank_nates_attackers
+[     46139] ----------------------------------
+[     46322] 
+[     46325] ----------------------------------
+[     46329] Index Number(id): 54
+[     46332] Classname: actor_enemy_airborne_AR
+[     46336] undefined
+[     46339] ----------------------------------
+[     46526] 
+[     46529] ----------------------------------
+[     46532] Index Number(id): 55
+[     46535] Classname: actor_enemy_airborne_AR
+[     46538] Targetname: burger_town_enemy_defenders
+[     46542] ----------------------------------
+[     46722] 
+[     46726] ----------------------------------
+[     46729] Index Number(id): 56
+[     46732] Classname: actor_enemy_airborne_SHTGN_striker
+[     46735] Targetname: burger_town_enemy_defenders
+[     46738] ----------------------------------
+[     46922] 
+[     46925] ----------------------------------
+[     46928] Index Number(id): 57
+[     46931] Classname: actor_enemy_airborne_AR
+[     46934] Targetname: burger_town_enemy_defenders
+[     46937] ----------------------------------
+[     47120] 
+[     47123] ----------------------------------
+[     47126] Index Number(id): 58
+[     47129] Classname: actor_enemy_airborne_AR
+[     47132] Targetname: burger_town_enemy_defenders
+[     47136] ----------------------------------
+[     47321] 
+[     47324] ----------------------------------
+[     47328] Index Number(id): 59
+[     47331] Classname: actor_enemy_airborne_AR
+[     47334] Targetname: burger_town_enemy_defenders
+[     47337] ----------------------------------
+[     47527] 
+[     47530] ----------------------------------
+[     47533] Index Number(id): 60
+[     47537] Classname: actor_enemy_airborne_SHTGN_striker
+[     47540] Targetname: burger_town_enemy_defenders
+[     47543] ----------------------------------
+[     47728] 
+[     47733] ----------------------------------
+[     47735] Index Number(id): 61
+[     47738] Classname: actor_enemy_airborne_AR
+[     47742] Targetname: burger_town_enemy_defenders
+[     47746] ----------------------------------
+[     47926] 
+[     47930] ----------------------------------
+[     47933] Index Number(id): 62
+[     47936] Classname: actor_enemy_airborne_AR
+[     47939] Targetname: burger_town_enemy_defenders
+[     47943] ----------------------------------
+[     48128] 
+[     48132] ----------------------------------
+[     48135] Index Number(id): 63
+[     48138] Classname: actor_enemy_airborne_AR
+[     48141] Targetname: burger_town_enemy_defenders
+[     48144] ----------------------------------
+[     48328] 
+[     48332] ----------------------------------
+[     48335] Index Number(id): 64
+[     48338] Classname: actor_enemy_airborne_LMG
+[     48342] Targetname: diner_enemy_defenders
+[     48345] ----------------------------------
+[     48526] 
+[     48530] ----------------------------------
+[     48533] Index Number(id): 65
+[     48536] Classname: actor_enemy_airborne_RPG
+[     48539] Targetname: diner_enemy_defenders
+[     48542] ----------------------------------
+[     48729] 
+[     48732] ----------------------------------
+[     48736] Index Number(id): 66
+[     48739] Classname: actor_enemy_airborne_AR
+[     48743] Targetname: diner_enemy_defenders
+[     48746] ----------------------------------
+[     48928] 
+[     48933] ----------------------------------
+[     48935] Index Number(id): 67
+[     48938] Classname: actor_enemy_airborne_AR
+[     48941] Targetname: diner_enemy_defenders
+[     48945] ----------------------------------
+[     49128] 
+[     49132] ----------------------------------
+[     49135] Index Number(id): 68
+[     49138] Classname: actor_enemy_airborne_SHTGN_striker
+[     49141] Targetname: diner_enemy_defenders
+[     49144] ----------------------------------
+[     49325] 
+[     49330] ----------------------------------
+[     49333] Index Number(id): 69
+[     49336] Classname: actor_enemy_airborne_AR
+[     49339] Targetname: diner_enemy_defenders
+[     49343] ----------------------------------
+[     49527] 
+[     49531] ----------------------------------
+[     49534] Index Number(id): 70
+[     49537] Classname: actor_enemy_airborne_AR
+[     49540] Targetname: diner_enemy_counter_attack
+[     49543] ----------------------------------
+[     49728] 
+[     49731] ----------------------------------
+[     49734] Index Number(id): 71
+[     49737] Classname: actor_enemy_airborne_SHTGN_striker
+[     49741] Targetname: diner_enemy_counter_attack
+[     49744] ----------------------------------
+[     49931] 
+[     49934] ----------------------------------
+[     49938] Index Number(id): 72
+[     49941] Classname: actor_enemy_airborne_AR
+[     49944] Targetname: diner_enemy_counter_attack
+[     49947] ----------------------------------
+[     50124] 
+[     50128] ----------------------------------
+[     50131] Index Number(id): 73
+[     50134] Classname: actor_enemy_airborne_AR
+[     50138] Targetname: diner_enemy_counter_attack
+[     50141] ----------------------------------
+[     50324] 
+[     50328] ----------------------------------
+[     50332] Index Number(id): 74
+[     50336] Classname: actor_enemy_airborne_AR
+[     50339] Targetname: roof_parachute_landing_guy_yards
+[     50342] ----------------------------------
+[     50523] 
+[     50526] ----------------------------------
+[     50531] Index Number(id): 75
+[     50534] Classname: actor_enemy_airborne_AR
+[     50537] Targetname: truck_riders
+[     50540] ----------------------------------
+[     50724] 
+[     50727] ----------------------------------
+[     50731] Index Number(id): 76
+[     50734] Classname: actor_enemy_airborne_AR
+[     50737] Targetname: truck_riders
+[     50740] ----------------------------------
+[     50924] 
+[     50927] ----------------------------------
+[     50931] Index Number(id): 77
+[     50934] Classname: actor_enemy_airborne_SHTGN_striker
+[     50937] Targetname: truck_riders
+[     50940] ----------------------------------
+[     51124] 
+[     51128] ----------------------------------
+[     51132] Index Number(id): 78
+[     51135] Classname: actor_enemy_airborne_AR
+[     51138] Targetname: truck_riders
+[     51141] ----------------------------------
+[     51325] 
+[     51329] ----------------------------------
+[     51332] Index Number(id): 79
+[     51335] Classname: actor_enemy_airborne_AR
+[     51338] Targetname: truck_riders
+[     51341] ----------------------------------
+[     51531] 
+[     51534] ----------------------------------
+[     51538] Index Number(id): 80
+[     51541] Classname: actor_enemy_airborne_AR
+[     51544] Targetname: truck_riders
+[     51548] ----------------------------------
+[     51731] 
+[     51734] ----------------------------------
+[     51738] Index Number(id): 81
+[     51741] Classname: actor_enemy_airborne_LMG
+[     51744] Targetname: truck_riders
+[     51747] ----------------------------------
+[     51931] 
+[     51934] ----------------------------------
+[     51937] Index Number(id): 82
+[     51940] Classname: actor_enemy_airborne_RPG
+[     51943] Targetname: truck_riders
+[     51947] ----------------------------------
+[     52133] 
+[     52136] ----------------------------------
+[     52140] Index Number(id): 83
+[     52143] Classname: actor_enemy_airborne_AR
+[     52146] Targetname: truck_riders
+[     52149] ----------------------------------
+[     52336] 
+[     52340] ----------------------------------
+[     52343] Index Number(id): 84
+[     52346] Classname: actor_enemy_airborne_RPG
+[     52349] Targetname: truck_riders
+[     52353] ----------------------------------
+[     52536] 
+[     52539] ----------------------------------
+[     52542] Index Number(id): 85
+[     52545] Classname: actor_ally_vip_invasion
+[     52549] undefined
+[     52552] ----------------------------------
+[     52734] 
+[     52738] ----------------------------------
+[     52741] Index Number(id): 86
+[     52744] Classname: actor_enemy_airborne_AR
+[     52748] Targetname: wounded_carry_attackers_TC
+[     52751] ----------------------------------
+[     52936] 
+[     52941] ----------------------------------
+[     52944] Index Number(id): 87
+[     52947] Classname: actor_enemy_airborne_AR
+[     52950] Targetname: wounded_carry_attackers_TC
+[     52954] ----------------------------------
+[     53140] 
+[     53144] ----------------------------------
+[     53147] Index Number(id): 88
+[     53150] Classname: actor_enemy_airborne_AR
+[     53153] Targetname: wounded_carry_attackers_bus
+[     53157] ----------------------------------
+[     53339] 
+[     53343] ----------------------------------
+[     53345] Index Number(id): 89
+[     53348] Classname: actor_enemy_airborne_AR
+[     53351] Targetname: wounded_carry_attackers_bus
+[     53354] ----------------------------------
+[     53541] 
+[     53545] ----------------------------------
+[     53548] Index Number(id): 90
+[     53551] Classname: actor_enemy_airborne_AR
+[     53554] Targetname: wounded_carry_attackers_bus
+[     53557] ----------------------------------
+[     53742] 
+[     53745] ----------------------------------
+[     53749] Index Number(id): 91
+[     53752] Classname: actor_enemy_airborne_AR
+[     53755] Targetname: wounded_carry_attackers_bus
+[     53758] ----------------------------------
+[     53941] 
+[     53945] ----------------------------------
+[     53948] Index Number(id): 92
+[     53952] Classname: actor_enemy_airborne_AR
+[     53955] Targetname: wounded_carry_attackers_bus
+[     53958] ----------------------------------
+[     54143] 
+[     54146] ----------------------------------
+[     54150] Index Number(id): 93
+[     54154] Classname: actor_enemy_airborne_AR
+[     54157] Targetname: wounded_carry_attackers_bus
+[     54160] ----------------------------------
+[     54339] 
+[     54342] ----------------------------------
+[     54346] Index Number(id): 94
+[     54349] Classname: actor_enemy_airborne_AR
+[     54353] Targetname: wounded_carry_attackers_gas
+[     54356] ----------------------------------
+[     54536] 
+[     54539] ----------------------------------
+[     54542] Index Number(id): 95
+[     54545] Classname: actor_enemy_airborne_AR
+[     54549] Targetname: wounded_carry_attackers_gas
+[     54552] ----------------------------------
+[     54733] 
+[     54737] ----------------------------------
+[     54740] Index Number(id): 96
+[     54743] Classname: actor_enemy_airborne_AR
+[     54746] Targetname: wounded_carry_attackers_gas
+[     54749] ----------------------------------
+[     54931] 
+[     54934] ----------------------------------
+[     54938] Index Number(id): 97
+[     54941] Classname: actor_enemy_airborne_AR
+[     54944] Targetname: wounded_carry_attackers_gas
+[     54947] ----------------------------------
+[     55133] 
+[     55136] ----------------------------------
+[     55140] Index Number(id): 98
+[     55143] Classname: actor_enemy_airborne_AR
+[     55146] Targetname: wounded_carry_attackers_gas
+[     55150] ----------------------------------
+[     55335] 
+[     55339] ----------------------------------
+[     55342] Index Number(id): 99
+[     55345] Classname: actor_enemy_airborne_AR
+[     55349] Targetname: wounded_carry_attackers_gas
+[     55352] ----------------------------------
+[     55538] 
+[     55541] ----------------------------------
+[     55544] Index Number(id): 100
+[     55548] Classname: actor_enemy_airborne_SHTGN_striker
+[     55551] Targetname: diner_enemy_counter_attack
+[     55555] ----------------------------------
+[     55737] 
+[     55741] ----------------------------------
+[     55744] Index Number(id): 101
+[     55747] Classname: actor_enemy_airborne_AR
+[     55750] Targetname: diner_enemy_counter_attack
+[     55753] ----------------------------------
+[     55940] 
+[     55944] ----------------------------------
+[     55947] Index Number(id): 102
+[     55951] Classname: actor_ally_us_army_SCAR
+[     55954] undefined
+[     55957] ----------------------------------
+[     56138] 
+[     56142] ----------------------------------
+[     56145] Index Number(id): 103
+[     56148] Classname: actor_enemy_airborne_AR
+[     56151] Targetname: auto2972
+[     56155] ----------------------------------
+[     56337] 
+[     56341] ----------------------------------
+[     56344] Index Number(id): 104
+[     56347] Classname: actor_enemy_airborne_AR
+[     56350] Targetname: auto2972
+[     56354] ----------------------------------
+[     56539] 
+[     56543] ----------------------------------
+[     56546] Index Number(id): 105
+[     56549] Classname: actor_enemy_airborne_AR
+[     56552] Targetname: auto2972
+[     56555] ----------------------------------
+[     56735] 
+[     56738] ----------------------------------
+[     56741] Index Number(id): 106
+[     56744] Classname: actor_enemy_airborne_AR
+[     56747] Targetname: auto2972
+[     56750] ----------------------------------
+[     56940] 
+[     56943] ----------------------------------
+[     56946] Index Number(id): 107
+[     56950] Classname: actor_enemy_airborne_AR
+[     56953] Targetname: bank_nates_attackers
+[     56956] ----------------------------------
+[     57142] 
+[     57146] ----------------------------------
+[     57149] Index Number(id): 108
+[     57152] Classname: actor_enemy_airborne_AR
+[     57155] Targetname: bank_nates_attackers
+[     57158] ----------------------------------
+[     57339] 
+[     57343] ----------------------------------
+[     57346] Index Number(id): 109
+[     57349] Classname: actor_enemy_airborne_AR
+[     57352] Targetname: bank_nates_attackers
+[     57355] ----------------------------------
+[     57540] 
+[     57543] ----------------------------------
+[     57546] Index Number(id): 110
+[     57549] Classname: actor_enemy_airborne_AR
+[     57552] Targetname: bank_nates_attackers
+[     57555] ----------------------------------
+[     57739] 
+[     57742] ----------------------------------
+[     57745] Index Number(id): 111
+[     57749] Classname: actor_enemy_airborne_AR
+[     57752] Targetname: humvee_ride_roof_landing
+[     57755] ----------------------------------
+[     57940] 
+[     57943] ----------------------------------
+[     57946] Index Number(id): 112
+[     57949] Classname: actor_ally_us_army_SCAR
+[     57953] Targetname: humvee_blows_up_riders
+[     57956] ----------------------------------
+[     58141] 
+[     58144] ----------------------------------
+[     58147] Index Number(id): 113
+[     58151] Classname: actor_ally_us_army_SCAR
+[     58155] Targetname: auto2995
+[     58156] ----------------------------------
+[     58339] 
+[     58340] ----------------------------------
+[     58342] Index Number(id): 114
+[     58344] Classname: actor_ally_us_army_SCAR
+[     58345] Targetname: humvee_blows_up_riders
+[     58347] ----------------------------------
+[     58534] 
+[     58536] ----------------------------------
+[     58538] Index Number(id): 115
+[     58540] Classname: actor_enemy_airborne_drone
+[     58542] undefined
+[     58545] ----------------------------------
+[     58737] 
+[     58740] ----------------------------------
+[     58742] Index Number(id): 116
+[     58745] Classname: actor_enemy_airborne_drone
+[     58748] undefined
+[     58751] ----------------------------------
+[     58940] 
+[     58943] ----------------------------------
+[     58947] Index Number(id): 117
+[     58950] Classname: actor_ally_us_army_SCAR
+[     58954] Targetname: auto3227
+[     58957] ----------------------------------
+[     59143] 
+[     59146] ----------------------------------
+[     59149] Index Number(id): 118
+[     59153] Classname: actor_ally_us_army_M249
+[     59156] Targetname: auto3227
+[     59159] ----------------------------------
+[     59338] 
+[     59342] ----------------------------------
+[     59345] Index Number(id): 119
+[     59348] Classname: actor_ally_us_army_SCAR
+[     59352] Targetname: auto3227
+[     59355] ----------------------------------
+[     59539] 
+[     59543] ----------------------------------
+[     59547] Index Number(id): 120
+[     59550] Classname: actor_ally_us_army_SCAR
+[     59553] Targetname: auto3226
+[     59557] ----------------------------------
+[     59739] 
+[     59742] ----------------------------------
+[     59746] Index Number(id): 121
+[     59749] Classname: actor_ally_us_army_M249
+[     59753] Targetname: auto3226
+[     59756] ----------------------------------
+[     59936] 
+[     59940] ----------------------------------
+[     59944] Index Number(id): 122
+[     59947] Classname: actor_ally_us_army_SCAR
+[     59950] Targetname: auto3226
+[     59953] ----------------------------------
+[     60136] 
+[     60140] ----------------------------------
+[     60143] Index Number(id): 123
+[     60146] Classname: actor_enemy_airborne_AR
+[     60149] Targetname: nates_regroup_enemies
+[     60152] ----------------------------------
+[     60337] 
+[     60340] ----------------------------------
+[     60344] Index Number(id): 124
+[     60347] Classname: actor_enemy_airborne_AR
+[     60350] Targetname: nates_regroup_enemies
+[     60354] ----------------------------------
+[     60538] 
+[     60542] ----------------------------------
+[     60546] Index Number(id): 125
+[     60548] Classname: actor_enemy_airborne_AR
+[     60551] Targetname: nates_regroup_enemies
+[     60555] ----------------------------------
+[     60738] 
+[     60741] ----------------------------------
+[     60744] Index Number(id): 126
+[     60747] Classname: actor_enemy_airborne_AR
+[     60751] Targetname: bank_enemies
+[     60754] ----------------------------------
+[     60937] 
+[     60941] ----------------------------------
+[     60944] Index Number(id): 127
+[     60947] Classname: actor_enemy_airborne_AR
+[     60950] Targetname: bank_enemies
+[     60953] ----------------------------------
+[     61139] 
+[     61142] ----------------------------------
+[     61146] Index Number(id): 128
+[     61149] Classname: actor_enemy_airborne_SHTGN_striker
+[     61152] Targetname: bank_enemies
+[     61155] ----------------------------------
+[     61333] 
+[     61337] ----------------------------------
+[     61340] Index Number(id): 129
+[     61343] Classname: actor_enemy_airborne_AR
+[     61346] Targetname: bank_enemies
+[     61350] ----------------------------------
+[     61536] 
+[     61540] ----------------------------------
+[     61543] Index Number(id): 130
+[     61546] Classname: actor_enemy_airborne_AR
+[     61549] Targetname: bank_enemies
+[     61552] ----------------------------------
+[     61738] 
+[     61741] ----------------------------------
+[     61744] Index Number(id): 131
+[     61747] Classname: actor_enemy_airborne_AR
+[     61750] Targetname: bank_enemies
+[     61754] ----------------------------------
+[     61936] 
+[     61940] ----------------------------------
+[     61944] Index Number(id): 132
+[     61947] Classname: actor_enemy_airborne_LMG
+[     61949] Targetname: bank_enemies
+[     61952] ----------------------------------
+[     62136] 
+[     62139] ----------------------------------
+[     62143] Index Number(id): 133
+[     62145] Classname: actor_enemy_airborne_RPG
+[     62148] Targetname: bank_enemies
+[     62151] ----------------------------------
+[     62338] 
+[     62341] ----------------------------------
+[     62344] Index Number(id): 134
+[     62347] Classname: actor_enemy_airborne_AR
+[     62350] Targetname: bank_enemies
+[     62354] ----------------------------------
+[     62540] 
+[     62543] ----------------------------------
+[     62546] Index Number(id): 135
+[     62549] Classname: actor_enemy_airborne_RPG
+[     62553] Targetname: bank_enemies
+[     62556] ----------------------------------
+[     62738] 
+[     62742] ----------------------------------
+[     62745] Index Number(id): 136
+[     62748] Classname: actor_enemy_airborne_AR
+[     62751] Targetname: bank_enemies
+[     62755] ----------------------------------
+[     62939] 
+[     62943] ----------------------------------
+[     62946] Index Number(id): 137
+[     62949] Classname: actor_enemy_airborne_AR
+[     62952] Targetname: bank_enemies
+[     62956] ----------------------------------
+[     63141] 
+[     63145] ----------------------------------
+[     63149] Index Number(id): 138
+[     63152] Classname: actor_enemy_airborne_SHTGN_striker
+[     63156] Targetname: bank_enemies
+[     63159] ----------------------------------
+[     63344] 
+[     63348] ----------------------------------
+[     63351] Index Number(id): 139
+[     63354] Classname: actor_enemy_airborne_AR
+[     63357] Targetname: bank_enemies
+[     63360] ----------------------------------
+[     63540] 
+[     63543] ----------------------------------
+[     63546] Index Number(id): 140
+[     63549] Classname: actor_enemy_airborne_AR
+[     63552] Targetname: bank_enemies
+[     63555] ----------------------------------
+[     63743] 
+[     63746] ----------------------------------
+[     63750] Index Number(id): 141
+[     63753] Classname: actor_enemy_airborne_AR
+[     63757] Targetname: bank_enemies
+[     63761] ----------------------------------
+[     63945] 
+[     63949] ----------------------------------
+[     63953] Index Number(id): 142
+[     63956] Classname: actor_enemy_airborne_LMG
+[     63959] Targetname: bank_enemies
+[     63962] ----------------------------------
+[     64155] 
+[     64158] ----------------------------------
+[     64161] Index Number(id): 143
+[     64165] Classname: actor_enemy_airborne_RPG
+[     64168] Targetname: bank_enemies
+[     64172] ----------------------------------
+[     64353] 
+[     64358] ----------------------------------
+[     64361] Index Number(id): 144
+[     64363] Classname: actor_enemy_airborne_AR
+[     64367] Targetname: bank_enemies
+[     64370] ----------------------------------
+[     64557] 
+[     64561] ----------------------------------
+[     64564] Index Number(id): 145
+[     64568] Classname: actor_enemy_airborne_RPG
+[     64571] Targetname: bank_enemies
+[     64574] ----------------------------------
+[     64757] 
+[     64760] ----------------------------------
+[     64764] Index Number(id): 146
+[     64767] Classname: actor_enemy_airborne_AR
+[     64770] Targetname: gas_station_enemies
+[     64774] ----------------------------------
+[     64953] 
+[     64957] ----------------------------------
+[     64963] Index Number(id): 147
+[     64966] Classname: actor_enemy_airborne_AR
+[     64969] Targetname: gas_station_enemies
+[     64972] ----------------------------------
+[     65151] 
+[     65155] ----------------------------------
+[     65158] Index Number(id): 148
+[     65161] Classname: actor_enemy_airborne_SHTGN_striker
+[     65164] Targetname: gas_station_enemies
+[     65168] ----------------------------------
+[     65354] 
+[     65357] ----------------------------------
+[     65361] Index Number(id): 149
+[     65364] Classname: actor_enemy_airborne_AR
+[     65367] Targetname: gas_station_enemies
+[     65370] ----------------------------------
+[     65555] 
+[     65559] ----------------------------------
+[     65562] Index Number(id): 150
+[     65565] Classname: actor_enemy_airborne_AR
+[     65568] Targetname: gas_station_enemies
+[     65572] ----------------------------------
+[     65759] 
+[     65762] ----------------------------------
+[     65765] Index Number(id): 151
+[     65768] Classname: actor_enemy_airborne_AR
+[     65772] Targetname: gas_station_enemies
+[     65776] ----------------------------------
+[     65956] 
+[     65960] ----------------------------------
+[     65963] Index Number(id): 152
+[     65966] Classname: actor_enemy_airborne_LMG
+[     65970] Targetname: gas_station_enemies
+[     65974] ----------------------------------
+[     66156] 
+[     66160] ----------------------------------
+[     66163] Index Number(id): 153
+[     66166] Classname: actor_enemy_airborne_RPG
+[     66170] Targetname: gas_station_enemies
+[     66174] ----------------------------------
+[     66355] 
+[     66358] ----------------------------------
+[     66361] Index Number(id): 154
+[     66364] Classname: actor_enemy_airborne_AR
+[     66368] Targetname: gas_station_enemies
+[     66371] ----------------------------------
+[     66552] 
+[     66555] ----------------------------------
+[     66558] Index Number(id): 155
+[     66561] Classname: actor_enemy_airborne_RPG
+[     66564] Targetname: gas_station_enemies
+[     66567] ----------------------------------
+[     66748] 
+[     66751] ----------------------------------
+[     66755] Index Number(id): 156
+[     66759] Classname: actor_enemy_airborne_AR
+[     66762] Targetname: gas_station_enemies
+[     66765] ----------------------------------
+[     66952] 
+[     66956] ----------------------------------
+[     66961] Index Number(id): 157
+[     66964] Classname: actor_enemy_airborne_AR
+[     66967] Targetname: gas_station_enemies
+[     66970] ----------------------------------
+[     67152] 
+[     67155] ----------------------------------
+[     67158] Index Number(id): 158
+[     67162] Classname: actor_enemy_airborne_SHTGN_striker
+[     67165] Targetname: gas_station_enemies
+[     67168] ----------------------------------
+[     67353] 
+[     67357] ----------------------------------
+[     67362] Index Number(id): 159
+[     67365] Classname: actor_enemy_airborne_AR
+[     67368] Targetname: gas_station_enemies
+[     67372] ----------------------------------
+[     67556] 
+[     67560] ----------------------------------
+[     67563] Index Number(id): 160
+[     67566] Classname: actor_enemy_airborne_AR
+[     67569] Targetname: gas_station_enemies
+[     67572] ----------------------------------
+[     67749] 
+[     67754] ----------------------------------
+[     67757] Index Number(id): 161
+[     67761] Classname: actor_enemy_airborne_AR
+[     67764] Targetname: gas_station_enemies
+[     67767] ----------------------------------
+[     67945] 
+[     67949] ----------------------------------
+[     67952] Index Number(id): 162
+[     67955] Classname: actor_enemy_airborne_LMG
+[     67959] Targetname: gas_station_enemies
+[     67962] ----------------------------------
+[     68144] 
+[     68147] ----------------------------------
+[     68150] Index Number(id): 163
+[     68154] Classname: actor_enemy_airborne_RPG
+[     68157] Targetname: gas_station_enemies
+[     68160] ----------------------------------
+[     68347] 
+[     68350] ----------------------------------
+[     68354] Index Number(id): 164
+[     68357] Classname: actor_enemy_airborne_AR
+[     68360] Targetname: gas_station_enemies
+[     68363] ----------------------------------
+[     68543] 
+[     68547] ----------------------------------
+[     68550] Index Number(id): 165
+[     68553] Classname: actor_enemy_airborne_RPG
+[     68556] Targetname: gas_station_enemies
+[     68559] ----------------------------------
+[     68748] 
+[     68751] ----------------------------------
+[     68754] Index Number(id): 166
+[     68758] Classname: actor_enemy_airborne_AR
+[     68762] Targetname: taco_enemies
+[     68765] ----------------------------------
+[     68946] 
+[     68950] ----------------------------------
+[     68953] Index Number(id): 167
+[     68955] Classname: actor_enemy_airborne_AR
+[     68959] Targetname: taco_enemies
+[     68963] ----------------------------------
+[     69148] 
+[     69152] ----------------------------------
+[     69155] Index Number(id): 168
+[     69158] Classname: actor_enemy_airborne_SHTGN_striker
+[     69161] Targetname: taco_enemies
+[     69164] ----------------------------------
+[     69349] 
+[     69353] ----------------------------------
+[     69356] Index Number(id): 169
+[     69359] Classname: actor_enemy_airborne_AR
+[     69363] Targetname: taco_enemies
+[     69366] ----------------------------------
+[     69553] 
+[     69557] ----------------------------------
+[     69561] Index Number(id): 170
+[     69564] Classname: actor_enemy_airborne_AR
+[     69567] Targetname: taco_enemies
+[     69570] ----------------------------------
+[     69755] 
+[     69759] ----------------------------------
+[     69763] Index Number(id): 171
+[     69766] Classname: actor_enemy_airborne_AR
+[     69769] Targetname: taco_enemies
+[     69772] ----------------------------------
+[     69957] 
+[     69961] ----------------------------------
+[     69964] Index Number(id): 172
+[     69967] Classname: actor_enemy_airborne_LMG
+[     69970] Targetname: taco_enemies
+[     69973] ----------------------------------
+[     70157] 
+[     70161] ----------------------------------
+[     70164] Index Number(id): 173
+[     70166] Classname: actor_enemy_airborne_RPG
+[     70170] Targetname: taco_enemies
+[     70173] ----------------------------------
+[     70361] 
+[     70365] ----------------------------------
+[     70368] Index Number(id): 174
+[     70371] Classname: actor_enemy_airborne_AR
+[     70374] Targetname: taco_enemies
+[     70377] ----------------------------------
+[     70559] 
+[     70563] ----------------------------------
+[     70566] Index Number(id): 175
+[     70569] Classname: actor_enemy_airborne_RPG
+[     70572] Targetname: taco_enemies
+[     70575] ----------------------------------
+[     70758] 
+[     70762] ----------------------------------
+[     70765] Index Number(id): 176
+[     70768] Classname: actor_enemy_airborne_AR
+[     70772] Targetname: taco_enemies
+[     70774] ----------------------------------
+[     70960] 
+[     70963] ----------------------------------
+[     70966] Index Number(id): 177
+[     70970] Classname: actor_enemy_airborne_SHTGN_striker
+[     70973] Targetname: taco_enemies
+[     70976] ----------------------------------
+[     71158] 
+[     71161] ----------------------------------
+[     71164] Index Number(id): 178
+[     71167] Classname: actor_enemy_airborne_AR
+[     71170] Targetname: taco_enemies
+[     71174] ----------------------------------
+[     71360] 
+[     71364] ----------------------------------
+[     71367] Index Number(id): 179
+[     71370] Classname: actor_enemy_airborne_AR
+[     71373] Targetname: taco_enemies
+[     71376] ----------------------------------
+[     71561] 
+[     71564] ----------------------------------
+[     71567] Index Number(id): 180
+[     71570] Classname: actor_enemy_airborne_SHTGN_striker
+[     71573] Targetname: taco_enemies
+[     71576] ----------------------------------
+[     71757] 
+[     71761] ----------------------------------
+[     71764] Index Number(id): 181
+[     71767] Classname: actor_enemy_airborne_AR
+[     71770] Targetname: taco_enemies
+[     71774] ----------------------------------
+[     71956] 
+[     71960] ----------------------------------
+[     71963] Index Number(id): 182
+[     71966] Classname: actor_enemy_airborne_AR
+[     71969] Targetname: taco_enemies
+[     71972] ----------------------------------
+[     72152] 
+[     72156] ----------------------------------
+[     72159] Index Number(id): 183
+[     72162] Classname: actor_enemy_airborne_AR
+[     72165] Targetname: taco_enemies
+[     72168] ----------------------------------
+[     72352] 
+[     72355] ----------------------------------
+[     72359] Index Number(id): 184
+[     72363] Classname: actor_enemy_airborne_LMG
+[     72366] Targetname: taco_enemies
+[     72369] ----------------------------------
+[     72552] 
+[     72555] ----------------------------------
+[     72558] Index Number(id): 185
+[     72562] Classname: actor_enemy_airborne_RPG
+[     72565] Targetname: taco_enemies
+[     72568] ----------------------------------
+[     72753] 
+[     72757] ----------------------------------
+[     72761] Index Number(id): 186
+[     72764] Classname: actor_enemy_airborne_AR
+[     72767] Targetname: taco_enemies
+[     72770] ----------------------------------
+[     72956] 
+[     72959] ----------------------------------
+[     72963] Index Number(id): 187
+[     72966] Classname: actor_enemy_airborne_RPG
+[     72969] Targetname: taco_enemies
+[     72972] ----------------------------------
+[     73155] 
+[     73158] ----------------------------------
+[     73161] Index Number(id): 188
+[     73164] Classname: actor_enemy_airborne_AR
+[     73167] Targetname: taco_enemies
+[     73171] ----------------------------------
+[     73353] 
+[     73356] ----------------------------------
+[     73359] Index Number(id): 189
+[     73363] Classname: actor_enemy_airborne_SHTGN_striker
+[     73366] Targetname: taco_enemies
+[     73369] ----------------------------------
+[     73553] 
+[     73556] ----------------------------------
+[     73560] Index Number(id): 190
+[     73563] Classname: actor_ally_us_army_SCAR
+[     73566] undefined
+[     73569] ----------------------------------
+[     73749] 
+[     73752] ----------------------------------
+[     73755] Index Number(id): 191
+[     73759] Classname: actor_ally_us_army_SCAR
+[     73763] undefined
+[     73766] ----------------------------------
+[     73945] 
+[     73949] ----------------------------------
+[     73952] Index Number(id): 192
+[     73955] Classname: actor_enemy_airborne_AR
+[     73959] Targetname: uav_ambient_battle
+[     73962] ----------------------------------
+[     74143] 
+[     74147] ----------------------------------
+[     74150] Index Number(id): 193
+[     74153] Classname: actor_enemy_airborne_AR
+[     74156] Targetname: uav_ambient_battle
+[     74159] ----------------------------------
+[     74349] 
+[     74353] ----------------------------------
+[     74356] Index Number(id): 194
+[     74359] Classname: actor_ally_us_army_SCAR
+[     74362] Targetname: auto3228
+[     74365] ----------------------------------
+[     74548] 
+[     74552] ----------------------------------
+[     74555] Index Number(id): 195
+[     74559] Classname: actor_ally_us_army_SCAR
+[     74562] Targetname: auto3229
+[     74565] ----------------------------------
+[     74751] 
+[     74755] ----------------------------------
+[     74757] Index Number(id): 196
+[     74760] Classname: actor_ally_us_army_M249
+[     74764] Targetname: auto3229
+[     74767] ----------------------------------
+[     74950] 
+[     74954] ----------------------------------
+[     74958] Index Number(id): 197
+[     74961] Classname: actor_ally_us_army_SCAR
+[     74964] Targetname: auto3229
+[     74967] ----------------------------------
+[     75151] 
+[     75155] ----------------------------------
+[     75158] Index Number(id): 198
+[     75160] Classname: actor_ally_us_army_SCAR
+[     75163] Targetname: auto3230
+[     75167] ----------------------------------
+[     75350] 
+[     75353] ----------------------------------
+[     75356] Index Number(id): 199
+[     75360] Classname: actor_ally_us_army_M249
+[     75363] Targetname: auto3230
+[     75366] ----------------------------------
+[     75549] 
+[     75553] ----------------------------------
+[     75556] Index Number(id): 200
+[     75559] Classname: actor_ally_us_army_SCAR
+[     75562] Targetname: auto3230
+[     75566] ----------------------------------
+[     75746] 
+[     75749] ----------------------------------
+[     75753] Index Number(id): 201
+[     75756] Classname: actor_enemy_airborne_AR
+[     75760] Targetname: uav_ambient_battle
+[     75763] ----------------------------------
+[     75951] 
+[     75955] ----------------------------------
+[     75958] Index Number(id): 202
+[     75962] Classname: actor_enemy_airborne_AR
+[     75965] Targetname: uav_ambient_battle
+[     75968] ----------------------------------
+[     76149] 
+[     76153] ----------------------------------
+[     76156] Index Number(id): 203
+[     76159] Classname: actor_enemy_airborne_AR
+[     76163] Targetname: uav_ambient_battle
+[     76166] ----------------------------------
+[     76345] 
+[     76351] ----------------------------------
+[     76354] Index Number(id): 204
+[     76357] Classname: actor_enemy_airborne_AR
+[     76360] Targetname: uav_ambient_battle
+[     76363] ----------------------------------
+[     76548] 
+[     76551] ----------------------------------
+[     76554] Index Number(id): 205
+[     76557] Classname: actor_enemy_airborne_AR
+[     76560] Targetname: uav_ambient_battle
+[     76563] ----------------------------------
+[     76749] 
+[     76752] ----------------------------------
+[     76755] Index Number(id): 206
+[     76758] Classname: actor_enemy_airborne_AR
+[     76761] Targetname: uav_ambient_battle
+[     76765] ----------------------------------
+[     76956] 
+[     76959] ----------------------------------
+[     76962] Index Number(id): 207
+[     76965] Classname: actor_ally_us_army_RPG
+[     76968] Targetname: friendly_redshirt_rpg_NATES_spawners
+[     76971] ----------------------------------
+[     77156] 
+[     77159] ----------------------------------
+[     77163] Index Number(id): 208
+[     77166] Classname: actor_ally_us_army_RPG
+[     77169] Targetname: friendly_redshirt_rpg_NATES_spawners
+[     77172] ----------------------------------
+[     77357] 
+[     77361] ----------------------------------
+[     77364] Index Number(id): 209
+[     77367] Classname: actor_ally_us_army_RPG
+[     77370] Targetname: friendly_redshirt_rpg_BT_spawners
+[     77373] ----------------------------------
+[     77555] 
+[     77560] ----------------------------------
+[     77563] Index Number(id): 210
+[     77566] Classname: actor_ally_us_army_RPG
+[     77570] Targetname: friendly_redshirt_rpg_BT_spawners
+[     77573] ----------------------------------
+[     77755] 
+[     77758] ----------------------------------
+[     77761] Index Number(id): 211
+[     77764] Classname: actor_ally_us_army_RPG
+[     77767] Targetname: friendly_redshirt_rpg_BT_spawners
+[     77771] ----------------------------------

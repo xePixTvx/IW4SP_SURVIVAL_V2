@@ -203,7 +203,6 @@ init_IW4SP_Survival_setup()
 
 	//Map Leaving Triggers
 	level.survival_use_so_escape_triggers = true;
-	pix\map\_trigger_map_leave::addMapLeavingTrigger((-4583.89, -3619.79, 2310.13),200);//actually not needed on this map
 
 
 

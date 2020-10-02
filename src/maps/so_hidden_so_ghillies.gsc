@@ -42,25 +42,28 @@ main()
 start_so_hidden()
 {
 	remove_church_door();
-	remove_churchtower_ladder();
+	level thread block_churchtower_ladder();//blocked cause it confuses the AI
 	
 	//Remove placed weapons
 	level thread removePlacedWeapons();
 }
 
-//Remove chuch ladder
-remove_churchtower_ladder()
+//since im to stupid to find collision stuff im doing it the lazy way
+block_churchtower_ladder()
 {
-	ladder_ents = getentarray( "churchladder", "script_noteworthy" );
-	foreach ( ent in ladder_ents )
+	level.church_tower_blocker = spawn("script_model",(-34235.2,-1472.22,308.056));
+	for(;;)
 	{
-		ent Delete();
-	}
-
-	ladder_ents = getentarray( "churchladder_clip", "script_noteworthy" );
-	foreach ( ent in ladder_ents )
-	{
-		ent disconnectpaths();
+		foreach(player in getPlayers())
+		{
+			if(distance(player.origin,level.church_tower_blocker.origin)<=20)
+			{
+				player setOrigin((-34156.5,-1442.98,224.125));
+				iprintlnBold("Cant go up here!");
+				wait 0.05;
+			}
+		}
+		wait 0.05;
 	}
 }
 

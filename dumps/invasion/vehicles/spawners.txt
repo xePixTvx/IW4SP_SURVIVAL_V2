@@ -1,0 +1,449 @@
+[    515140] ---------------------------------------------------------------
+[    515144] --- IW4SP_SURVIVAL Vehicle Spawner Info Dump ---
+[    515148] --- Size: 74 ---
+[    515152] ---------------------------------------------------------------
+[    515631] 
+[    515635] ----------------------------------
+[    515644] Index Number(id): 0
+[    515647] Classname: script_vehicle_hummer_minigun
+[    515651] Targetname: humvee_front
+[    515656] ----------------------------------
+[    515833] 
+[    515838] ----------------------------------
+[    515842] Index Number(id): 1
+[    515846] Classname: script_vehicle_btr80
+[    515850] Targetname: house_destroyer
+[    515853] ----------------------------------
+[    516036] 
+[    516040] ----------------------------------
+[    516046] Index Number(id): 2
+[    516049] Classname: script_vehicle_bm21_mobile_cover_troops
+[    516053] Targetname: gas_station_truck
+[    516057] ----------------------------------
+[    516237] 
+[    516241] ----------------------------------
+[    516244] Index Number(id): 3
+[    516250] Classname: script_vehicle_btr80
+[    516253] Targetname: nate_attacker_left
+[    516257] ----------------------------------
+[    516434] 
+[    516438] ----------------------------------
+[    516444] Index Number(id): 4
+[    516448] Classname: script_vehicle_btr80
+[    516460] Targetname: crash_objective_bmp
+[    516466] ----------------------------------
+[    516620] 
+[    516624] ----------------------------------
+[    516630] Index Number(id): 5
+[    516634] Classname: script_vehicle_mig29
+[    516638] Targetname: bomb_nates
+[    516641] ----------------------------------
+[    516818] 
+[    516823] ----------------------------------
+[    516828] Index Number(id): 6
+[    516833] Classname: script_vehicle_bm21_mobile_cover_troops
+[    516836] Targetname: truck_group_left
+[    516840] ----------------------------------
+[    517039] 
+[    517043] ----------------------------------
+[    517049] Index Number(id): 7
+[    517053] Classname: script_vehicle_bm21_mobile_cover_troops
+[    517057] Targetname: truck_group_right
+[    517062] ----------------------------------
+[    517216] 
+[    517220] ----------------------------------
+[    517226] Index Number(id): 8
+[    517229] Classname: script_vehicle_antonov
+[    517233] Targetname: yards_flight2
+[    517237] ----------------------------------
+[    517420] 
+[    517426] ----------------------------------
+[    517430] Index Number(id): 9
+[    517433] Classname: script_vehicle_bradley
+[    517437] Targetname: convoy
+[    517441] ----------------------------------
+[    517641] 
+[    517647] ----------------------------------
+[    517658] Index Number(id): 10
+[    517664] Classname: script_vehicle_antonov
+[    517671] Targetname: yards_flight2
+[    517678] ----------------------------------
+[    517823] 
+[    517827] ----------------------------------
+[    517831] Index Number(id): 11
+[    517835] Classname: script_vehicle_antonov
+[    517840] Targetname: yards_flight2
+[    517846] ----------------------------------
+[    518001] 
+[    518007] ----------------------------------
+[    518012] Index Number(id): 12
+[    518015] Classname: script_vehicle_mig29
+[    518019] Targetname: first_fast_movers
+[    518023] ----------------------------------
+[    518192] 
+[    518196] ----------------------------------
+[    518200] Index Number(id): 13
+[    518204] Classname: script_vehicle_btr80
+[    518208] Targetname: nate_attacker_mid
+[    518217] ----------------------------------
+[    518400] 
+[    518403] ----------------------------------
+[    518408] Index Number(id): 14
+[    518412] Classname: script_vehicle_mig29
+[    518415] Targetname: first_fast_movers
+[    518419] ----------------------------------
+[    518600] 
+[    518603] ----------------------------------
+[    518608] Index Number(id): 15
+[    518612] Classname: script_vehicle_bm21_mobile_cover_troops
+[    518616] Targetname: truck_north_left
+[    518620] ----------------------------------
+[    518797] 
+[    518801] ----------------------------------
+[    518805] Index Number(id): 16
+[    518809] Classname: script_vehicle_bm21_mobile_cover_troops
+[    518812] Targetname: truck_north_right
+[    518816] ----------------------------------
+[    518996] 
+[    519000] ----------------------------------
+[    519003] Index Number(id): 17
+[    519008] Classname: script_vehicle_antonov
+[    519013] Targetname: alley_flight2
+[    519017] ----------------------------------
+[    519206] 
+[    519210] ----------------------------------
+[    519213] Index Number(id): 18
+[    519217] Classname: script_vehicle
+[    519222] Targetname: uav
+[    519225] ----------------------------------
+[    519399] 
+[    519403] ----------------------------------
+[    519413] Index Number(id): 19
+[    519417] Classname: script_vehicle_hummer_viewmodel
+[    519423] Targetname: humvee_player
+[    519426] ----------------------------------
+[    519597] 
+[    519601] ----------------------------------
+[    519605] Index Number(id): 20
+[    519609] Classname: script_vehicle_antonov
+[    519613] Targetname: yards_flight1
+[    519617] ----------------------------------
+[    519796] 
+[    519799] ----------------------------------
+[    519803] Index Number(id): 21
+[    519807] Classname: script_vehicle_btr80
+[    519811] Targetname: humvee_destroyer
+[    519815] ----------------------------------
+[    519996] 
+[    519999] ----------------------------------
+[    520003] Index Number(id): 22
+[    520007] Classname: script_vehicle_antonov
+[    520011] Targetname: alley_flight2
+[    520015] ----------------------------------
+[    520202] 
+[    520206] ----------------------------------
+[    520210] Index Number(id): 23
+[    520215] Classname: script_vehicle_antonov
+[    520219] Targetname: flight1
+[    520223] ----------------------------------
+[    520395] 
+[    520399] ----------------------------------
+[    520403] Index Number(id): 24
+[    520407] Classname: script_vehicle_antonov
+[    520411] Targetname: auto3024
+[    520415] ----------------------------------
+[    520567] Com_TouchMemory: 0 msec. Using sum: -1354277893
+[    520588] 
+[    520593] ----------------------------------
+[    520597] Index Number(id): 25
+[    520601] Classname: script_vehicle_antonov
+[    520605] Targetname: alley_flight2
+[    520610] ----------------------------------
+[    520788] 
+[    520792] ----------------------------------
+[    520796] Index Number(id): 26
+[    520800] Classname: script_vehicle_antonov
+[    520804] Targetname: flight1
+[    520808] ----------------------------------
+[    520990] 
+[    520994] ----------------------------------
+[    520998] Index Number(id): 27
+[    521001] Classname: script_vehicle_antonov
+[    521004] Targetname: flight1
+[    521009] ----------------------------------
+[    521187] 
+[    521191] ----------------------------------
+[    521195] Index Number(id): 28
+[    521198] Classname: script_vehicle_antonov
+[    521202] Targetname: flight1
+[    521205] ----------------------------------
+[    521389] 
+[    521394] ----------------------------------
+[    521401] Index Number(id): 29
+[    521404] Classname: script_vehicle_antonov
+[    521408] Targetname: auto3024
+[    521412] ----------------------------------
+[    521594] 
+[    521598] ----------------------------------
+[    521601] Index Number(id): 30
+[    521607] Classname: script_vehicle_antonov
+[    521611] Targetname: auto3024
+[    521615] ----------------------------------
+[    521789] 
+[    521793] ----------------------------------
+[    521797] Index Number(id): 31
+[    521800] Classname: script_vehicle_antonov
+[    521804] Targetname: yards_flight1
+[    521808] ----------------------------------
+[    521992] 
+[    521996] ----------------------------------
+[    522000] Index Number(id): 32
+[    522004] Classname: script_vehicle_antonov
+[    522008] Targetname: yards_flight1
+[    522012] ----------------------------------
+[    522191] 
+[    522195] ----------------------------------
+[    522199] Index Number(id): 33
+[    522202] Classname: script_vehicle_antonov
+[    522206] Targetname: ambient_paradrop1
+[    522209] ----------------------------------
+[    522389] 
+[    522393] ----------------------------------
+[    522396] Index Number(id): 34
+[    522400] Classname: script_vehicle_antonov
+[    522403] Targetname: ambient_paradrop1
+[    522406] ----------------------------------
+[    522591] 
+[    522595] ----------------------------------
+[    522599] Index Number(id): 35
+[    522602] Classname: script_vehicle_antonov
+[    522606] Targetname: ambient_paradrop1
+[    522609] ----------------------------------
+[    522794] 
+[    522797] ----------------------------------
+[    522801] Index Number(id): 36
+[    522804] Classname: script_vehicle_mig29
+[    522808] Targetname: paradrop_escort
+[    522812] ----------------------------------
+[    522999] 
+[    523002] ----------------------------------
+[    523006] Index Number(id): 37
+[    523010] Classname: script_vehicle_mig29
+[    523013] Targetname: curved_mig_flight1
+[    523017] ----------------------------------
+[    523202] 
+[    523205] ----------------------------------
+[    523208] Index Number(id): 38
+[    523212] Classname: script_vehicle_mig29
+[    523215] Targetname: curved_mig_flight1
+[    523219] ----------------------------------
+[    523397] 
+[    523401] ----------------------------------
+[    523406] Index Number(id): 39
+[    523410] Classname: script_vehicle
+[    523414] Targetname: kill_heli
+[    523417] ----------------------------------
+[    523599] 
+[    523603] ----------------------------------
+[    523607] Index Number(id): 40
+[    523611] Classname: script_vehicle_bradley
+[    523614] Targetname: convoy
+[    523618] ----------------------------------
+[    523800] 
+[    523803] ----------------------------------
+[    523807] Index Number(id): 41
+[    523812] Classname: script_vehicle_hummer_minigun_physics
+[    523815] Targetname: convoy
+[    523818] ----------------------------------
+[    523998] 
+[    524001] ----------------------------------
+[    524005] Index Number(id): 42
+[    524009] Classname: script_vehicle_hummer_minigun_physics
+[    524012] Targetname: convoy
+[    524016] ----------------------------------
+[    524197] 
+[    524200] ----------------------------------
+[    524204] Index Number(id): 43
+[    524207] Classname: script_vehicle_antonov
+[    524211] Targetname: ambient_paradrop2
+[    524214] ----------------------------------
+[    524400] 
+[    524404] ----------------------------------
+[    524407] Index Number(id): 44
+[    524411] Classname: script_vehicle_antonov
+[    524415] Targetname: ambient_paradrop2
+[    524418] ----------------------------------
+[    524601] 
+[    524605] ----------------------------------
+[    524608] Index Number(id): 45
+[    524612] Classname: script_vehicle_antonov
+[    524615] Targetname: ambient_paradrop2
+[    524618] ----------------------------------
+[    524800] 
+[    524803] ----------------------------------
+[    524807] Index Number(id): 46
+[    524811] Classname: script_vehicle_hummer_opentop_physics
+[    524814] Targetname: convoy
+[    524817] ----------------------------------
+[    524999] 
+[    525003] ----------------------------------
+[    525006] Index Number(id): 47
+[    525010] Classname: script_vehicle_antonov
+[    525014] Targetname: ambient_paradrop3
+[    525017] ----------------------------------
+[    525203] 
+[    525207] ----------------------------------
+[    525212] Index Number(id): 48
+[    525215] Classname: script_vehicle_antonov
+[    525217] Targetname: ambient_paradrop3
+[    525218] ----------------------------------
+[    525402] 
+[    525404] ----------------------------------
+[    525409] Index Number(id): 49
+[    525411] Classname: script_vehicle_antonov
+[    525413] Targetname: ambient_paradrop3
+[    525416] ----------------------------------
+[    525605] 
+[    525607] ----------------------------------
+[    525611] Index Number(id): 50
+[    525613] Classname: script_vehicle_antonov
+[    525616] Targetname: ambient_east_group2
+[    525618] ----------------------------------
+[    525801] 
+[    525805] ----------------------------------
+[    525807] Index Number(id): 51
+[    525810] Classname: script_vehicle_antonov
+[    525813] Targetname: ambient_east_group2
+[    525816] ----------------------------------
+[    526000] 
+[    526003] ----------------------------------
+[    526008] Index Number(id): 52
+[    526012] Classname: script_vehicle_antonov
+[    526015] Targetname: ambient_east_group3
+[    526019] ----------------------------------
+[    526202] 
+[    526206] ----------------------------------
+[    526216] Index Number(id): 53
+[    526219] Classname: script_vehicle_antonov
+[    526222] Targetname: ambient_east_group3
+[    526227] ----------------------------------
+[    526403] 
+[    526407] ----------------------------------
+[    526412] Index Number(id): 54
+[    526415] Classname: script_vehicle_antonov
+[    526418] Targetname: ambient_east_group3
+[    526422] ----------------------------------
+[    526604] 
+[    526607] ----------------------------------
+[    526611] Index Number(id): 55
+[    526614] Classname: script_vehicle_antonov
+[    526618] Targetname: ambient_south_group2
+[    526622] ----------------------------------
+[    526803] 
+[    526807] ----------------------------------
+[    526810] Index Number(id): 56
+[    526814] Classname: script_vehicle_antonov
+[    526818] Targetname: ambient_south_group2
+[    526822] ----------------------------------
+[    526999] 
+[    527002] ----------------------------------
+[    527006] Index Number(id): 57
+[    527010] Classname: script_vehicle_antonov
+[    527014] Targetname: ambient_south_group2
+[    527017] ----------------------------------
+[    527196] 
+[    527199] ----------------------------------
+[    527204] Index Number(id): 58
+[    527207] Classname: script_vehicle_antonov
+[    527211] Targetname: ambient_south_group3
+[    527214] ----------------------------------
+[    527394] 
+[    527398] ----------------------------------
+[    527403] Index Number(id): 59
+[    527407] Classname: script_vehicle_antonov
+[    527410] Targetname: ambient_south_group3
+[    527414] ----------------------------------
+[    527594] 
+[    527598] ----------------------------------
+[    527603] Index Number(id): 60
+[    527607] Classname: script_vehicle_antonov
+[    527610] Targetname: ambient_west_group2
+[    527614] ----------------------------------
+[    527790] 
+[    527795] ----------------------------------
+[    527800] Index Number(id): 61
+[    527803] Classname: script_vehicle_antonov
+[    527806] Targetname: ambient_west_group2
+[    527810] ----------------------------------
+[    527989] 
+[    527993] ----------------------------------
+[    527997] Index Number(id): 62
+[    528001] Classname: script_vehicle_antonov
+[    528004] Targetname: ambient_west_group2
+[    528008] ----------------------------------
+[    528188] 
+[    528192] ----------------------------------
+[    528195] Index Number(id): 63
+[    528199] Classname: script_vehicle_antonov
+[    528202] Targetname: ambient_west_group3
+[    528206] ----------------------------------
+[    528386] 
+[    528389] ----------------------------------
+[    528393] Index Number(id): 64
+[    528397] Classname: script_vehicle_antonov
+[    528401] Targetname: ambient_west_group3
+[    528405] ----------------------------------
+[    528586] 
+[    528589] ----------------------------------
+[    528593] Index Number(id): 65
+[    528596] Classname: script_vehicle_antonov
+[    528600] Targetname: ambient_west_group3
+[    528603] ----------------------------------
+[    528793] 
+[    528802] ----------------------------------
+[    528805] Index Number(id): 66
+[    528809] Classname: script_vehicle_antonov
+[    528813] Targetname: ambient_north_group1
+[    528816] ----------------------------------
+[    528984] 
+[    528988] ----------------------------------
+[    528992] Index Number(id): 67
+[    528995] Classname: script_vehicle_antonov
+[    528999] Targetname: ambient_north_group1
+[    529002] ----------------------------------
+[    529183] 
+[    529187] ----------------------------------
+[    529192] Index Number(id): 68
+[    529195] Classname: script_vehicle_antonov
+[    529199] Targetname: ambient_north_group1
+[    529202] ----------------------------------
+[    529382] 
+[    529385] ----------------------------------
+[    529391] Index Number(id): 69
+[    529394] Classname: script_vehicle_antonov
+[    529398] Targetname: ambient_north_group2
+[    529401] ----------------------------------
+[    529581] 
+[    529589] ----------------------------------
+[    529592] Index Number(id): 70
+[    529596] Classname: script_vehicle_antonov
+[    529599] Targetname: ambient_north_group2
+[    529602] ----------------------------------
+[    529777] 
+[    529782] ----------------------------------
+[    529785] Index Number(id): 71
+[    529789] Classname: script_vehicle_antonov
+[    529793] Targetname: ambient_north_group2
+[    529796] ----------------------------------
+[    529977] 
+[    529981] ----------------------------------
+[    529985] Index Number(id): 72
+[    529988] Classname: script_vehicle_antonov
+[    529992] Targetname: ambient_north_group3
+[    529995] ----------------------------------
+[    530177] 
+[    530181] ----------------------------------
+[    530184] Index Number(id): 73
+[    530188] Classname: script_vehicle_antonov
+[    530191] Targetname: ambient_north_group3
+[    530194] ----------------------------------

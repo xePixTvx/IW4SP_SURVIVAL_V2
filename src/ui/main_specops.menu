@@ -137,7 +137,7 @@
 			textalignx -60
 			textaligny 24
 			textscale 0.5
-			text "^1IW4SP Survival"
+			text "^1IW4SP Survival[DEV]"
 		}
 		itemDef
 		{

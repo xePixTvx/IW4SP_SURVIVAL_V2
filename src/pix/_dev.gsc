@@ -183,7 +183,7 @@ _init_dev_tool()
 	}
 }
 
-//you need to do it a few times to dump all
+//you need to do it a few times to dump all/it takes some time to appear in the console log file
 dev_dumpInfoToConsole(arrayToDump,printingName)
 {
 	if(level.isPrintingInfoDump)
