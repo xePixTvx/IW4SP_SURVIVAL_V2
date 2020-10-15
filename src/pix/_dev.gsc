@@ -4,8 +4,7 @@
 #include maps\_hud_util;
 #include pix\_common_scripts;
 
-//set developer and developer_script dvars to 1 to use dev options
-//to use the console print stuff you also need to use this: https://cabconmodding.com/threads/mw2-singleplayer-spec-ops-modloader.2481/
+//to enable the dev options pls use the dev version of this mod: https://github.com/xePixTvx/IW4SP_SURVIVAL_V2
 
 _init_dev_tool()
 {
@@ -15,7 +14,7 @@ _init_dev_tool()
 		iprintlnBold("^1PLS Enable Dev Mode!(dvars = developer & developer_script)");
 	}
 
-	level.DEV_ALLOW_START = false;
+	level.DEV_ALLOW_START = true;
 	level.DEV_BOTS_PACIFIST = false;
 	
 	
