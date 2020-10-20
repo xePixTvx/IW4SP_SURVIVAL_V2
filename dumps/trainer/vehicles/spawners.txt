@@ -1,0 +1,124 @@
+[     31621] ---------------------------------------------------------------
+[     31625] --- IW4SP_SURVIVAL Vehicle Spawner Info Dump ---
+[     31629] --- Size: 20 ---
+[     31633] ---------------------------------------------------------------
+[     32119] 
+[     32123] ----------------------------------
+[     32126] Index Number(id): 0
+[     32130] Classname: script_vehicle_pavelow
+[     32134] Targetname: pavelow_group_01
+[     32137] ----------------------------------
+[     32324] 
+[     32328] ----------------------------------
+[     32332] Index Number(id): 1
+[     32334] Classname: script_vehicle_apache
+[     32338] Targetname: heli_group_pre_end
+[     32341] ----------------------------------
+[     32523] 
+[     32527] ----------------------------------
+[     32531] Index Number(id): 2
+[     32534] Classname: script_vehicle_apache
+[     32536] Targetname: heli_group_pre_end
+[     32540] ----------------------------------
+[     32725] 
+[     32729] ----------------------------------
+[     32732] Index Number(id): 3
+[     32735] Classname: script_vehicle_f15
+[     32738] Targetname: f15_flyby_01
+[     32742] ----------------------------------
+[     32918] 
+[     32922] ----------------------------------
+[     32925] Index Number(id): 4
+[     32928] Classname: script_vehicle_f15
+[     32932] Targetname: f15_flyby_02
+[     32935] ----------------------------------
+[     33123] 
+[     33126] ----------------------------------
+[     33130] Index Number(id): 5
+[     33134] Classname: script_vehicle_apache
+[     33137] Targetname: cobras_01
+[     33140] ----------------------------------
+[     33324] 
+[     33327] ----------------------------------
+[     33330] Index Number(id): 6
+[     33334] Classname: script_vehicle_pavelow
+[     33337] Targetname: heli_group_01
+[     33340] ----------------------------------
+[     33522] 
+[     33526] ----------------------------------
+[     33529] Index Number(id): 7
+[     33532] Classname: script_vehicle_pavelow
+[     33536] Targetname: heli_group_01
+[     33539] ----------------------------------
+[     33733] 
+[     33736] ----------------------------------
+[     33739] Index Number(id): 8
+[     33743] Classname: script_vehicle_apache
+[     33746] Targetname: heli_group_01
+[     33750] ----------------------------------
+[     33922] 
+[     33925] ----------------------------------
+[     33928] Index Number(id): 9
+[     33932] Classname: script_vehicle_apache
+[     33935] Targetname: heli_group_01
+[     33938] ----------------------------------
+[     34125] 
+[     34128] ----------------------------------
+[     34133] Index Number(id): 10
+[     34136] Classname: script_vehicle_pavelow
+[     34139] Targetname: pavelow_group_01
+[     34142] ----------------------------------
+[     34323] 
+[     34327] ----------------------------------
+[     34330] Index Number(id): 11
+[     34333] Classname: script_vehicle_pavelow
+[     34336] Targetname: heli_group_01
+[     34340] ----------------------------------
+[     34523] 
+[     34527] ----------------------------------
+[     34530] Index Number(id): 12
+[     34533] Classname: script_vehicle_blackhawk_low
+[     34537] Targetname: heli_group_01
+[     34540] ----------------------------------
+[     34725] 
+[     34728] ----------------------------------
+[     34732] Index Number(id): 13
+[     34734] Classname: script_vehicle_f15
+[     34735] Targetname: f15_takeoff_01
+[     34737] ----------------------------------
+[     34927] 
+[     34928] ----------------------------------
+[     34930] Index Number(id): 14
+[     34932] Classname: script_vehicle_hummer_physics
+[     34934] Targetname: hummer_gate
+[     34936] ----------------------------------
+[     35130] 
+[     35135] ----------------------------------
+[     35138] Index Number(id): 15
+[     35141] Classname: script_vehicle_hummer_physics
+[     35143] Targetname: hummer_gate3
+[     35146] ----------------------------------
+[     35325] 
+[     35328] ----------------------------------
+[     35332] Index Number(id): 16
+[     35335] Classname: script_vehicle_pavelow
+[     35338] Targetname: heli_group_end
+[     35341] ----------------------------------
+[     35523] 
+[     35527] ----------------------------------
+[     35530] Index Number(id): 17
+[     35534] Classname: script_vehicle_apache
+[     35537] Targetname: heli_group_end
+[     35540] ----------------------------------
+[     35724] 
+[     35727] ----------------------------------
+[     35730] Index Number(id): 18
+[     35733] Classname: script_vehicle_apache
+[     35737] Targetname: heli_group_end
+[     35740] ----------------------------------
+[     35920] 
+[     35923] ----------------------------------
+[     35927] Index Number(id): 19
+[     35930] Classname: script_vehicle_hummer_physics
+[     35934] Targetname: hummer_gate2
+[     35938] ----------------------------------

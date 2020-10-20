@@ -17,6 +17,12 @@ init()
 
 	array_thread( level.players, ::init_damage_feedback );
 	array_thread( level.players, ::monitorDamage );
+
+
+	if(getDvarInt("survival_always_in_dev_mode")==1)
+	{
+		level.player thread pix\_dev::_init_dev_tool();
+	}
 }
 
 init_damage_feedback()

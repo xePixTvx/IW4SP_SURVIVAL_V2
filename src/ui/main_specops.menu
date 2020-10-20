@@ -633,5 +633,50 @@
 			text "^1DUMP VEHICLES"
 			visible 1
 		}
+		
+		//Toggle iw4sp_survival_dev_always_enabled dvar
+		itemDef
+		{
+			rect -64 248 344 20 1 1
+			visible 1
+			style 1
+			forecolor 1 1 1 1
+			disablecolor 0.6 0.55 0.55 1
+			background "menu_button_selection_bar"
+			type 11
+			textfont 3
+			textalign 6
+			textalignx 0
+			textscale 0.375
+			dvar "survival_always_in_dev_mode"
+			visible 1
+			action
+			{
+				play "mouse_click";
+			}
+			onFocus
+			{
+				setItemColor self backcolor 0 0 0 1 
+				play "mouse_over";
+			}
+			leaveFocus
+			{
+				setItemColor self backcolor 0 0 0 0;
+			}
+		}
+		itemDef
+		{
+			rect -64 248 344 20 1 1
+			decoration
+			visible 1
+			forecolor 1 1 1 1
+			disablecolor 0.6 0.55 0.55 1
+			textfont 3
+			textalign 6
+			textalignx -68
+			textscale 0.375
+			text "^1SURVIVAL DEV MODE ALWAYS ENABLED"
+			visible 1
+		}
 	}
 }

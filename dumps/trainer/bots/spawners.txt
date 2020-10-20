@@ -1,0 +1,154 @@
+[     30782] ---------------------------------------------------------------
+[     30786] --- IW4SP_SURVIVAL Bot Spawner Info Dump ---
+[     30789] --- Size: 25 ---
+[     30793] ---------------------------------------------------------------
+[     31278] 
+[     31282] ----------------------------------
+[     31286] Index Number(id): 0
+[     31289] Classname: actor_ally_hero_dunn
+[     31293] Targetname: pitguy
+[     31296] ----------------------------------
+[     31479] 
+[     31483] ----------------------------------
+[     31486] Index Number(id): 1
+[     31490] Classname: actor_ally_us_army_M16
+[     31493] undefined
+[     31496] ----------------------------------
+[     31681] 
+[     31684] ----------------------------------
+[     31688] Index Number(id): 2
+[     31691] Classname: actor_ally_us_army_casual
+[     31694] Targetname: runner_group_01
+[     31697] ----------------------------------
+[     31879] 
+[     31883] ----------------------------------
+[     31886] Index Number(id): 3
+[     31890] Classname: actor_ally_us_army_casual
+[     31893] Targetname: runner_group_01
+[     31896] ----------------------------------
+[     32080] 
+[     32084] ----------------------------------
+[     32087] Index Number(id): 4
+[     32090] Classname: actor_ally_us_army_casual
+[     32093] Targetname: runner_group_01
+[     32097] ----------------------------------
+[     32282] 
+[     32285] ----------------------------------
+[     32288] Index Number(id): 5
+[     32292] Classname: actor_ally_us_army_casual
+[     32295] Targetname: runner_group_01
+[     32298] ----------------------------------
+[     32478] 
+[     32482] ----------------------------------
+[     32486] Index Number(id): 6
+[     32489] Classname: actor_ally_hero_foley
+[     32492] Targetname: foley
+[     32495] ----------------------------------
+[     32682] 
+[     32686] ----------------------------------
+[     32689] Index Number(id): 7
+[     32693] Classname: actor_ally_us_army_M4
+[     32696] Targetname: friendlies_ambient
+[     32699] ----------------------------------
+[     32884] 
+[     32887] ----------------------------------
+[     32890] Index Number(id): 8
+[     32894] Classname: actor_ally_us_army_M4
+[     32897] Targetname: friendlies_ambient
+[     32901] ----------------------------------
+[     33083] 
+[     33087] ----------------------------------
+[     33090] Index Number(id): 9
+[     33093] Classname: actor_ally_us_army_M4
+[     33096] Targetname: friendlies_ambient
+[     33099] ----------------------------------
+[     33280] 
+[     33286] ----------------------------------
+[     33289] Index Number(id): 10
+[     33292] Classname: actor_ally_us_army_M4
+[     33296] Targetname: friendlies_ambient
+[     33299] ----------------------------------
+[     33484] 
+[     33487] ----------------------------------
+[     33490] Index Number(id): 11
+[     33493] Classname: actor_ally_us_army_M4
+[     33497] Targetname: friendlies_ambient
+[     33501] ----------------------------------
+[     33681] 
+[     33685] ----------------------------------
+[     33688] Index Number(id): 12
+[     33692] Classname: actor_ally_us_army_M4
+[     33695] Targetname: friendlies_ambient
+[     33698] ----------------------------------
+[     33881] 
+[     33884] ----------------------------------
+[     33888] Index Number(id): 13
+[     33891] Classname: actor_ally_us_army_casual
+[     33893] Targetname: hummer_actors_main
+[     33894] ----------------------------------
+[     34082] 
+[     34086] ----------------------------------
+[     34087] Index Number(id): 14
+[     34089] Classname: actor_ally_us_army_M16
+[     34091] Targetname: hummer_actors_main
+[     34093] ----------------------------------
+[     34279] 
+[     34281] ----------------------------------
+[     34284] Index Number(id): 15
+[     34286] Classname: actor_ally_us_army_M4
+[     34288] undefined
+[     34291] ----------------------------------
+[     34482] 
+[     34485] ----------------------------------
+[     34488] Index Number(id): 16
+[     34491] Classname: actor_ally_us_army_M4
+[     34494] undefined
+[     34496] ----------------------------------
+[     34679] 
+[     34683] ----------------------------------
+[     34687] Index Number(id): 17
+[     34690] Classname: actor_ally_us_army_M4
+[     34693] undefined
+[     34696] ----------------------------------
+[     34883] 
+[     34887] ----------------------------------
+[     34891] Index Number(id): 18
+[     34894] Classname: actor_ally_us_army_M4
+[     34897] undefined
+[     34901] ----------------------------------
+[     35083] 
+[     35087] ----------------------------------
+[     35090] Index Number(id): 19
+[     35094] Classname: actor_ally_us_army_M4
+[     35097] undefined
+[     35100] ----------------------------------
+[     35286] 
+[     35289] ----------------------------------
+[     35292] Index Number(id): 20
+[     35296] Classname: actor_ally_us_army_M4
+[     35299] undefined
+[     35302] ----------------------------------
+[     35486] 
+[     35490] ----------------------------------
+[     35493] Index Number(id): 21
+[     35496] Classname: actor_ally_us_army_casual
+[     35499] Targetname: runner_group_02
+[     35503] ----------------------------------
+[     35690] 
+[     35694] ----------------------------------
+[     35697] Index Number(id): 22
+[     35701] Classname: actor_ally_us_army_casual
+[     35704] Targetname: runner_group_02
+[     35707] ----------------------------------
+[     35890] 
+[     35893] ----------------------------------
+[     35897] Index Number(id): 23
+[     35900] Classname: actor_ally_us_army_casual
+[     35904] Targetname: runner_group_02
+[     35907] ----------------------------------
+[     36087] 
+[     36091] ----------------------------------
+[     36094] Index Number(id): 24
+[     36098] Classname: actor_ally_us_army_casual
+[     36101] Targetname: runner_group_02
+[     36105] ----------------------------------

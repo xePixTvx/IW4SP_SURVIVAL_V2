@@ -8,6 +8,13 @@
 
 _init_dev_tool()
 {
+	if(isDefined(level.DEV_MODE_ALREADY_ACTIVE) && level.DEV_MODE_ALREADY_ACTIVE)
+	{
+		return;
+	}
+
+	level.DEV_MODE_ALREADY_ACTIVE = true;
+
 	if(!isDeveloperMode())
 	{
 		iprintln("^1PLS Enable Dev Mode!(dvars = developer & developer_script)");
