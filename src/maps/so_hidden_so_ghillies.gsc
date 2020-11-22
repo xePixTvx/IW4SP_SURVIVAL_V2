@@ -51,20 +51,9 @@ start_so_hidden()
 //Remove chuch ladder
 remove_churchtower_ladder()
 {
-	level.church_tower_blocker = spawn("script_model",(-34235.2,-1472.22,308.056));
-	for(;;)
 	ladder_ents = getentarray( "churchladder", "script_noteworthy" );
 	foreach ( ent in ladder_ents )
 	{
-		foreach(player in getPlayers())
-		{
-			if(distance(player.origin,level.church_tower_blocker.origin)<=20)
-			{
-				player setOrigin((-34156.5,-1442.98,224.125));
-				iprintlnBold("Cant go up here!");
-				wait 0.05;
-			}
-		}
 		wait 0.05;
 		ent Delete();
 	}
