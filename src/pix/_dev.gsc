@@ -21,7 +21,7 @@ _init_dev_tool()
 		iprintlnBold("^1PLS Enable Dev Mode!(dvars = developer & developer_script)");
 	}
 
-	level.DEV_ALLOW_START = true;
+	level.DEV_ALLOW_START = false;
 	level.DEV_BOTS_PACIFIST = false;
 	
 	
